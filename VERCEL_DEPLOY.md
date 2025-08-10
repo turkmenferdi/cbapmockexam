@@ -5,11 +5,13 @@
 1. **Fork/Clone this repository** to your GitHub account
 
 2. **Import to Vercel:**
+
    - Go to [vercel.com](https://vercel.com)
    - Click "Add New" → "Project"
    - Import your repository
 
 3. **Configure Build Settings:**
+
    ```
    Framework Preset: Vite
    Build Command: npm run vercel-build
@@ -21,12 +23,14 @@
    - No environment variables required for basic deployment
 
 ## Project Structure
+
 - **Frontend:** React + TypeScript + Vite + TailwindCSS
 - **Data:** 5 Mock Exams with 120 questions each
 - **Features:** Timer, progress tracking, results analysis
 - **Build Output:** Static SPA in `dist/spa/`
 
 ## Features
+
 - ✅ 5 Complete Mock Exams (600 total questions)
 - ✅ Turkish language interface
 - ✅ Progress saving to localStorage
@@ -36,6 +40,7 @@
 - ✅ Detailed results analysis
 
 ## Build Commands
+
 ```bash
 # Development
 npm run dev
@@ -48,4 +53,5 @@ npm run vercel-build
 ```
 
 ## Deployment Ready ✅
+
 This project is configured and ready for immediate Vercel deployment.
