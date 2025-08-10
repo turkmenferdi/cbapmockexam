@@ -11,6 +11,7 @@ import ExamStart from "./pages/ExamStart";
 import Exam from "./pages/Exam";
 import ExamResults from "./pages/ExamResults";
 import NotFound from "./pages/NotFound";
+import ErrorBoundary from "./components/ErrorBoundary";
 
 const queryClient = new QueryClient();
 
