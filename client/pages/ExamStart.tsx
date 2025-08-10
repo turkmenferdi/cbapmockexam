@@ -62,8 +62,8 @@ export default function ExamStart() {
       // Clear exam state
       clearExam();
 
-      console.log('Starting new exam...');
-      await startNewExam();
+      console.log(`Starting new exam: ${examType}...`);
+      await startNewExam(examType);
       console.log('Exam started, navigating...');
 
       // Navigate to exam page using React Router
