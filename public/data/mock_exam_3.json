@@ -166,5 +166,557 @@
     ],
     "answer": "D",
     "explanation": ""
+  },
+  {
+    "id": "me3_q015",
+    "question": "Question #255: Which of the following defines how the project scope should be created, executed, monitored and controlled, and then validated?",
+    "options": [
+      "A. Scope variance plan",
+      "B. Scope management plan",
+      "C. Staffing management plan",
+      "D. Schedule management plan"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q016",
+    "question": "Question #256: Which of the following component of the communication model is responsible for transferring the message between two or more entities?",
+    "options": [
+      "A. Sender",
+      "B. Medium",
+      "C. Decoder",
+      "D. Receiver"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q017",
+    "question": "Question #257: Which of the following processes is must at the end of each project phase to determine the completeness of the project work and to gain the customer's acceptance to move the project forward?",
+    "options": [
+      "A. Scope verification",
+      "B. Inspection of key results",
+      "C. Quality control",
+      "D. Phase gate review"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q018",
+    "question": "Question #258: Which of the following is the comparison of planned project results with actual project results?",
+    "options": [
+      "A. Variance analysis",
+      "B. Cost-benefit analysis",
+      "C. Statistical Sampling",
+      "D. Trend analysis"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q019",
+    "question": "Question #259: Which of the following is a table of all stakeholders showing the mapping of which stakeholders will contribute information to other stakeholders?",
+    "options": [
+      "A. RACI Chart",
+      "B. Communications Requirements Matrix",
+      "C. Project scope statement",
+      "D. Organizational Breakdown Structure"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q020",
+    "question": "Question #260: Which of the following is not a hygiene agent according to Frederick Herzberg theory?",
+    "options": [
+      "A. The chance to excel",
+      "B. Job security",
+      "C. A paycheck",
+      "D. Clean and safe working conditions"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q021",
+    "question": "Question #261: Which of the following techniques is used to test customer acceptance of the solution and to measure marketplace demand?",
+    "options": [
+      "A. Interviews",
+      "B. Market Survey",
+      "C. Technology Assessment",
+      "D. Prototyping"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q022",
+    "question": "Question #262: Which of the following displays the relative importance of the defects?",
+    "options": [
+      "A. Pareto diagram",
+      "B. User Documentation",
+      "C. Gantt chart",
+      "D. Flowchart"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q023",
+    "question": "Question #263: Which of the following is responsible for preparing the business architecture, feasibility studies, and business cases?",
+    "options": [
+      "A. Security Administrator",
+      "B. Developer",
+      "C. Business analyst",
+      "D. Project leader"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q024",
+    "question": "Question #264: Which of the following is a method of displaying the timelines of all the various subtasks that are involved in any project?",
+    "options": [
+      "A. Pie chart",
+      "B. Scatter chart",
+      "C. Activity network diagram",
+      "D. Cost-benefit analysis"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q025",
+    "question": "Question #265: Which of the following can be used in root cause analysis?",
+    "options": [
+      "A. Pareto chart",
+      "B. Data-flow diagram",
+      "C. Gantt chart",
+      "D. Fishbone diagram"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q026",
+    "question": "Question #266: Which of the following diagrams is known as Ishikawa diagram?",
+    "options": [
+      "A. Activity",
+      "B. Data-flow",
+      "C. Cost-Benefit",
+      "D. Cause-and Effect"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q027",
+    "question": "Question #267: All of the following are examples of transference risk response except for which one?",
+    "options": [
+      "A. Warranties",
+      "B. Performance bonds",
+      "C. Life cycle costing",
+      "D. Use of insurance"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q028",
+    "question": "Question #268: Which of the following represents the duration of activities against a calendar?",
+    "options": [
+      "A. Scatter chart",
+      "B. Gantt chart",
+      "C. Pie chart",
+      "D. Pareto chart"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q029",
+    "question": "Question #269: Which of the following compares two or more systems, states, services, products, or things to determine the best viable choice?",
+    "options": [
+      "A. Benchmarking",
+      "B. Risk Identification",
+      "C. Risk analysis",
+      "D. Cost-benefit analysis"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q030",
+    "question": "Question #270: Which of the following is described in the statement below? \"It shows the history and pattern of variation. It is a line graph that shows data points plotted in the order in which they occur. They show trends in a process over time, variation over time, or declines or improvements in a process over time. Trend analysis is performed using them.\"",
+    "options": [
+      "A. Cause and effect diagram",
+      "B. Histogram",
+      "C. Run chart",
+      "D. Pareto chart"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q031",
+    "question": "Question #271: Which of the following is the process of defining and analyzing the dangers to individuals, businesses, and government agencies posed by potential natural and human-caused adverse events?",
+    "options": [
+      "A. Risk analysis",
+      "B. Risk identification",
+      "C. Risk management",
+      "D. Risk communication"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q032",
+    "question": "Question #272: Which of the following process groups occurs at the beginning of the project?",
+    "options": [
+      "A. Executing",
+      "B. Planning",
+      "C. Initiating",
+      "D. Controlling and Monitoring"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q033",
+    "question": "Question #273: Which of the following defines how the project will be estimated, budgeted, and how changes to cost will be managed?",
+    "options": [
+      "A. Cost management plan",
+      "B. Cost variance reports",
+      "C. Control chart",
+      "D. Coercive power"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q034",
+    "question": "Question #274: Which of the following techniques involves attempting to make and numerically determine the probability of various adverse events and measuring the likely extent of the losses?",
+    "options": [
+      "A. Risk analysis",
+      "B. Qualitative risk analysis",
+      "C. Risk assessment",
+      "D. Quantitative risk analysis"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q035",
+    "question": "Question #275: Which of the following captures all of the activities within a business, the inputs and outputs of each activity, and the required resources to complete each activity?",
+    "options": [
+      "A. Business scenario",
+      "B. Business process model",
+      "C. Business architecture",
+      "D. Business case"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q036",
+    "question": "Question #276: Which of the following is a graphical representation of roles and responsibilities of different project team members?",
+    "options": [
+      "A. RACI chart",
+      "B. Pareto chart",
+      "C. Resource histogram chart",
+      "D. Organization chart"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q037",
+    "question": "Question #277: Which one of the following diagrams visualize the result of the root cause analysis study?",
+    "options": [
+      "A. Activity diagrams",
+      "B. State diagrams",
+      "C. Tornado diagram",
+      "D. Cause-and effect diagrams"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q038",
+    "question": "Question #278: The business process model is also known as _________.",
+    "options": [
+      "A. Organization model",
+      "B. Activity model",
+      "C. Relational model",
+      "D. Data flow model"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q039",
+    "question": "Question #279: Which of the following techniques is used to divide a project into controllable parts?",
+    "options": [
+      "A. Gantt Chart",
+      "B. Pareto Chart",
+      "C. WBS",
+      "D. CPM"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q040",
+    "question": "Question #280: Which of the following can be an effective tool during quality control to help determine the how the problem occurred?",
+    "options": [
+      "A. Rework",
+      "B. Trend Analysis",
+      "C. Flowcharting",
+      "D. Pareto Diagram"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q041",
+    "question": "Question #281: Which of the following directs the improvement efforts to those areas that will have the biggest impact?",
+    "options": [
+      "A. Flowchart",
+      "B. Gantt chart",
+      "C. Pareto diagram",
+      "D. User Documentation"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q042",
+    "question": "Question #282: Which of the following involves defining the various threats, determining the extent of vulnerabilities, and devising countermeasures against a possible attack?",
+    "options": [
+      "A. Qualitative risk analysis",
+      "B. Risk analysis",
+      "C. Risk assessment",
+      "D. Quantitative risk analysis"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q043",
+    "question": "Question #283: Which of the following requirement attributes lacks any ambiguous characteristics?",
+    "options": [
+      "A. Understandable",
+      "B. User Requirements Document (URD)",
+      "C. Unambiguous",
+      "D. Urgency"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q044",
+    "question": "Question #284: Which of the following charts is described in the statement below? \"It shows the causes of a certain event. A common use of this diagram is to identify potential factors causing an overall effect. It helps identify causal factors and contributing causes.\"",
+    "options": [
+      "A. Ishikawa",
+      "B. Flowchart",
+      "C. Process configuration chart",
+      "D. Control chart"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q045",
+    "question": "Question #285: Which of the following processes measures the maturity level of the security program?",
+    "options": [
+      "A. Risk analysis",
+      "B. Risk mitigation",
+      "C. Risk assessment",
+      "D. GAP analysis"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q046",
+    "question": "Question #286: A company that specialized in manufacturing vending machines for books has been in business for 10 years. As the e-book and online retailing grow, the company perceived that a change is required to respond to the new emerging market forces. However, the change should focus on reusability as much as possible to reduce expenses. After analyzing the current state with the business subject matter experts, the business analyst (BA) proposed investing in a new business line of vending machines that sell pay per use mobile device phone fast charging stations. Due to the urgency of this change, the BA was asked to finalize requirements elicitation in the shortest possible time. Customers who want to utilize the pay per use mobile device fast charging stations may choose one of two features: fully charged (F1) or partially charged (F2). If partially charged is selected, the customer needs to specify their charging needs. What is the relationship between F1 and F2?",
+    "options": [
+      "A. Validate",
+      "B. Derive",
+      "C. Depends",
+      "D. Satisfy"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q047",
+    "question": "Question #287: A business analyst (BA) is facilitating a meeting between process owners to capture the business rules for a workflow solution. One of the attendees expresses a strong opinion that the solution will not deliver the expected value. How will the BA ensure the process owner remains engaged and will support the change?",
+    "options": [
+      "A. Update the requirements",
+      "B. Record the feedback and continue",
+      "C. Review the future state",
+      "D. Change the governance approach"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q048",
+    "question": "Question #288: A project's change in scope is assessed and a newly assigned business analyst (BA) is unsure how to communicate the findings and final decision to the wider stakeholder group. In which of the following can the BA find this information?",
+    "options": [
+      "A. Stakeholder Communications Plan",
+      "B. Business case",
+      "C. Business policies",
+      "D. Governance approach"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q049",
+    "question": "Question #289: A local manufacturer that serves about 1000 retail stores is experiencing a slow yet steady decrease of its customer base over the last couple of years. Attributing the situation to increased competition, management has hired a team of sales representatives to attract new clients and promote the manufacturer's products. However, after four months there is still no progress. Management has engaged a business analyst (BA) to investigate this issue. What should the BA do first?",
+    "options": [
+      "A. Perform market research to identify on which competitive advantages the sales team should focus",
+      "B. Create a training program to close potential skill gaps for the sales team",
+      "C. Review historic sales and related data to understand what is happening to the customer base",
+      "D. Identify appropriate training providers and send out a request for proposal"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q050",
+    "question": "Question #290: A new project has to implement a cyber security release in China, Italy, Germany, the United States, and Canada. The project is a $5 million initiative and must 'go live' in production in all countries on the same day and time to be effective. Which of the approaches mentioned is suitable for this project based on the size and complexity?",
+    "options": [
+      "A. An agile and iterative approach",
+      "B. A waterfall and dynamic approach",
+      "C. A kanban and predictive approach",
+      "D. A proven and tailored analysis approach"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q051",
+    "question": "Question #291: While defining what necessary conditions are required to achieve the business need for a highly regulated government client, a business analyst (BA) discovers that some legacy policies will either constrain or are insufficient to achieve value desired by the future state. How should the BA proceed?",
+    "options": [
+      "A. Modify the solution to comply with the policies",
+      "B. Identify an assumption about future state value",
+      "C. Model two future states, one with and another without these policies",
+      "D. Obtain approval to change the policies"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q052",
+    "question": "Question #292: In performing the task of planning for business analysis governance for a software implementation project, the business analyst (BA) recommends that prioritization of requirements be done based on the amount of work that the project team is capable of delivering in a given period of time. Which of the following techniques is the BA recommending?",
+    "options": [
+      "A. Negotiation",
+      "B. Grouping",
+      "C. Time Boxing",
+      "D. Budgeting"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q053",
+    "question": "Question #293: A business analyst (BA) plans to hold a workshop next week to elicit requirements for a project. In an informal conversation, another employee mentioned that one of the attendees is likely to be unhappy about the project's impact on their work. Which of the following techniques will the BA use to avoid disrupting the workshop?",
+    "options": [
+      "A. Elicitation Activity Plan",
+      "B. Collaborative Games",
+      "C. Stakeholder List",
+      "D. Risk Analysis and Management"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q054",
+    "question": "Question #294: A business analyst (BA) at a regional bank has recently been assigned to assist on a project to expand into new markets. The chief executive officer (CEO) envisions the bank as a national brand and has asked the chief financial officer (CFO) to monitor project progress closely. The project manager (PM) has asked the BAs on the team to recommend an appropriate business analysis approach. Based on the nature of the project and the industry, which approach should they recommend?",
+    "options": [
+      "A. An unstructured approach utilizing informal team interaction, model-driven documentation standards, and iterative requirements development",
+      "B. An agile approach with frequent team interaction, adaptive documentation standards, and iterative requirements development",
+      "C. A moderate approach utilizing the bank's existing waterfall project lifecycle and documentation deliverables not requiring formal approval",
+      "D. A formal approach with planned team interaction, agreed upon documentation deliverables requiring formal approval, and front-loaded requirements development"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q055",
+    "question": "Question #295: While reviewing a subset of requirements with stakeholders, a business analyst (BA) finds a requirement that does not deliver benefit to any of the stakeholders. After much discussion, the stakeholders decide that the requirement does not align with the solution scope. What recommendation will the BA make?",
+    "options": [
+      "A. Update the solution design",
+      "B. Re-evaluate the future state",
+      "C. Change the solution scope",
+      "D. Eliminate the requirement"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q056",
+    "question": "Question #296: An innovative pizza restaurant announces a new pizza topping each week. Once advertised, the new topping on the regular dough constitutes the sole pizza type offered during the week. No other pizza toppings are offered. Which of the following processes is a strong candidate to be addressed while planning for requirements reuse?",
+    "options": [
+      "A. Dough preparation",
+      "B. Toppings preparation",
+      "C. Topping recipes",
+      "D. Ad images"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q057",
+    "question": "Question #297: A business analyst (BA) is outlining who should participate in an upcoming requirements elicitation meeting. From whom should the BA obtain approval before selecting the participants?",
+    "options": [
+      "A. Sponsor",
+      "B. End user",
+      "C. Project manager",
+      "D. Subject matter expert"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q058",
+    "question": "Question #298: A business analyst (BA) in a large financial institution, responsible for the management of requirements, has completed all the activities related to tracing requirements and is now pursuing to maintain them. The BA has identified a large number of requirements which have long term reuse and is now looking for guidance to manage these requirements. Which of the following will indicate how requirements will be managed for reuse?",
+    "options": [
+      "A. Legal Regulatory Information",
+      "B. Architectural Repositories",
+      "C. Information Management Approach",
+      "D. Business Rules Analysis"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q059",
+    "question": "Question #299: A business analyst (BA) is in the process of allocating requirements to various releases of a solution. On what should the BA base requirements to maximize the value of the solution?",
+    "options": [
+      "A. Priority set by stakeholders",
+      "B. Available resources",
+      "C. Timing of the release and its impact on business",
+      "D. Components in scope for that release"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q060",
+    "question": "Question #300: A team is working on a user privilege and access control system. A business analyst (BA) selects use cases as the technique for requirements specification. What is the relationship between use cases \"Create a role\" and \"Find a role\" when there is a high level of formality?",
+    "options": [
+      "A. Validate",
+      "B. Derive",
+      "C. Necessity",
+      "D. Satisfy"
+    ],
+    "answer": "C",
+    "explanation": ""
   }
 ]
