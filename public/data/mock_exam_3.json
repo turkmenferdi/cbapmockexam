@@ -1044,10 +1044,15 @@
   },
   {
     "id": "me3_q088",
-    "question": "Question #388",
-    "options": [],
+    "question": "Question #388: A business analyst (BA) is working on a payment system (PS) implementation. A set of systems which should interact with a new payment system has been identified. The business analyst defined that a user with role of 'Supervisor' in the PS must pass a two-factor authentication before an execution of the functions: 'Change system parameters' and 'Set up new supervisor.' A user must have the role of 'Supervisor' to use the standard functions 'Send mail notification' or 'Send SMS notification'. The BA wants to create a Use Case diagram. Which standard relationship should be defined between 'Setup new supervisor' and 'Send notification'?",
+    "options": [
+      "A. Setup new supervisor <<Include>> Send notification",
+      "B. Setup new supervisor <<Include>> Send notification (Alternative representation)",
+      "C. Setup new supervisor <<Extend>> Send notification",
+      "D. Setup new supervisor <<Extend>> Send notification (Alternative representation)"
+    ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "The <<Extend>> relationship is used when a use case conditionally adds behavior to another use case. Since sending notifications is optional behavior that can extend the setup new supervisor functionality, the <<Extend>> relationship is appropriate."
   },
   {
     "id": "me3_q089",
