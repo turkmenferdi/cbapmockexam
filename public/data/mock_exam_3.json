@@ -1056,10 +1056,15 @@
   },
   {
     "id": "me3_q089",
-    "question": "Question #389",
-    "options": [],
+    "question": "Question #389: A business analyst (BA) is working on a payment system (PS) implementation. A set of systems which should interact with a new system has been identified. The business analyst defined that a user with role of 'Supervisor' in the PS must pass a two-factor authentication before an execution of the functions: 'Change system parameters' and 'Set up new supervisor.' A user must have the role of 'Supervisor' to use the standard functions 'Send mail notification' or 'Send SMS notification'. The BA defined the following use cases: 'Change system parameters', 'Setup new supervisor', 'Send mail notification', 'Send SMS notification', 'Send notification', 'Pass a two-factor authentication'. The BA wants to create a Use Case diagram. What standard relationship should be defined between 'Change system parameters', 'Setup new supervisor' and 'Pass a two-factor authentication'?",
+    "options": [
+      "A. Both Change system parameters and Setup new supervisor connect directly to Pass a two-factor authentication",
+      "B. Both use cases use <<Extend>> relationship to Pass a two-factor authentication",
+      "C. Both use cases use <<Protect>> relationship to Pass a two-factor authentication",
+      "D. Both use cases use <<Include>> relationship to Pass a two-factor authentication"
+    ],
     "answer": "A",
-    "explanation": ""
+    "explanation": "Since both 'Change system parameters' and 'Setup new supervisor' require two-factor authentication as a prerequisite, they should have a direct dependency relationship to 'Pass a two-factor authentication'. This represents that authentication must be completed before these functions can be executed."
   },
   {
     "id": "me3_q090",
