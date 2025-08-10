@@ -14,6 +14,7 @@ export async function loadAllQuestions(): Promise<CBAPQuestion[]> {
   const chunkFiles = [
     'mock_exam_1.json',
     'mock_exam_2.json',
+    'mock_exam_3.json',
     'questions_chunk_01.json',
     'questions_chunk_02.json',
     'questions_chunk_03.json',
