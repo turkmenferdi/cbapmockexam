@@ -1187,5 +1187,245 @@
     ],
     "answer": "B",
     "explanation": ""
+  },
+  {
+    "id": "me3_q101",
+    "question": "Question #401",
+    "options": [
+      "A. High-level business requirements document",
+      "B. Transition requirements document",
+      "C. Process models",
+      "D. Project solution architecture"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q102",
+    "question": "Question #402",
+    "options": [
+      "A. Correct",
+      "B. Unambiguous",
+      "C. Defined",
+      "D. Necessary"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q103",
+    "question": "Question #403",
+    "options": [
+      "A. Business processes to be performed and managed",
+      "B. Business policies and business rules",
+      "C. People who operate and maintain the solution",
+      "D. Operational business decisions to be made"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q104",
+    "question": "Question #404",
+    "options": [
+      "A. Data Dictionary",
+      "B. Data Mining",
+      "C. Glossary",
+      "D. Reviews"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q105",
+    "question": "Question #405",
+    "options": [
+      "A. Organizational modelling",
+      "B. State modelling",
+      "C. Concept modelling",
+      "D. Decision modelling"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q106",
+    "question": "Question #406",
+    "options": [
+      "A. Plan stakeholder engagement",
+      "B. Retire the implemented solution",
+      "C. Conduct elicitation",
+      "D. Continue with the implemented solution"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q107",
+    "question": "Question #407",
+    "options": [
+      "A. Identify additional capabilities",
+      "B. Reduce complexity of interfaces",
+      "C. Perform organizational change.",
+      "D. Retire the solution"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q108",
+    "question": "Question #408",
+    "options": [
+      "A. Use cases and scenarios",
+      "B. Benchmarking and market analysis",
+      "C. Observation",
+      "D. Data mining"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q109",
+    "question": "Question #409",
+    "options": [
+      "A. Survey",
+      "B. Decision modelling",
+      "C. Data mining",
+      "D. Document analysis"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q110",
+    "question": "Question #410",
+    "options": [
+      "A. Performance Variance",
+      "B. Accuracy",
+      "C. Risks",
+      "D. Market Trends"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q111",
+    "question": "Question #411",
+    "options": [
+      "A. 39",
+      "B. 51",
+      "C. 60",
+      "D. 19"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q112",
+    "question": "Question #412",
+    "options": [
+      "A. $695,448",
+      "B. $453,635",
+      "C. $653,934",
+      "D. $207,790"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q113",
+    "question": "Question #413",
+    "options": [
+      "A. Company A",
+      "B. Company B",
+      "C. Both companies B and C",
+      "D. Both companies A and C"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q114",
+    "question": "Question #414",
+    "options": [
+      "A. Business Capabilities",
+      "B. Cost Benefit",
+      "C. Decision",
+      "D. Process"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q115",
+    "question": "Question #415",
+    "options": [
+      "A. Future state",
+      "B. Decision",
+      "C. Market",
+      "D. Root cause"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q116",
+    "question": "Question #416",
+    "options": [
+      "A. Business Analysis Communication Plan",
+      "B. Business Analysis Performance Assessment",
+      "C. Risk Register",
+      "D. Requirements Traceability Repository"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q117",
+    "question": "Question #417",
+    "options": [
+      "A. Implementation Subject Matter Expert and Tester",
+      "B. Project Manager and Project Sponsor",
+      "C. Regulator and Operational Support Manager",
+      "D. Domain Subject Matter Expert and End User"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q118",
+    "question": "Question #418",
+    "options": [
+      "A. Sunk",
+      "B. Maintenance",
+      "C. Opportunity",
+      "D. Operating"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q119",
+    "question": "Question #419",
+    "options": [
+      "A. Calculate the costs incurred by each option",
+      "B. Recommend and present a completely new option",
+      "C. Estimate the potential value delivered by each option",
+      "D. Compare each option against an industry benchmark"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q120",
+    "question": "Question #420",
+    "options": [
+      "A. Transition",
+      "B. Process",
+      "C. Stakeholder",
+      "D. Non functional"
+    ],
+    "answer": "D",
+    "explanation": ""
   }
 ]
