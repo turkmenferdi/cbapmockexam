@@ -9,7 +9,7 @@
       "D. To determine if the solution is technically feasible"
     ],
     "answer": "C",
-    "explanation": ""
+    "explanation": "The primary goal of solution evaluation is to assess the value delivered by the solution to ensure it meets business needs and provides expected benefits. This goes beyond simply verifying requirements to understanding actual business value creation."
   },
   {
     "id": "me5_q002",
@@ -21,7 +21,7 @@
       "D. Resource availability perspective"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "The business value perspective is most important when defining solution scope because it ensures the solution addresses business needs and delivers expected value to stakeholders. All other perspectives support but don't drive scope decisions."
   },
   {
     "id": "me5_q003",
@@ -33,7 +33,7 @@
       "D. It describes all possible risks"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "A good business case justifies the investment in business terms by demonstrating expected benefits, costs, and return on investment. It focuses on business value rather than technical details, schedules, or comprehensive risk catalogs."
   },
   {
     "id": "me5_q004",
@@ -45,18 +45,18 @@
       "D. Design solution"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "Analyze current state is a key activity within the Strategy Analysis knowledge area of BABOK. It involves understanding the current business situation before identifying opportunities for improvement."
   },
   {
     "id": "me5_q005",
-    "question": "Question #430: What is the primary purpose of requirements traceability?",
+    "question": "Question #430: What is the main purpose of requirements traceability?",
     "options": [
       "A. To track project progress",
-      "B. To manage change requests",
-      "C. To ensure requirements are linked to business objectives and solution components",
-      "D. To document testing procedures"
+      "B. To link requirements to business objectives",
+      "C. To manage project resources",
+      "D. To control project costs"
     ],
-    "answer": "C",
-    "explanation": ""
+    "answer": "B",
+    "explanation": "The main purpose of requirements traceability is to link requirements to business objectives, ensuring that each requirement contributes to achieving business goals and that all objectives are supported by appropriate requirements."
   }
 ]
