@@ -60,7 +60,7 @@ function examReducer(
         try {
           saveExamState(newState);
         } catch (error) {
-          console.error('Failed to save exam state:', error);
+          console.error("Failed to save exam state:", error);
         }
         return newState;
 
@@ -76,7 +76,7 @@ function examReducer(
         try {
           saveExamState(updatedState);
         } catch (error) {
-          console.error('Failed to save exam state:', error);
+          console.error("Failed to save exam state:", error);
         }
         return updatedState;
 
@@ -89,7 +89,7 @@ function examReducer(
         try {
           saveExamState(currentState);
         } catch (error) {
-          console.error('Failed to save exam state:', error);
+          console.error("Failed to save exam state:", error);
         }
         return currentState;
 
@@ -102,7 +102,7 @@ function examReducer(
         try {
           saveExamState(completedState);
         } catch (error) {
-          console.error('Failed to save exam state:', error);
+          console.error("Failed to save exam state:", error);
         }
         return completedState;
 
@@ -110,7 +110,7 @@ function examReducer(
         try {
           clearExamState();
         } catch (error) {
-          console.error('Failed to clear exam state:', error);
+          console.error("Failed to clear exam state:", error);
         }
         return null;
 
@@ -118,7 +118,7 @@ function examReducer(
         return state;
     }
   } catch (error) {
-    console.error('Reducer error:', error);
+    console.error("Reducer error:", error);
     return state;
   }
 }
@@ -161,7 +161,9 @@ export function ExamProvider({ children }: { children: ReactNode }) {
         try {
           const response = await fetch(`/data/${fileName}`);
           if (!response.ok) {
-            throw new Error(`Failed to load ${fileName}: ${response.status} ${response.statusText}`);
+            throw new Error(
+              `Failed to load ${fileName}: ${response.status} ${response.statusText}`,
+            );
           }
 
           const questions = await response.json();
@@ -204,7 +206,7 @@ export function ExamProvider({ children }: { children: ReactNode }) {
 
       // Check if component is still mounted before proceeding
       if (!isMounted) {
-        console.log('Component unmounted during exam loading, aborting');
+        console.log("Component unmounted during exam loading, aborting");
         return false;
       }
 
@@ -226,7 +228,7 @@ export function ExamProvider({ children }: { children: ReactNode }) {
       console.error("Failed to start new exam:", error);
       if (isMounted) {
         // Handle error gracefully without throwing
-        console.error('Exam loading failed:', error);
+        console.error("Exam loading failed:", error);
       }
       return false;
     } finally {

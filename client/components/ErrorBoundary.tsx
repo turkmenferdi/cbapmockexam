@@ -27,12 +27,15 @@ class ErrorBoundary extends Component<Props, State> {
 
   componentDidCatch(error: Error, errorInfo: React.ErrorInfo) {
     console.error("Error Boundary caught an error:", error, errorInfo);
-    
+
     // Store error info for debugging
     this.setState({ errorInfo });
 
     // Don't auto-reset for DOM errors as they might be persistent
-    if (!error.message.includes('removeChild') && !error.message.includes('DOM')) {
+    if (
+      !error.message.includes("removeChild") &&
+      !error.message.includes("DOM")
+    ) {
       // Auto-reset after 10 seconds for other errors
       this.timeoutId = setTimeout(() => {
         this.resetError();
@@ -88,9 +91,11 @@ class ErrorBoundary extends Component<Props, State> {
                   Sayfayı Yenile
                 </button>
               </div>
-              {process.env.NODE_ENV === 'development' && this.state.error && (
+              {process.env.NODE_ENV === "development" && this.state.error && (
                 <details className="mt-4 text-left text-xs">
-                  <summary className="cursor-pointer text-gray-500">Hata Detayları</summary>
+                  <summary className="cursor-pointer text-gray-500">
+                    Hata Detayları
+                  </summary>
                   <pre className="mt-2 text-red-500 overflow-auto">
                     {this.state.error.message}
                   </pre>
