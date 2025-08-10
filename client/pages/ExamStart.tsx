@@ -52,8 +52,10 @@ const EXAM_OPTIONS = [
 export default function ExamStart() {
   const { startNewExam, isLoading, examState } = useExam();
 
-  const handleStartExam = (examType: string) => {
-    startNewExam();
+  const handleStartExam = async (examType: string) => {
+    await startNewExam();
+    // Navigate to exam page after starting the exam
+    window.location.href = '/exam';
   };
 
   if (examState && !examState.isCompleted) {
