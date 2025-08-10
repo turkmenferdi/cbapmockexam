@@ -1,62 +1,722 @@
 [
   {
     "id": "me4_q001",
-    "question": "Question #421: Which technique is used to identify and document stakeholder concerns that could impact the business analysis approach?",
+    "question": "Question #361: A business analyst (BA) works for an organization that is moving from a waterfall methodology to an agile approach. This causes new challenges and opportunities for the BA. Which business analysis planning and monitoring element is most impacted by the organization's change?",
     "options": [
-      "A. Stakeholder mapping",
-      "B. Risk analysis",
-      "C. Process analysis",
-      "D. Brainstorming"
+      "A. Timing of business analysis work",
+      "B. Conflict and issue management",
+      "C. Technology and infrastructure",
+      "D. Solution scope"
     ],
-    "answer": "B",
+    "answer": "A",
     "explanation": ""
   },
   {
     "id": "me4_q002",
-    "question": "Question #422: What is the primary purpose of acceptance and evaluation criteria in requirements?",
+    "question": "Question #362: The technology team at a financial institution has successfully constructed a software application to be deployed as part of a digital banking strategy. A business analyst (BA) has completed a review of the current state description and now needs to evaluate the solution and determine limiting factors for value realization. What additional input is required to perform the assessment of enterprise limitations?",
     "options": [
-      "A. To define solution testing procedures",
-      "B. To establish quality gates for requirements",
-      "C. To specify conditions that must be met for requirements to be acceptable",
-      "D. To document stakeholder preferences"
+      "A. Operational assessment",
+      "B. Potential value",
+      "C. Solution performance analysis",
+      "D. Organizational structure"
     ],
     "answer": "C",
     "explanation": ""
   },
   {
     "id": "me4_q003",
-    "question": "Question #423: Which stakeholder is typically responsible for prioritizing requirements?",
+    "question": "Question #363: A company that specialized in manufacturing vending machines for books has been in business for 10 years. As the e-book and online retailing grow, the company perceived that a change is required to respond to the new emerging market forces. However, the change should focus on reusability as much as possible to reduce expenses. After analyzing the current state with the business subject matter experts, the business analyst (BA) proposed investing in a new business line of vending machines that sell pay per use mobile device phone fast charging stations. Due to the urgency of this change, the BA was asked to finalize requirements elicitation in the shortest possible time. By proposing this change, what type of view did the BA use to analyze the current manufacturer's state?",
     "options": [
-      "A. Business analyst",
-      "B. Project manager",
-      "C. Product owner or business sponsor",
-      "D. Domain subject matter expert"
+      "A. Data-centric",
+      "B. Capability-centric",
+      "C. Process-centric",
+      "D. People-centric"
     ],
-    "answer": "C",
+    "answer": "A",
     "explanation": ""
   },
   {
     "id": "me4_q004",
-    "question": "Question #424: What is the main difference between business rules and functional requirements?",
+    "question": "Question #364: A company that specialized in manufacturing vending machines for books has been in business for 10 years. As the e-book and online retailing grow, the company perceived that a change is required to respond to the new emerging market forces. However, the change should focus on reusability as much as possible to reduce expenses. After analyzing the current state with the business subject matter experts, the business analyst (BA) proposed investing in a new business line of vending machines that sell pay per use mobile device phone fast charging stations. Due to the urgency of this change, the BA was asked to finalize requirements elicitation in the shortest possible time. The BA was able to complete requirements elicitation activities in a short period of time. Which type of elicitation approach did the BA use?",
     "options": [
-      "A. Business rules are more detailed than functional requirements",
-      "B. Business rules govern behavior while functional requirements describe capabilities",
-      "C. Business rules are technical while functional requirements are business-focused",
-      "D. There is no significant difference"
+      "A. Experiment",
+      "B. Collaborative",
+      "C. Estimation",
+      "D. Research"
     ],
     "answer": "B",
     "explanation": ""
   },
   {
     "id": "me4_q005",
-    "question": "Question #425: Which technique is most appropriate for analyzing the impact of proposed changes?",
+    "question": "Question #365: An insurance company wants to increase sales by 15% and customer retention by 10% within 1 calendar year. Various strategies to achieve this were considered and a restructure to the existing pricing model is selected to help achieve these goals. A business analyst (BA) works with stakeholders such as actuaries, product specialists, sales staff, risk managers, and underwriters who agree to applying varying levels of discounts to customers based on: Total annual premium the customer has with the company (Financial worth), Time with the insurance company (Loyalty). If within the first six months, customer retention increased by 5% and sales increased by 6%, then when will the desired sales and retention goals be achieved assuming the trend continues at the same pace?",
     "options": [
-      "A. Gap analysis",
-      "B. Impact analysis",
-      "C. Root cause analysis",
-      "D. Cost-benefit analysis"
+      "A. Sales – 2 years; Retention – 18 months",
+      "B. Sales – 3 years; Retention – 1 year",
+      "C. Sales – 2.5 years; Retention �� 2 years",
+      "D. Sales – 18 months; Retention – 1 year"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q006",
+    "question": "Question #366: An insurance company wants to increase sales by 15% and customer retention by 10% within 1 calendar year. Various strategies to achieve this were considered and a restructure to the existing pricing model is selected to help achieve these goals. Which technique would the BA use to validate the desired outcomes?",
+    "options": [
+      "A. Business model canvas",
+      "B. Decision analysis",
+      "C. Key performance indicators",
+      "D. Use cases"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q007",
+    "question": "Question #367: An insurance company wants to increase sales by 15% and customer retention by 10% within 1 calendar year. What did the BA create to ensure that everyone who needed to be included had been?",
+    "options": [
+      "A. Onion diagram",
+      "B. Concept model",
+      "C. Capability diagram",
+      "D. Context model"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q008",
+    "question": "Question #368: An insurance company wants to increase sales by 15% and customer retention by 10% within 1 calendar year. As the new pricing structure was being implemented, the chief executive officer (CEO) of the company wanted to change the premiums and associated discounts offered to customers. The BA investigated the cost, anticipated benefits and the length of time the change would likely take to complete before presenting the results back to the CEO. What type of analysis has the BA just conducted?",
+    "options": [
+      "A. Impact",
+      "B. Capability",
+      "C. Market",
+      "D. Document"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q009",
+    "question": "Question #369: A financial institution engaged in mortgage lending has embarked on a business process improvement initiative to eliminate the activities that hinder growth to ultimately improve the success rate of its mortgage business. If the financial institution always works at full capacity month to month and the new success rate continues to remain the same after implementing the BA's recommendation, what is the average number of successes per month for the mortgage closure process, if the current process capability were increased by 50%?",
+    "options": [
+      "A. 15",
+      "B. 14",
+      "C. 12",
+      "D. 11"
     ],
     "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q010",
+    "question": "Question #370: A financial institution engaged in mortgage lending has embarked on a business process improvement initiative to eliminate the activities that hinder growth to ultimately improve the success rate of its mortgage business. If an additional recommendation to reduce Verification Rejects by 50% were to be introduced into the mortgage origination process, what is the potential success rate of the mortgage origination process?",
+    "options": [
+      "A. 86%",
+      "B. 83%",
+      "C. 70%",
+      "D. 74%"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q011",
+    "question": "Question #371: A financial institution engaged in mortgage lending has embarked on a business process improvement initiative to eliminate the activities that hinder growth to ultimately improve the success rate of its mortgage business. Which of the following business processes can be identified for the process improvement initiative?",
+    "options": [
+      "A. Mortgage payment process",
+      "B. Mortgage origination process",
+      "C. Mortgage closure process",
+      "D. Collateral verification process"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q012",
+    "question": "Question #372: A financial institution engaged in mortgage lending has embarked on a business process improvement initiative to eliminate the activities that hinder growth to ultimately improve the success rate of its mortgage business. Assuming the BA's recommendation to be true, what will be the new success rate of the mortgage closure process?",
+    "options": [
+      "A. 90%",
+      "B. 85%",
+      "C. 10%",
+      "D. 20%"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q013",
+    "question": "Question #373: A popular department store chain wants to make computer upgrades as well as conduct a major remodeling effort to increase revenue to all their 100 stores over the next 2 years. What activity should the BA do to determine which stores will be the first to start the renovations?",
+    "options": [
+      "A. Perform document analysis for stores annual records",
+      "B. Survey store managers for number of customers per day",
+      "C. Conduct a focus group with store managers to determine which should be first",
+      "D. Brainstorm with store managers on the current state of each store"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q014",
+    "question": "Question #374: A popular department store chain wants to make computer upgrades as well as conduct a major remodeling effort to increase revenue to all their 100 stores over the next 2 years. Based on the CEO's executive decision, which risk tolerance attitude is the CEO exhibiting?",
+    "options": [
+      "A. Seeking",
+      "B. Avoidance",
+      "C. Mitigation",
+      "D. Neutrality"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q015",
+    "question": "Question #375: A popular department store chain wants to make computer upgrades as well as conduct a major remodeling effort to increase revenue to all their 100 stores over the next 2 years. What tool will help the BA understand the changes needed to keep the majority of the stores open?",
+    "options": [
+      "A. Capability Model",
+      "B. Business capability analysis",
+      "C. Transition State Diagram",
+      "D. Stakeholder Matrix"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q016",
+    "question": "Question #376: A business unit of a transnational manufacturer wants to implement a robust process for addressing integrity-critical equipment deterioration incidents. What kind of asset should the BA provide to fully specify the approval requirement?",
+    "options": [
+      "A. A process diagram",
+      "B. A RACI matrix",
+      "C. A use case model",
+      "D. A business rule"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q017",
+    "question": "Question #377: A business unit of a transnational manufacturer wants to implement a robust process for addressing integrity-critical equipment deterioration incidents. With the team ready to consider design options, they are reviewing the following requirement: \"Appropriate stakeholders shall be timely and reliably notified on incident-related events.\" What quality criteria does this requirement fail to satisfy?",
+    "options": [
+      "A. Consistent",
+      "B. Complete",
+      "C. Atomic",
+      "D. Understandable"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q018",
+    "question": "Question #378: A business unit of a transnational manufacturer wants to implement a robust process for addressing integrity-critical equipment deterioration incidents. The EA wants to understand whether the integration capabilities of the existing solution match the business unit's IT landscape. The requirement definition that the EA needs should read as, \"Each record of an incident shall __________.\"",
+    "options": [
+      "A. be associated with the unit of equipment to which it belongs",
+      "B. include the associated equipment's information from the asset management system",
+      "C. contain the ID of the equipment to which it belongs",
+      "D. be related to a unit of equipment using the Equipment ID stored in the asset management system"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q019",
+    "question": "Question #379: A health insurance provider undertakes enhancements to its mobile application platform. What is the appropriate diagram type to describe the association between the subscriber, the medical plan and the participating service providers?",
+    "options": [
+      "A. Data Model",
+      "B. Data Dictionary",
+      "C. Use Case Diagram",
+      "D. Data Flow"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q020",
+    "question": "Question #380: A health insurance provider undertakes enhancements to its mobile application platform. Which of the following characteristics is violated by requirement 5?",
+    "options": [
+      "A. Feasible",
+      "B. Concise",
+      "C. Consistent",
+      "D. Atomic"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q021",
+    "question": "Question #381: A health insurance provider undertakes enhancements to its mobile application platform. Which of the following relationship types correctly identifies the nature of the relationship between the 3 business capabilities and the 11 requirements?",
+    "options": [
+      "A. Derives",
+      "B. Depends",
+      "C. Validates",
+      "D. Verifies"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q022",
+    "question": "Question #382: A health insurance provider undertakes enhancements to its mobile application platform. Which primary subscriber business need is addressed with the enhancements?",
+    "options": [
+      "A. Inability of a service provider to locate other participating service providers and their fee information",
+      "B. Inability of a plan subscriber to get directions to nearby participating service providers",
+      "C. Inability of a plan subscriber to locate and access fee information for nearby participating service providers",
+      "D. Inability of a service provider to be alerted of the location of new plan subscribers in their vicinity"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q023",
+    "question": "Question #383: A national branch of a global company is struggling to improve business processes of its Public and Government Affairs (PGA) department. How should the BA organize the customization requirements?",
+    "options": [
+      "A. Devise a structure that best fits the branch's definition of user roles",
+      "B. Explore and apply best practices for specifying this type of requirements",
+      "C. Reuse the structure of the solution consultants' requirements catalog",
+      "D. Use the structure of requirements suggested by the corporate standard"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q024",
+    "question": "Question #384: A national branch of a global company is struggling to improve business processes of its Public and Government Affairs (PGA) department. A BA suggests interviewing employees to elicit user requirements and then performing a gap analysis to identify solution customization requirements. However, the sponsor believes that it will be a waste of time because the employees do not know how the process should work in the future. What should the BA do?",
+    "options": [
+      "A. Deploy the current solution and survey users for improvement proposals",
+      "B. Utilize the solution in a test environment with actual data to elicit feedback",
+      "C. Collect the requirements from the sponsor and domain subject matter experts",
+      "D. Explain the benefits of interviews to the requirements elicitation process"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q025",
+    "question": "Question #385: A national branch of a global company is struggling to improve business processes of its Public and Government Affairs (PGA) department. What should define the timing of business analysis work in this project?",
+    "options": [
+      "A. Buy-in of the proposed solution",
+      "B. Approach used by the previous deployments",
+      "C. Availability of solution consultants",
+      "D. Overall project schedule"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q026",
+    "question": "Question #386: A national branch of a global company is struggling to improve business processes of its Public and Government Affairs (PGA) department. The solution consultants have composed a set of as-is solution documents. For the new and changed requirements, the BA wants to capture additional attributes such as the source, reason, complexity, and priority of change. How should information for these requirements be managed?",
+    "options": [
+      "A. Rewrite requirements independent of the solution design",
+      "B. Enter the information in the company's change management system",
+      "C. Add the attributes to the original requirements catalog and change requirements",
+      "D. Create a new workbook of requirements with necessary attributes"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q027",
+    "question": "Question #387: A business analyst (BA) is working on a payment system (PS) implementation. Which technique should be used to define a communications protocol between the PS and other systems?",
+    "options": [
+      "A. Vertical prototyping",
+      "B. Interface analysis",
+      "C. Concept modelling",
+      "D. System analysis"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q028",
+    "question": "Question #388: A business analyst (BA) is working on a payment system (PS) implementation. Which standard relationship should be defined between \"Setup new supervisor\" and \"Send notification\"?",
+    "options": [
+      "A. Include",
+      "B. Extend",
+      "C. Association",
+      "D. Generalization"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q029",
+    "question": "Question #389: A business analyst (BA) is working on a payment system (PS) implementation. What standard relationship should be defined between \"Change system parameters\", \"Setup new supervisor\" and \"Pass a two-factor authentication\"?",
+    "options": [
+      "A. Include",
+      "B. Extend",
+      "C. Association",
+      "D. Generalization"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q030",
+    "question": "Question #390: A software development company is in the process of creating a new product for their customer base. At this point in the project, what will the BA be presenting?",
+    "options": [
+      "A. Project timeline",
+      "B. Project deliverables",
+      "C. Resource staffing",
+      "D. Expected benefits"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q031",
+    "question": "Question #391: A software development company is in the process of creating a new product for their customer base. What has the BA been identifying that will be used to evaluate the solution?",
+    "options": [
+      "A. Business Needs",
+      "B. Solution Requirements",
+      "C. Success Measures",
+      "D. Solution Limitations"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q032",
+    "question": "Question #392: A software development company is in the process of creating a new product for their customer base. What has the BA evaluated to help determine value of the project?",
+    "options": [
+      "A. Internal assets",
+      "B. External influencers",
+      "C. Change strategy",
+      "D. Business architecture"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q033",
+    "question": "Question #393: A major manufacturer of popular beverages has appointed a local distributor to serve a specific territory. What is the company's primary business objective in this scenario?",
+    "options": [
+      "A. Make more profit",
+      "B. Defeat competitors",
+      "C. Satisfy the customer",
+      "D. Stabilize its performance"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q034",
+    "question": "Question #394: A major manufacturer of popular beverages has appointed a local distributor to serve a specific territory. If the driver's average throughput is 0.6 tons/hour, how many hours per day would 15 drivers have to work to deliver 100 tons of merchandise?",
+    "options": [
+      "A. 12",
+      "B. 9",
+      "C. 10",
+      "D. 11"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q035",
+    "question": "Question #395: A major manufacturer of popular beverages has appointed a local distributor to serve a specific territory. Each truck can only make two trips a day. The BA has noticed that only 30% of trips have their orders available for loading when a truck arrives. Otherwise the truck has to wait one extra hour until the orders are picked and brought to the loading bay. If trucks are the only constraint, approximately how many hours are lost due to this downtime?",
+    "options": [
+      "A. 18 hours",
+      "B. 20 hours",
+      "C. 15 hours",
+      "D. 17 hours"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q036",
+    "question": "Question #396: A major manufacturer of popular beverages has appointed a local distributor to serve a specific territory. Preparing a customer order for loading takes about one hour. Upon the BA's observation, only 30% of trips have their orders available for loading when a truck arrives. What should the BA recommend to eliminate such waste?",
+    "options": [
+      "A. Elicit requirements for a system to coordinate in advance order processing activities with all trips",
+      "B. Begin assembling orders for the next trip immediately following the truck's departure",
+      "C. Hire more warehouse staff (workers) so that order assembly is done faster and less waiting occurs",
+      "D. Ask the drivers to call the operations team member if they are going to be late"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q037",
+    "question": "Question #397: Company A is a nation-wide leader in commercial demolition. While verifying the requirements, the BA notices that Requirement ID NFO0003 does not meet the \"unambiguous\" or the \"testable\" characteristics of requirements quality. Which of the following requirements is both unambiguous and testable?",
+    "options": [
+      "A. \"The solution shall employ a blue background.\"",
+      "B. \"The solution shall employ a background color blue (HEX #0000FF).\"",
+      "C. \"The solution shall employ a high-contrast between background and text.\"",
+      "D. \"The solution shall employ a background color that is viewable to a colored-blind user.\""
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q038",
+    "question": "Question #398: Company A is a nation-wide leader in commercial demolition. The risk associated with Requirement ID F-P0001 is HIGH. Which of the following assumptions would make this requirement's risk high?",
+    "options": [
+      "A. The users will require specialized training",
+      "B. The web-based interface will be complex",
+      "C. The system will be inaccessible in remote locations",
+      "D. The cost of the solution outweighs its benefit"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q039",
+    "question": "Question #399: Company A is a nation-wide leader in commercial demolition. The BA will create a Data Model to meet which requirement?",
+    "options": [
+      "A. Requirement ID F-R0002",
+      "B. Requirement ID FE10001",
+      "C. Requirement ID NFP0002",
+      "D. Requirement ID F-R0003"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q040",
+    "question": "Question #400: Company A is a nation-wide leader in commercial demolition. The BA is working on identifying additional improvement opportunities based on these requirements. Which of the following improvement opportunities is reflected in Requirement ID NFP0002?",
+    "options": [
+      "A. Additional capability",
+      "B. Increased efficiency",
+      "C. Defined relationship to information",
+      "D. Improved access to information"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q041",
+    "question": "Question #401: A business analyst (BA) working on a recently implemented project is approached by the sponsor to provide artifacts that can be used organization-wide for the long-term. Which of the following should the BA provide?",
+    "options": [
+      "A. High-level business requirements document",
+      "B. Transition requirements document",
+      "C. Process models",
+      "D. Project solution architecture"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q042",
+    "question": "Question #402: A martial arts organization has been expanding throughout the mid-Atlantic states and has hired a business analyst (BA) to create a system that will enable the organization to manage its growing needs. What relationship quality criterion does this represent?",
+    "options": [
+      "A. Correct",
+      "B. Unambiguous",
+      "C. Defined",
+      "D. Necessary"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q043",
+    "question": "Question #403: A martial arts organization has been expanding throughout the mid-Atlantic states and has hired a business analyst (BA) to create a system that will enable the organization to manage its growing needs. Which of the following design elements does the Activity Diagram address?",
+    "options": [
+      "A. Business processes to be performed and managed",
+      "B. Business policies and business rules",
+      "C. People who operate and maintain the solution",
+      "D. Operational business decisions to be made"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q044",
+    "question": "Question #404: A martial arts organization has been expanding throughout the mid-Atlantic states and has hired a business analyst (BA) to create a system that will enable the organization to manage its growing needs. What technique is used to define the data elements?",
+    "options": [
+      "A. Data Dictionary",
+      "B. Data Mining",
+      "C. Glossary",
+      "D. Reviews"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q045",
+    "question": "Question #405: A martial arts organization has been expanding throughout the mid-Atlantic states and has hired a business analyst (BA) to create a system that will enable the organization to manage its growing needs. What modeling technique will the BA use to create this diagram?",
+    "options": [
+      "A. Organizational modelling",
+      "B. State modelling",
+      "C. Concept modelling",
+      "D. Decision modelling"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q046",
+    "question": "Question #406: The performance of a newly implemented document management system is falling significantly short of the measures defined as part of the project. However, the business is recognizing some level of value from the system. What should the BA recommend?",
+    "options": [
+      "A. Plan stakeholder engagement",
+      "B. Retire the implemented solution",
+      "C. Conduct elicitation",
+      "D. Continue with the implemented solution"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q047",
+    "question": "Question #407: A very large insurer of General Liability and Property Damage insurance has an upward trend of increased claims over the past 5 years. What type of recommendation has the BA made to the business sponsor?",
+    "options": [
+      "A. Identify additional capabilities",
+      "B. Reduce complexity of interfaces",
+      "C. Perform organizational change",
+      "D. Retire the solution"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q048",
+    "question": "Question #408: A very large insurer of General Liability and Property Damage insurance has an upward trend of increased claims over the past 5 years. What technique was the BA using to understand why the promotions were not being viewed?",
+    "options": [
+      "A. Use cases and scenarios",
+      "B. Benchmarking and market analysis",
+      "C. Observation",
+      "D. Data mining"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q049",
+    "question": "Question #409: A very large insurer of General Liability and Property Damage insurance has an upward trend of increased claims over the past 5 years. What technique led the BA to the source of the increase in claims?",
+    "options": [
+      "A. Survey",
+      "B. Decision modelling",
+      "C. Data mining",
+      "D. Document analysis"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q050",
+    "question": "Question #410: A very large insurer of General Liability and Property Damage insurance has an upward trend of increased claims over the past 5 years. What was the business sponsor looking to validate about the use of promotions?",
+    "options": [
+      "A. Performance Variance",
+      "B. Accuracy",
+      "C. Risks",
+      "D. Market Trends"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q051",
+    "question": "Question #411: An insurance company wants to implement a business intelligence solution to consolidate data from various different internal systems to provide a better understanding of their customer base. What is the time difference in days between the shortest and longest implementation?",
+    "options": [
+      "A. 39",
+      "B. 51",
+      "C. 60",
+      "D. 19"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q052",
+    "question": "Question #412: An insurance company wants to implement a business intelligence solution to consolidate data from various different internal systems to provide a better understanding of their customer base. What is the increased cost in Scenario 2 for Company C?",
+    "options": [
+      "A. $695,448",
+      "B. $453,635",
+      "C. $653,934",
+      "D. $207,790"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q053",
+    "question": "Question #413: An insurance company wants to implement a business intelligence solution to consolidate data from various different internal systems to provide a better understanding of their customer base. The insurance company has a maximum budget of $810,000 for the entire implementation and operation over the first three years. Which vendor or vendors meet that criteria?",
+    "options": [
+      "A. Company A",
+      "B. Company B",
+      "C. Both companies B and C",
+      "D. Both companies A and C"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q054",
+    "question": "Question #414: An organization is trying to streamline its current processes to improve performance and reduce costs. What type of analysis would help the BA gain approval to proceed with creating this type of training program for this team?",
+    "options": [
+      "A. Business Capabilities",
+      "B. Cost Benefit",
+      "C. Decision",
+      "D. Process"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q055",
+    "question": "Question #415: An organization is trying to streamline its current processes to improve performance and reduce costs. What analysis approach must the BA use to determine changes required to address the training needs?",
+    "options": [
+      "A. Future state",
+      "B. Decision",
+      "C. Market",
+      "D. Root cause"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q056",
+    "question": "Question #416: An organization is trying to streamline its current processes to improve performance and reduce costs. What approach would help the BA to understand the functionality definition issues?",
+    "options": [
+      "A. Business Analysis Communication Plan",
+      "B. Business Analysis Performance Assessment",
+      "C. Risk Register",
+      "D. Requirements Traceability Repository"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q057",
+    "question": "Question #417: An organization is trying to streamline its current processes to improve performance and reduce costs. Which stakeholders would the BA interview to determine the changes needed to the comparison tool?",
+    "options": [
+      "A. Implementation Subject Matter Expert and Tester",
+      "B. Project Manager and Project Sponsor",
+      "C. Regulator and Operational Support Manager",
+      "D. Domain Subject Matter Expert and End User"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q058",
+    "question": "Question #418: The table illustrates the statement of cash flows for a courier company for the last fiscal year. The CFO's resistance to replacing the older vehicles represents which type of cost?",
+    "options": [
+      "A. Sunk",
+      "B. Maintenance",
+      "C. Opportunity",
+      "D. Operating"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q059",
+    "question": "Question #419: The table illustrates the statement of cash flows for a courier company for the last fiscal year. What could the business analyst (BA) do to gain consensus between the CFO and other Management?",
+    "options": [
+      "A. Calculate the costs incurred by each option",
+      "B. Recommend and present a completely new option",
+      "C. Estimate the potential value delivered by each option",
+      "D. Compare each option against an industry benchmark"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q060",
+    "question": "Question #420: The table illustrates the statement of cash flows for a courier company for the last fiscal year. In order to align with the added value required from the parcel tracking solution that would be an important requirements' category for the BA to give more focus?",
+    "options": [
+      "A. Transition",
+      "B. Process",
+      "C. Stakeholder",
+      "D. Non functional"
+    ],
+    "answer": "D",
     "explanation": ""
   }
 ]
