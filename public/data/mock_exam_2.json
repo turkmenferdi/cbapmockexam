@@ -1199,5 +1199,245 @@
     ],
     "answer": "B",
     "explanation": "Agile methodology divides projects into phases (sprints/iterations) where project managers focus on controlling time, cost, and scope within each iteration."
+  },
+  {
+    "id": "me2_q101",
+    "question": "Which of the following graphical presentations of a project plan is most appropriate for presenting to upper management?",
+    "options": [
+      "A. Pie chart",
+      "B. Pareto Chat",
+      "C. Critical Path Method",
+      "D. Scatter chart"
+    ],
+    "answer": "C",
+    "explanation": "Critical Path Method (CPM) diagrams are most appropriate for upper management as they show project timeline, critical activities, and overall project duration clearly."
+  },
+  {
+    "id": "me2_q102",
+    "question": "Which of the following diagrams is used to display sensitivity analysis data?",
+    "options": [
+      "A. Decision tree",
+      "B. Ishikawa",
+      "C. Influence",
+      "D. Tornado"
+    ],
+    "answer": "D",
+    "explanation": "Tornado diagrams are specifically designed to display sensitivity analysis data, showing which variables have the most impact on project outcomes."
+  },
+  {
+    "id": "me2_q103",
+    "question": "Which of the following is a visual decomposition of the project scope?",
+    "options": [
+      "A. Budgeted Cost of Work Scheduled (BCWS)",
+      "B. Resource Breakdown Structure (RBS)",
+      "C. product breakdown structure (PBS)",
+      "D. Work Breakdown Structure (WBS)"
+    ],
+    "answer": "D",
+    "explanation": "Work Breakdown Structure (WBS) is a visual, hierarchical decomposition of the project scope into smaller, manageable components."
+  },
+  {
+    "id": "me2_q104",
+    "question": "________ are timeless events that show progress in the project. These are typically achieved at the end of phase in the project lifecycle.",
+    "options": [
+      "A. Achievements",
+      "B. Millstones",
+      "C. Phases",
+      "D. Templates"
+    ],
+    "answer": "B",
+    "explanation": "Milestones are timeless events that mark significant progress points in a project, typically occurring at the end of project phases."
+  },
+  {
+    "id": "me2_q105",
+    "question": "Which of the following authorizes the project to exist within the organization?",
+    "options": [
+      "A. Project charter",
+      "B. Project network diagram",
+      "C. Project integration management",
+      "D. Project boundaries"
+    ],
+    "answer": "A",
+    "explanation": "The project charter is the formal document that authorizes the project to exist within the organization and provides initial requirements and objectives."
+  },
+  {
+    "id": "me2_q106",
+    "question": "Which of the following tasks cannot start until other tasks are completed?",
+    "options": [
+      "A. Analysis task",
+      "B. Dependent task",
+      "C. Predecessor task",
+      "D. Independent task"
+    ],
+    "answer": "B",
+    "explanation": "Dependent tasks cannot start until their predecessor tasks are completed, creating a dependency relationship in the project schedule."
+  },
+  {
+    "id": "me2_q107",
+    "question": "Which of the following roles approves the project scope statement, phase gate reviews, solution validations, scope changes, and project success criteria?",
+    "options": [
+      "A. Project manager",
+      "B. Subject matter expert",
+      "C. Solution owner",
+      "D. Stakeholder"
+    ],
+    "answer": "C",
+    "explanation": "The solution owner has the authority to approve scope statements, phase gate reviews, solution validations, scope changes, and success criteria."
+  },
+  {
+    "id": "me2_q108",
+    "question": "Which of the following processes includes tasks and roles, risk categories, schedules for risk management activities, definitions of probability and impact, and the stakeholders' tolerances?",
+    "options": [
+      "A. Risk management plan",
+      "B. Risk register",
+      "C. Risk analysis",
+      "D. Risk response plan"
+    ],
+    "answer": "A",
+    "explanation": "The risk management plan includes all these elements: tasks, roles, categories, schedules, probability/impact definitions, and stakeholder risk tolerances."
+  },
+  {
+    "id": "me2_q109",
+    "question": "Which of the following is the process of identifying and assessing factors that may jeopardize the success of a project or the achievement of a goal?",
+    "options": [
+      "A. Risk analysis",
+      "B. Risk identification",
+      "C. Risk retention",
+      "D. Risk communication"
+    ],
+    "answer": "A",
+    "explanation": "Risk analysis is the comprehensive process of identifying and assessing factors that may jeopardize project success or goal achievement."
+  },
+  {
+    "id": "me2_q110",
+    "question": "As a milestone is reached, the project is funded for enough capital to reach the next milestone. This approach is called _________.",
+    "options": [
+      "A. Step funding",
+      "B. Phase funding",
+      "C. Stakeholders funding",
+      "D. Milestone funding"
+    ],
+    "answer": "A",
+    "explanation": "Step funding provides capital incrementally as milestones are reached, ensuring funds are available only for the next phase of work."
+  },
+  {
+    "id": "me2_q111",
+    "question": "Which of the following roles helps assess the data requirements of a project, identifies data assets, and helps the project team complete data modeling requirements?",
+    "options": [
+      "A. Database analyst",
+      "B. End user",
+      "C. Subject matter expert",
+      "D. Information architect"
+    ],
+    "answer": "D",
+    "explanation": "Information architects assess data requirements, identify data assets, and help with data modeling to structure information effectively."
+  },
+  {
+    "id": "me2_q112",
+    "question": "Which of the following processes is used by organizations to set the risk tolerance, identify the potential risks, and prioritize the tolerance for risk?",
+    "options": [
+      "A. Risk communication",
+      "B. Risk identification",
+      "C. Risk analysis",
+      "D. Risk management"
+    ],
+    "answer": "D",
+    "explanation": "Risk management is the comprehensive process that sets risk tolerance, identifies potential risks, and prioritizes risk tolerance across the organization."
+  },
+  {
+    "id": "me2_q113",
+    "question": "Which of the following terms is used to describe a major deliverable or key even in the project used to measure project progress?",
+    "options": [
+      "A. Project life cycle",
+      "B. Phase",
+      "C. Achievement",
+      "D. Milestone"
+    ],
+    "answer": "D",
+    "explanation": "A milestone is a major deliverable or key event used to measure project progress and mark significant accomplishments."
+  },
+  {
+    "id": "me2_q114",
+    "question": "Which of the following is the process of analyzing the areas of a project that are most affected by risk?",
+    "options": [
+      "A. Risk Identification",
+      "B. Risk Urgency Assessment",
+      "C. Risk Categorization",
+      "D. Risk Analysis"
+    ],
+    "answer": "D",
+    "explanation": "Risk Analysis examines and analyzes the areas of a project that are most affected by identified risks and their potential impacts."
+  },
+  {
+    "id": "me2_q115",
+    "question": "Which of the following charts is important to ensure that the roles and responsibilities of those involved in a task are tracked?",
+    "options": [
+      "A. Pie chart",
+      "B. Line chart",
+      "C. RACI chart",
+      "D. Gantt chart"
+    ],
+    "answer": "C",
+    "explanation": "RACI charts track roles and responsibilities by defining who is Responsible, Accountable, Consulted, and Informed for each task."
+  },
+  {
+    "id": "me2_q116",
+    "question": "Which of the following quantitative risk analysis techniques relies on experience and past data to compute the probability and impact of risks on project objectives?",
+    "options": [
+      "A. Probability distribution",
+      "B. Sensitivity analysis",
+      "C. Modeling and simulation",
+      "D. Interviewing"
+    ],
+    "answer": "A",
+    "explanation": "Probability distribution techniques use historical experience and past data to calculate the likelihood and impact of risks on project objectives."
+  },
+  {
+    "id": "me2_q117",
+    "question": "Which of the following types of charts shows which resources are needed in the project and allows you to group the resources by project phase or other attributes?",
+    "options": [
+      "A. Pareto chart",
+      "B. Organizational Breakdown Structure",
+      "C. Gantt chart",
+      "D. Resource Breakdown Structure"
+    ],
+    "answer": "D",
+    "explanation": "Resource Breakdown Structure (RBS) shows required project resources and allows grouping by phase, type, or other organizational attributes."
+  },
+  {
+    "id": "me2_q118",
+    "question": "Which of the following types of elicitation allows each stakeholder to freely discuss their role in a particular process?",
+    "options": [
+      "A. Focus group",
+      "B. Structured interview",
+      "C. Quick Interview",
+      "D. Unstructured interview"
+    ],
+    "answer": "D",
+    "explanation": "Unstructured interviews allow stakeholders to freely discuss their roles and perspectives without a predetermined set of questions or rigid format."
+  },
+  {
+    "id": "me2_q119",
+    "question": "Which of the following chart shows the correlation between project team members and the work they've been assigned to complete?",
+    "options": [
+      "A. Pie chart",
+      "B. Responsibility Assignment Matrix (RAM) chart",
+      "C. Gantt chart",
+      "D. RACI chart"
+    ],
+    "answer": "B",
+    "explanation": "Responsibility Assignment Matrix (RAM) charts show the correlation between team members and their assigned work, mapping who does what."
+  },
+  {
+    "id": "me2_q120",
+    "question": "Which of the following participants have to keep the minutes and details of the conversation during Interviews?",
+    "options": [
+      "A. Stakeholder",
+      "B. Scribe",
+      "C. Business Analyst",
+      "D. End user"
+    ],
+    "answer": "B",
+    "explanation": "The scribe is responsible for keeping detailed minutes and documenting the conversation during interviews to ensure accurate records."
   }
 ]
