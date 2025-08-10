@@ -105,11 +105,19 @@ export default function Exam() {
               <CheckCircle2 className="h-4 w-4 text-green-600" />
               <span>{answeredCount} answered</span>
             </div>
-            
+
             <div className="flex items-center gap-2 text-lg font-mono font-semibold text-red-600">
               <Clock className="h-5 w-5" />
               <span>{formatTime(timeRemaining)}</span>
             </div>
+
+            <Button
+              variant="outline"
+              onClick={handleFinishExam}
+              className="text-red-600 border-red-300 hover:bg-red-50"
+            >
+              Sınavı Bitir
+            </Button>
           </div>
         </div>
         
