@@ -52,14 +52,14 @@ Bu proje Vercel'e deploy için optimize edilmiştir:
 
 ## 📊 Mock Exam İçeriği
 
-| Exam        | Soru Sayısı | Durum     |
-| ----------- | ----------- | --------- |
-| Mock Exam 1 | 120         | ✅ Hazır  |
-| Mock Exam 2 | 120         | ✅ Hazır  |
-| Mock Exam 3 | 120         | ✅ Hazır  |
-| Mock Exam 4 | 120         | ✅ Hazır  |
-| Mock Exam 5 | 120         | ✅ Hazır  |
-| **Toplam**  | **600**     | **✅**    |
+| Exam        | Soru Sayısı | Durum    |
+| ----------- | ----------- | -------- |
+| Mock Exam 1 | 120         | ✅ Hazır |
+| Mock Exam 2 | 120         | ✅ Hazır |
+| Mock Exam 3 | 120         | ✅ Hazır |
+| Mock Exam 4 | 120         | ✅ Hazır |
+| Mock Exam 5 | 120         | ✅ Hazır |
+| **Toplam**  | **600**     | **✅**   |
 
 ## 🛠️ Teknolojiler
 
