@@ -1198,5 +1198,245 @@
     ],
     "answer": "B",
     "explanation": "MoSCoW stands for Must have, Should have, Could have, and Won't have - a prioritization technique for requirements."
+  },
+  {
+    "id": "me1_q101",
+    "question": "What business analysis plan defines the process to be followed in managing the solution scope and requirements?",
+    "options": [
+      "A. Requirements management plan",
+      "B. Scope management plan",
+      "C. Change management plan",
+      "D. Project management plan"
+    ],
+    "answer": "A",
+    "explanation": "The requirements management plan defines the processes, procedures, and controls for managing solution scope and requirements throughout the project lifecycle."
+  },
+  {
+    "id": "me1_q102",
+    "question": "Which of the following is a narrative description of the work required for the project?",
+    "options": [
+      "A. Contract work breakdown structure (CWBS)",
+      "B. Work breakdown structure (WBS)",
+      "C. Contract statement of work (CSOW)",
+      "D. Statement of work (SOW)"
+    ],
+    "answer": "D",
+    "explanation": "A Statement of Work (SOW) provides a narrative description of the work required for the project, including deliverables, timeline, and scope."
+  },
+  {
+    "id": "me1_q103",
+    "question": "The requirements elicitation process requires that the business analyst and team prepare for the requirements elicitation activities. There are three specific inputs that the business analyst will need in preparing for the requirements elicitation. Which of the following is NOT one of the three inputs the business analyst will use as he prepares for requirements elicitation?",
+    "options": [
+      "A. Solution scope",
+      "B. Change request",
+      "C. Business need",
+      "D. Stakeholder list"
+    ],
+    "answer": "B",
+    "explanation": "Change requests are not an input for preparing requirements elicitation. The three key inputs are solution scope, business need, and stakeholder list."
+  },
+  {
+    "id": "me1_q104",
+    "question": "Mark is the business analyst for his organization. He is working with the solution development team and he believes that the team does not want to implement a certain portion of the requirements. The team is expressing the difficulty of the requirements and how it will be extremely challenging to complete. When Mark asks about a similar project that the team completed, they insist that this is a different type of requirements though Mark believes that it is not. What is the solution development team appearing to do to the requirements?",
+    "options": [
+      "A. Change the prioritization of the requirements based on the past project.",
+      "B. Change the prioritization of the requirements based on overstated complexity of the project work.",
+      "C. Get the requirements removed from the project scope.",
+      "D. Have the business analyst report the difficulty of the project work to the project customer."
+    ],
+    "answer": "B",
+    "explanation": "The development team appears to be overstating the complexity of the requirements to influence their prioritization, potentially to avoid implementing them."
+  },
+  {
+    "id": "me1_q105",
+    "question": "You are the business analyst for your organization. You are currently working with Susan on creating a model as part of the specify and model requirements process. Susan doesn't understand why you need a model. You explain to Susan that a model is just a simplified representation of a complex reality that is useful for understanding that reality and making decisions regarding it. In fact, you tell Susan, model can do all of the following except one option. Choose the option that model cannot do?",
+    "options": [
+      "A. Define the resources that will be needed on the project team",
+      "B. Define boundaries for the business domain",
+      "C. Describe a situation or problem",
+      "D. Describe thought processes and action flows"
+    ],
+    "answer": "A",
+    "explanation": "Models are used to represent business domains, problems, and processes, but they do not define project team resource requirements, which is a project management function."
+  },
+  {
+    "id": "me1_q106",
+    "question": "Management would like you to front-load the requirements with the most risk requirements. Why would management prefer the risky requirements first in the prioritization?",
+    "options": [
+      "A. So if the risk comes true the project will fail with little investment in the work.",
+      "B. So if the risk comes true then the project manager can mitigate the risk event.",
+      "C. So if the risk comes true they'll receive the reward as soon as possible.",
+      "D. So if the risk comes true then there's ample time to correct the problem."
+    ],
+    "answer": "A",
+    "explanation": "Front-loading risky requirements means if the risks materialize and cause project failure, it happens early with minimal investment, reducing overall loss."
+  },
+  {
+    "id": "me1_q107",
+    "question": "You are the business analyst for your organization and are working with Sally, a project manager, for your organization. You and Sally are determining the cost of the labor, materials, equipment, and facilities in order to achieve the different solutions that have been proposed for an identified problem. What is this process called?",
+    "options": [
+      "A. Cost budgeting",
+      "B. Expert judgment",
+      "C. Rough order of magnitude cost estimating",
+      "D. Scoping the project costs"
+    ],
+    "answer": "C",
+    "explanation": "Rough order of magnitude (ROM) cost estimating provides early, high-level estimates for labor, materials, equipment, and facilities for proposed solutions."
+  },
+  {
+    "id": "me1_q108",
+    "question": "Your organization needs to adapt to the change economy, new technologies, and an increase in competition in order to survive. They've asked you to complete a business analysis approach that will help them change their organizational policies in order to achieve their goals and objectives. What business analysis technique has this organization asked you to complete?",
+    "options": [
+      "A. Focus groups",
+      "B. Business rules analysis",
+      "C. Brainstorming",
+      "D. Root cause analysis"
+    ],
+    "answer": "B",
+    "explanation": "Business rules analysis examines and helps change organizational policies, procedures, and business rules to support organizational goals and objectives."
+  },
+  {
+    "id": "me1_q109",
+    "question": "Martha is observing Gary complete several activities as part of her requirements elicitation process. Martha is simply observing the steps Gary takes to complete his work and she is taking notes. In this instance Martha does not ask Gary any questions. What type of observation technique is Martha completing?",
+    "options": [
+      "A. Shadowing",
+      "B. Active",
+      "C. Passive",
+      "D. Usage consideration"
+    ],
+    "answer": "C",
+    "explanation": "Passive observation involves watching and taking notes without interacting or asking questions, unlike active observation which involves participant interaction."
+  },
+  {
+    "id": "me1_q110",
+    "question": "You are the business analyst for your organization. You are currently writing the business goals and objectives as part of the elements for the define business process. Which one of the following statements best describes the business goals and objectives element?",
+    "options": [
+      "A. They describe the processes the solution will need to improve for the project to be successful.",
+      "B. They describe all of the positive benefits in ratio to the risk and costs of the project.",
+      "C. They describe all of the required work the project will need to complete in order to reach its objectives.",
+      "D. They describe the ends that the organization is seeking to achieve."
+    ],
+    "answer": "D",
+    "explanation": "Business goals and objectives describe the desired outcomes or ends that the organization is seeking to achieve through the business analysis effort."
+  },
+  {
+    "id": "me1_q111",
+    "question": "There are four inputs to the plan business analysis activities. Which one of the following is not an input to the plan business analysis activities process?",
+    "options": [
+      "A. List of identified risks",
+      "B. Organizational process assets",
+      "C. Business analysis approach",
+      "D. Stakeholder list, roles, and responsibilities"
+    ],
+    "answer": "A",
+    "explanation": "The list of identified risks is not an input to planning business analysis activities. The main inputs are organizational process assets, business analysis approach, and stakeholder information."
+  },
+  {
+    "id": "me1_q112",
+    "question": "You are currently working on creating the activity list for an initiative in your organization. What characteristic must be assigned to each task in your task list?",
+    "options": [
+      "A. Procurement needs",
+      "B. Roles and responsibilities",
+      "C. Unique number",
+      "D. Risk level"
+    ],
+    "answer": "C",
+    "explanation": "Each task in an activity list must have a unique identifier or number to distinguish it from other tasks and enable proper tracking and management."
+  },
+  {
+    "id": "me1_q113",
+    "question": "You are working with Tom, a key stakeholder, in your business analysis duties. Tom is asking you about the desired outcome for current business opportunity. Which one of the following is NOT an example of a desired outcome?",
+    "options": [
+      "A. Implement new machinery to complete the work processes faster",
+      "B. Increase sales",
+      "C. Reduce costs",
+      "D. Reduce time to deliver a product or service"
+    ],
+    "answer": "A",
+    "explanation": "Implementing new machinery is a solution or method, not a desired outcome. The outcomes are increased sales, reduced costs, and faster delivery times."
+  },
+  {
+    "id": "me1_q114",
+    "question": "You are the business analyst for your organization. You are identifying new opportunities to improve upon your existing web services. Management is open to new opportunities as long as the changes do not take more than 60 days to implement. What type of a factor does the 60 day implementation represent?",
+    "options": [
+      "A. Technical constraint",
+      "B. Schedule constraint",
+      "C. Business constraint",
+      "D. Assumption"
+    ],
+    "answer": "C",
+    "explanation": "The 60-day implementation limit is a business constraint imposed by management based on business needs and priorities, not technical limitations."
+  },
+  {
+    "id": "me1_q115",
+    "question": "You are the business analyst for your organization and are working on a solution that will connect several databases to a web application. You are concerned that the databases may not be operable with the software solution a programmer is recommending. What requirements elicitation technique can help you determine the interoperability of the software, the databases, and the web application?",
+    "options": [
+      "A. Benchmarking",
+      "B. Interviews",
+      "C. Interface analysis",
+      "D. Usage considerations"
+    ],
+    "answer": "C",
+    "explanation": "Interface analysis specifically examines how different systems, components, or applications interact and integrate with each other, including interoperability concerns."
+  },
+  {
+    "id": "me1_q116",
+    "question": "You have completed the requirements documentation and the stakeholders have signed off on the requirements. Now the requirements are advancing into a project as your organization has chartered a project based on the identified requirements. What stakeholder is now responsible for assessing the solution scope to determine the project scope?",
+    "options": [
+      "A. Project sponsor",
+      "B. Project manager",
+      "C. Business analyst",
+      "D. Key stakeholders"
+    ],
+    "answer": "B",
+    "explanation": "The project manager is responsible for assessing the solution scope and determining the project scope, including what work needs to be done to deliver the solution."
+  },
+  {
+    "id": "me1_q117",
+    "question": "You are the business analyst for your organization and are working on prioritizing requirements. What plan should guide you through this process?",
+    "options": [
+      "A. Risk management plan",
+      "B. Project management plan",
+      "C. Requirements management plan",
+      "D. Scope management plan"
+    ],
+    "answer": "C",
+    "explanation": "The requirements management plan defines how requirements will be prioritized, including the criteria, methods, and stakeholders involved in the prioritization process."
+  },
+  {
+    "id": "me1_q118",
+    "question": "You are the business analyst for a large project that will create new software for the entire organization. This new software will affect all of the administrative assistants in the organization to schedule meetings, reserve facilities, and share calendars. There are approximately 2,400 administrative assistants in your organization and not all of these people can attend requirements gathering workshops. What approach can you use to manage and gather requirements from these 2,400 administrative assistants?",
+    "options": [
+      "A. You can meet with a small group of administrative assistants and assume their requirements are reflective of the remaining group of administrative assistants.",
+      "B. You will need to meet with all of the administrative assistants as part of requirements elicitation.",
+      "C. You can meet with a small group of administrative assistants that will serve as representatives for the remaining administrative assistants.",
+      "D. You can meet with the administrative assistants' managers."
+    ],
+    "answer": "C",
+    "explanation": "Using representative stakeholders from each user group is an effective approach for gathering requirements from large populations while ensuring proper representation."
+  },
+  {
+    "id": "me1_q119",
+    "question": "Enterprise analysis provides many things for an organization. All of the following are tasks included in enterprise analysis except for which one?",
+    "options": [
+      "A. Determine solution approach",
+      "B. Define business need",
+      "C. Assess capability gaps",
+      "D. Solution performance assessment"
+    ],
+    "answer": "D",
+    "explanation": "Solution performance assessment is part of solution evaluation, not enterprise analysis. Enterprise analysis focuses on business needs, capability gaps, and solution approaches."
+  },
+  {
+    "id": "me1_q120",
+    "question": "Gina has been asked to provide decision analysis for her solution scope. Which one of the following best describes the decision analysis technique?",
+    "options": [
+      "A. Assessed to support benefit management, measurement, and reporting.",
+      "B. Used to assess potential risks that may impact the solution and the cost and benefits associated with it.",
+      "C. Forecasts the size of the investment required to deploy and operate the proposed solution.",
+      "D. Cost-benefit analysis compares the cost of implementing a solution against the benefits gained. Financial analysis includes the use of financial models that estimate the market value of an organizational asset."
+    ],
+    "answer": "D",
+    "explanation": "Decision analysis includes cost-benefit analysis and financial analysis, comparing implementation costs against benefits and using financial models for valuation."
   }
 ]
