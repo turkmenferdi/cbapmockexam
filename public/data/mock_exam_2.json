@@ -598,5 +598,606 @@
     ],
     "answer": "C",
     "explanation": "Entity relationship diagrams consist of entities, attributes, and relationships. Forks are components of other diagram types, not ERDs."
+  },
+  {
+    "id": "me2_q051",
+    "question": "What type of interview is the most common as part of requirements elicitation?",
+    "options": [
+      "A. Many-to-one",
+      "B. Many-to-many",
+      "C. One-to-one",
+      "D. One-to-many"
+    ],
+    "answer": "C",
+    "explanation": "One-to-one interviews are the most common type for requirements elicitation as they allow for focused, detailed discussions with individual stakeholders."
+  },
+  {
+    "id": "me2_q052",
+    "question": "Which of the following meeting brings all of the potential vendors together to discuss the statement of work and the request for proposal?",
+    "options": [
+      "A. Contract bidding meeting",
+      "B. Status meeting",
+      "C. Qualified vendors meeting",
+      "D. Bidders conference"
+    ],
+    "answer": "D",
+    "explanation": "A bidders conference brings all potential vendors together to discuss the statement of work, request for proposal, and answer questions about the procurement."
+  },
+  {
+    "id": "me2_q053",
+    "question": "Which of the following techniques involves determining and documenting the variance between business requirements and current capabilities?",
+    "options": [
+      "A. Risk analysis",
+      "B. Schedule analysis",
+      "C. GAP analysis",
+      "D. Cost benefit analysis"
+    ],
+    "answer": "C",
+    "explanation": "GAP analysis identifies and documents the differences between current state capabilities and desired future state requirements."
+  },
+  {
+    "id": "me2_q054",
+    "question": "Which of the following is NOT a component of flowchart?",
+    "options": [
+      "A. Forks",
+      "B. Attributes",
+      "C. Activities",
+      "D. Joins"
+    ],
+    "answer": "B",
+    "explanation": "Attributes are components of entity relationship diagrams, not flowcharts. Flowcharts contain activities, decision points, forks, and joins."
+  },
+  {
+    "id": "me2_q055",
+    "question": "Jenni is the business analyst for the UHQ Organization. She is preparing to complete the conduct elicitation activity for her organization. Jenni can use all of the following techniques as part of this activity except for which one?",
+    "options": [
+      "A. Requirements workshops",
+      "B. Document analysis",
+      "C. Interviews",
+      "D. Problem tracking"
+    ],
+    "answer": "D",
+    "explanation": "Problem tracking is a requirements management technique, not an elicitation technique. The others are valid elicitation techniques."
+  },
+  {
+    "id": "me2_q056",
+    "question": "You are the business analyst for your organization. For the past several months you have been completing the business analysis duties for the solution stakeholders. You now have, you believe, the solution requirements identified and documented. What must you now do with the requirements before proceeding?",
+    "options": [
+      "A. Make certain the stakeholders can pay for the solution and have them sign off on the requirements.",
+      "B. Present the solution to the project manager for his input.",
+      "C. Get all of the stakeholders to sign off on the requirements.",
+      "D. Make certain the stakeholders understand the requirements before they approve the requirements you've gathered."
+    ],
+    "answer": "D",
+    "explanation": "Before stakeholders can approve requirements, they must fully understand what they're approving to ensure accuracy and completeness."
+  },
+  {
+    "id": "me2_q057",
+    "question": "You are the business analyst for your organization and preparing to complete the requirements elicitation activities. Your manager wants to know when the requirements elicitation process will be completed. Which of the following responses best describes the nature of the requirements elicitation process?",
+    "options": [
+      "A. The schedule of the project determines the duration of the requirements elicitation process.",
+      "B. The duration of the requirements elicitation activities is determined by the willingness of the project stakeholders to contribute to the requirements information.",
+      "C. The size of the project determines the duration of the requirements elicitation process.",
+      "D. Eliciting requirements is not a compartmentalized activity."
+    ],
+    "answer": "D",
+    "explanation": "Requirements elicitation is not a discrete, compartmentalized activity but an ongoing process that occurs throughout the project lifecycle."
+  },
+  {
+    "id": "me2_q058",
+    "question": "Which of the following is mandatory in most software development projects?",
+    "options": [
+      "A. Communication Management plan",
+      "B. Disaster recovery plan",
+      "C. Test plan",
+      "D. Procurement plan"
+    ],
+    "answer": "C",
+    "explanation": "Test plans are mandatory in most software development projects to ensure quality and verify that requirements are met."
+  },
+  {
+    "id": "me2_q059",
+    "question": "You are the business analyst for your organization and are preparing for the conduct elicitation activity. You'll need several stakeholders' roles as you prepare for this activity in your organization. Which one of the following stakeholders may be responsible to dictate that a specific process or technique be followed during your requirements elicitation activities?",
+    "options": [
+      "A. Project manager",
+      "B. Regulator",
+      "C. Functional management",
+      "D. Project sponsor"
+    ],
+    "answer": "D",
+    "explanation": "The project sponsor has the authority to dictate specific processes or techniques that must be followed during requirements elicitation activities."
+  },
+  {
+    "id": "me2_q060",
+    "question": "What element of the conduct elicitation activity is tracked to provide a basis for future planning?",
+    "options": [
+      "A. Time actually spent eliciting the requirements",
+      "B. Number of stakeholders that did not participate in the requirements elicitation",
+      "C. Cost of actually eliciting the requirements",
+      "D. Changes that entered the scope throughout the requirements elicitation activities"
+    ],
+    "answer": "A",
+    "explanation": "Time actually spent eliciting requirements is tracked to provide historical data for estimating and planning future elicitation activities."
+  },
+  {
+    "id": "me2_q061",
+    "question": "Which of the following models defines the name of the data, data aliases, and description of system data?",
+    "options": [
+      "A. Class model",
+      "B. Entity relationship",
+      "C. Data dictionary",
+      "D. CRUD matrix"
+    ],
+    "answer": "C",
+    "explanation": "A data dictionary defines data names, aliases, descriptions, and other metadata about system data elements."
+  },
+  {
+    "id": "me2_q062",
+    "question": "You have identified several problems that you need to track as the business analysis duties progress. You want to make certain that the identified activities are resolved. What document elicitation technique can help in this scenario?",
+    "options": [
+      "A. Brainstorming",
+      "B. Observation",
+      "C. Interviews",
+      "D. Problem tracking"
+    ],
+    "answer": "D",
+    "explanation": "Problem tracking is specifically designed to identify, document, and track problems through to resolution during business analysis activities."
+  },
+  {
+    "id": "me2_q063",
+    "question": "You are the business analyst for your organization and are training Tracy on business analysis duties. You are explaining to Tracy how it's important for a business analyst to generate new ideas to approaching problems, solving problems, and to generate alternative solutions. You stress that it's important for the business analyst to generate new ideas and innovative concepts. What type of analytical thinking are you describing for Tracy?",
+    "options": [
+      "A. Lateral thinking",
+      "B. Brainstorming",
+      "C. Creative thinking",
+      "D. Decision making"
+    ],
+    "answer": "C",
+    "explanation": "Creative thinking involves generating new ideas, innovative concepts, and alternative approaches to solving problems and developing solutions."
+  },
+  {
+    "id": "me2_q064",
+    "question": "What requirements elicitation technique examines the available information, documentation, records, and history of a solution, organization, or cause to identify relevant information to the current business analysis duties?",
+    "options": [
+      "A. Benchmarking",
+      "B. Dataflow diagrams",
+      "C. Document analysis",
+      "D. Requirements elicitation"
+    ],
+    "answer": "C",
+    "explanation": "Document analysis examines existing documentation, records, and historical information to identify relevant details for current business analysis activities."
+  },
+  {
+    "id": "me2_q065",
+    "question": "What type of requirements elicitation technique is the Delphi Technique?",
+    "options": [
+      "A. Survey",
+      "B. Workshop",
+      "C. Round table",
+      "D. Prototyping"
+    ],
+    "answer": "A",
+    "explanation": "The Delphi Technique is a structured survey method that uses multiple rounds of questionnaires to achieve consensus among experts."
+  },
+  {
+    "id": "me2_q066",
+    "question": "Yolanda is the web designer for your company and you are the business analyst. You are working with Yolanda on a new website that your company will host. You'd like for her to create a mock-up of the website without spending much time on the actual workings behind the web interface. You'd like for her to show the customer how the website will look, some idea of the functionality of the website, and some basic graphics and colors so the customer can see the direction of the project. What type of prototype are you asking Yolanda to create?",
+    "options": [
+      "A. Mock-up prototype",
+      "B. Vertical prototype",
+      "C. Storyboard prototype",
+      "D. Horizontal prototype"
+    ],
+    "answer": "D",
+    "explanation": "A horizontal prototype shows the breadth of functionality across the interface without deep implementation, focusing on look, feel, and basic functionality demonstration."
+  },
+  {
+    "id": "me2_q067",
+    "question": "You are the business analyst for your organization and need a method to requirements elicitation from nearly 12,000 stakeholders. You want a method to quickly capture this group's feelings and thoughts to identify what the majority of this group needs and wants in a new solution your organization may create. What requirements elicitation technique can be used in this scenario?",
+    "options": [
+      "A. Interviews",
+      "B. Trend analysis",
+      "C. Focus groups",
+      "D. Surveys"
+    ],
+    "answer": "D",
+    "explanation": "Surveys are the most efficient method for gathering requirements from very large stakeholder groups (12,000 people) to capture majority opinions and needs."
+  },
+  {
+    "id": "me2_q068",
+    "question": "Which of the following is a flowchart that shows all the processes and the interfaces that interact with the project processes?",
+    "options": [
+      "A. Process configuration",
+      "B. Pareto chart",
+      "C. Control chart",
+      "D. Quality baseline",
+      "E. RACI chart"
+    ],
+    "answer": "A",
+    "explanation": "Process configuration diagrams show all processes and their interfaces, depicting how project processes interact with each other and external systems."
+  },
+  {
+    "id": "me2_q069",
+    "question": "You are the business analyst for your organization and are leading a presentation about an identified problem. This presentation will help the stakeholders to understand the problem and it will help you when you begin to elicit requirements from the stakeholders. Which type of learner learns best through the presentation of models?",
+    "options": [
+      "A. Visual learners",
+      "B. Auditory learners",
+      "C. Kinesthetic learners",
+      "D. Communication model learners"
+    ],
+    "answer": "A",
+    "explanation": "Visual learners learn best through the presentation of models, diagrams, charts, and other visual representations of information."
+  },
+  {
+    "id": "me2_q070",
+    "question": "What requirements elicitation involves carefully selected stakeholders and subject matter experts for a short, intensive period (usually for one to a few days) to define and document the requirements for a solution?",
+    "options": [
+      "A. Many-to-many interviews",
+      "B. Requirements workshop",
+      "C. Focus group",
+      "D. Prototyping"
+    ],
+    "answer": "B",
+    "explanation": "Requirements workshops bring together carefully selected stakeholders and SMEs for intensive, focused sessions to define and document requirements efficiently."
+  },
+  {
+    "id": "me2_q071",
+    "question": "Mark is the business analyst for his organization. Mark and his business analysis team have used the whiteboard to record the documentation as the result of requirements elicitation. What must be done with this information if Mark uses a whiteboard?",
+    "options": [
+      "A. The scribe must include the white board information as part of the minutes.",
+      "B. The business analyst must transfer the information to another medium before the whiteboard is erased.",
+      "C. The business analyst must document the white board information and get all participants' approval of the recording.",
+      "D. The regulator must approve the writings on the whiteboard."
+    ],
+    "answer": "B",
+    "explanation": "Whiteboard information must be transferred to a permanent medium before being erased to preserve the elicitation results for future reference."
+  },
+  {
+    "id": "me2_q072",
+    "question": "Holly is the business analyst for her organization. Holly encourages teamwork and open communications among the business analysis team and the stakeholders. She wants stakeholders to drop by her office and freely discuss the requirements, the solution scope, and other concerns about the solution she's working on. Holly definitely prefers informal communications. What is the danger Holly may experience with informal communications?",
+    "options": [
+      "A. There is no danger; informal communications is a preferred business analysis technique.",
+      "B. The stakeholders may address the business analysis team and the project team directly rather than communicate through Holly.",
+      "C. Stakeholders may miss information and the requirements could become ambiguous.",
+      "D. The stakeholders may not know who's in charge of the solution."
+    ],
+    "answer": "C",
+    "explanation": "Informal communications can lead to missed information, incomplete documentation, and ambiguous requirements since important details may not be properly recorded."
+  },
+  {
+    "id": "me2_q073",
+    "question": "You are the business analyst for a large software development project. There are several issues that must be resolved by certain dates or the problem will prevent the project from advancing. What technique can you use to track problems with the requirements?",
+    "options": [
+      "A. Problem tracking",
+      "B. Issue tracking",
+      "C. RTM",
+      "D. Baselining"
+    ],
+    "answer": "B",
+    "explanation": "Issue tracking is used to identify, document, monitor, and resolve issues that could prevent project advancement, including requirements-related problems."
+  },
+  {
+    "id": "me2_q074",
+    "question": "The creative thinking process has three values to determine the effectiveness of the process. Which one of the following is not a measurement of effective creative thinking?",
+    "options": [
+      "A. Application of new ideas to resolve existing problems",
+      "B. Generation of a pre-determined number of new ideas for a business solution",
+      "C. Willingness of stakeholders to accept new approaches",
+      "D. The successful generation and productive consideration of new ideas"
+    ],
+    "answer": "B",
+    "explanation": "Creative thinking effectiveness is not measured by generating a predetermined number of ideas, but by the quality, applicability, and acceptance of innovative solutions."
+  },
+  {
+    "id": "me2_q075",
+    "question": "Which of the following statements best describes the purpose of the confirm elicitation results process?",
+    "options": [
+      "A. Validate that the stated requirements expressed by the stakeholders match the solution the organization has proposed.",
+      "B. Validate that the stated requirements expressed by the stakeholders match the stakeholders' understanding of the problem and the stakeholders' needs.",
+      "C. Validate that the stated requirements expressed by the stakeholders match the documented requirements of the project sponsor.",
+      "D. Validate that the stated requirements expressed by the stakeholders match the project scope."
+    ],
+    "answer": "B",
+    "explanation": "Confirm elicitation results validates that the documented requirements accurately reflect stakeholders' understanding of their problems and needs."
+  },
+  {
+    "id": "me2_q076",
+    "question": "Henry is the business analyst for his organization and is completing the conduct elicitation activity. Part of this activity is to record the results of the requirements elicitation process. All of the following are acceptable elements for requirements documentation except for which one?",
+    "options": [
+      "A. Text message sent via a secured mobile phone",
+      "B. Written documents describing the outcomes",
+      "C. Visual or audio recordings",
+      "D. Whiteboards"
+    ],
+    "answer": "A",
+    "explanation": "Text messages are not appropriate for formal requirements documentation due to security, persistence, and professional documentation standards."
+  },
+  {
+    "id": "me2_q077",
+    "question": "Which of the following is the best definition of the business rules analysis?",
+    "options": [
+      "A. To define the people that govern decisions in and organization and that define, constrain, or enable organizational policies.",
+      "B. To define the job functions, roles and responsibilities, and the designation of power among the project stakeholders.",
+      "C. To define the rules that govern decisions in and organization and that define, constrain, or enable organizational policies.",
+      "D. To define the historical information that is available for the business analyst to rely on for his research."
+    ],
+    "answer": "C",
+    "explanation": "Business rules analysis defines the rules that govern organizational decisions and define, constrain, or enable organizational operations and policies."
+  },
+  {
+    "id": "me2_q078",
+    "question": "Which of the following reports is generated whenever the project is slipping off the project schedule and includes an explanation of the problem?",
+    "options": [
+      "A. Status report",
+      "B. Schedule variance report",
+      "C. Delay report",
+      "D. Cost variance report"
+    ],
+    "answer": "B",
+    "explanation": "Schedule variance reports are generated when projects deviate from planned schedules and include explanations of schedule slippage problems."
+  },
+  {
+    "id": "me2_q079",
+    "question": "You are the business analyst for your organization and are preparing for the conduct elicitation activities. You'll have six inputs as you prepare for this activity. Which one of the following is not a valid input for the requirements elicitation activity?",
+    "options": [
+      "A. Requirements management plan",
+      "B. Documented elicitation results",
+      "C. Solution scope",
+      "D. Business need"
+    ],
+    "answer": "B",
+    "explanation": "Documented elicitation results are outputs of the elicitation process, not inputs. You cannot have elicitation results before conducting elicitation."
+  },
+  {
+    "id": "me2_q080",
+    "question": "You are the business analyst for your organization. You want to use a requirements elicitation technique to produce a broad set of options for an identified problem. You want the stakeholders to help you identify options, factors that affect the solution, any possible delays in the solution implementation, and ideas for creating a solution. Which of the following requirements elicitation activities would best satisfy these requirements?",
+    "options": [
+      "A. Benchmarking",
+      "B. Brainstorming",
+      "C. Data flow diagrams",
+      "D. Business rules analysis"
+    ],
+    "answer": "B",
+    "explanation": "Brainstorming is specifically designed to generate a broad set of options, identify factors, potential delays, and creative solutions through collaborative idea generation."
+  },
+  {
+    "id": "me2_q081",
+    "question": "Which of the following models demonstrates the attributes, operations, and relationship to entities within the solution?",
+    "options": [
+      "A. Entity Relationship",
+      "B. Data dictionary",
+      "C. Class model",
+      "D. CRUD matrix"
+    ],
+    "answer": "C",
+    "explanation": "Class models demonstrate the attributes, operations (methods), and relationships between classes/entities within an object-oriented solution."
+  },
+  {
+    "id": "me2_q082",
+    "question": "You have identified several stakeholders that you believe are kinesthetic learners. Which statement best describes the kinesthetic learning approach?",
+    "options": [
+      "A. The learners learn best by reading and pondering.",
+      "B. The learners learn best be experiencing the topic.",
+      "C. The learners learn best by seeing the topic in a model or through storyboards.",
+      "D. The learners are not interested in the topic unless they can immediately apply it to their lives or jobs."
+    ],
+    "answer": "B",
+    "explanation": "Kinesthetic learners learn best through hands-on experience, physical interaction, and direct involvement with the subject matter."
+  },
+  {
+    "id": "me2_q083",
+    "question": "Which of the following documents is described in the statement below? \"It is a type of procurement document used to request proposals from prospective sellers of products or services.\"",
+    "options": [
+      "A. Request for quote",
+      "B. Request for information",
+      "C. Request for bid",
+      "D. Request for proposal"
+    ],
+    "answer": "D",
+    "explanation": "A Request for Proposal (RFP) is specifically used to request detailed proposals from prospective sellers of products or services."
+  },
+  {
+    "id": "me2_q084",
+    "question": "Which of the following is a procurement document?",
+    "options": [
+      "A. Project Work Breakdown Structure",
+      "B. Project charter",
+      "C. Vision document",
+      "D. Invitation for bid"
+    ],
+    "answer": "D",
+    "explanation": "An Invitation for Bid (IFB) is a procurement document used to solicit bids from potential vendors for goods or services."
+  },
+  {
+    "id": "me2_q085",
+    "question": "You are completing the prepare for elicitation process for an identified problem in your organization. The prepare for elicitation process requires three inputs for this process. Which one of the following is not an input that will help you prepare for the elicitation activities?",
+    "options": [
+      "A. Stakeholder list",
+      "B. Stakeholder concerns",
+      "C. Business need",
+      "D. Solution scope"
+    ],
+    "answer": "B",
+    "explanation": "Stakeholder concerns are not an input to prepare for elicitation. The three inputs are stakeholder list, business need, and solution scope."
+  },
+  {
+    "id": "me2_q086",
+    "question": "Which of the following tasks does not rely on other activities, and no other activities rely on this task completing?",
+    "options": [
+      "A. Analysis task",
+      "B. Independent task",
+      "C. Predecessor task",
+      "D. Dependent task"
+    ],
+    "answer": "B",
+    "explanation": "An independent task has no dependencies on other tasks and no other tasks depend on it, making it completely standalone."
+  },
+  {
+    "id": "me2_q087",
+    "question": "Which of the following processes can start with the source of problems or with the problem itself?",
+    "options": [
+      "A. Risk estimation",
+      "B. Risk analysis",
+      "C. Risk management",
+      "D. Risk identification"
+    ],
+    "answer": "D",
+    "explanation": "Risk identification can begin by examining the source of potential problems or by analyzing known problems to identify associated risks."
+  },
+  {
+    "id": "me2_q088",
+    "question": "In risk analysis, which of the following can be identified as a consequence of a disaster?",
+    "options": [
+      "A. Loss of operating capability",
+      "B. Loss of goodwill",
+      "C. Loss of competitive edge",
+      "D. Loss of stockholder confidence"
+    ],
+    "answer": "A",
+    "explanation": "Loss of operating capability is a direct, immediate consequence of a disaster that can be measured and assessed in risk analysis."
+  },
+  {
+    "id": "me2_q089",
+    "question": "____ is a process to determine the completeness of the project work and to gain the customer's acceptance to move the project forward.",
+    "options": [
+      "A. Phase gate review",
+      "B. Inspection of key results",
+      "C. Verify scope",
+      "D. Quality control"
+    ],
+    "answer": "D",
+    "explanation": "Quality control is the process that determines completeness of project work and gains customer acceptance before moving forward."
+  },
+  {
+    "id": "me2_q090",
+    "question": "Which of the following phases is the first step towards creating a business continuity plan?",
+    "options": [
+      "A. Business Continuity Plan Development",
+      "B. Scope and Plan Initiation",
+      "C. Business Impact Assessment",
+      "D. Plan Approval and Implementation"
+    ],
+    "answer": "B",
+    "explanation": "Scope and Plan Initiation is the first step in creating a business continuity plan, establishing the framework and scope for the planning process."
+  },
+  {
+    "id": "me2_q091",
+    "question": "Which of the following charts is a quality control tool to show categories of defects?",
+    "options": [
+      "A. Pareto chart",
+      "B. RACI chart",
+      "C. Gantt chart",
+      "D. RAM chart"
+    ],
+    "answer": "A",
+    "explanation": "Pareto charts are quality control tools that show categories of defects in order of frequency, helping identify the most significant problems."
+  },
+  {
+    "id": "me2_q092",
+    "question": "Which one of the following diagrams when properly laid out is always laid in a left to right display to properly reflect the chronology of all project work?",
+    "options": [
+      "A. Influence diagram",
+      "B. Project schedule network diagram",
+      "C. Arrow diagramming method",
+      "D. Time-scaled schedule network diagram"
+    ],
+    "answer": "B",
+    "explanation": "Project schedule network diagrams are laid out left to right to show the chronological sequence and dependencies of project activities."
+  },
+  {
+    "id": "me2_q093",
+    "question": "Which of the following is a visual decomposition of the program scope and the resources needed in order to create the things defined within the program scope?",
+    "options": [
+      "A. Resource breakdown structure (RBS)",
+      "B. product breakdown structure (PBS)",
+      "C. Budgeted Cost of Work Scheduled (BCWS)",
+      "D. Work Breakdown Structure (WBS)"
+    ],
+    "answer": "A",
+    "explanation": "Resource Breakdown Structure (RBS) visually decomposes program scope and shows the resources needed to create deliverables within that scope."
+  },
+  {
+    "id": "me2_q094",
+    "question": "When does the lessons learned document is updated?",
+    "options": [
+      "A. At planning phase.",
+      "B. At execution phase.",
+      "C. At closing phase.",
+      "D. Throughout the project lifecycle."
+    ],
+    "answer": "D",
+    "explanation": "Lessons learned documents are updated continuously throughout the project lifecycle as new insights and learning opportunities arise."
+  },
+  {
+    "id": "me2_q095",
+    "question": "Which of the following stages of a project defines the number of risks and opportunities, including intense planning and anticipation of risk events?",
+    "options": [
+      "A. Planning",
+      "B. Executing",
+      "C. Initiation",
+      "D. Closing"
+    ],
+    "answer": "C",
+    "explanation": "The initiation stage involves identifying and defining risks and opportunities, including intensive planning and anticipation of potential risk events."
+  },
+  {
+    "id": "me2_q096",
+    "question": "Which of the following roles works with the project team to understand the deliverables and then teaches the users of the deliverables how to utilize the project's product?",
+    "options": [
+      "A. End user",
+      "B. Database analyst",
+      "C. Stakeholder",
+      "D. Trainer"
+    ],
+    "answer": "D",
+    "explanation": "The trainer role involves understanding project deliverables and then teaching end users how to effectively utilize the project's products or services."
+  },
+  {
+    "id": "me2_q097",
+    "question": "Which of the following qualitative techniques involves a disciplined analysis of the event sequences that could transform a potential hazard into an accident?",
+    "options": [
+      "A. Failure mode and effects criticality analysis",
+      "B. HAZOP technique",
+      "C. Failure mode and effects analysis",
+      "D. Preliminary Risk Analysis"
+    ],
+    "answer": "D",
+    "explanation": "Preliminary Risk Analysis involves disciplined analysis of event sequences that could transform potential hazards into accidents."
+  },
+  {
+    "id": "me2_q098",
+    "question": "Which of the following establishes organizational checks and balances with a proper segregation of front, back, and middle office functions for effective risk management?",
+    "options": [
+      "A. Risk response plan",
+      "B. Risk analysis",
+      "C. Risk management plan",
+      "D. Risk governance"
+    ],
+    "answer": "D",
+    "explanation": "Risk governance establishes organizational checks and balances with proper segregation of functions to ensure effective risk management across the organization."
+  },
+  {
+    "id": "me2_q099",
+    "question": "As a program manager, you decided to overlap two phases of your program. Which of the following terms best describe your act?",
+    "options": [
+      "A. Lead time",
+      "B. Rolling",
+      "C. Fast tracking",
+      "D. Crashing"
+    ],
+    "answer": "C",
+    "explanation": "Fast tracking involves overlapping phases or activities that would normally be done in sequence to reduce overall project duration."
+  },
+  {
+    "id": "me2_q100",
+    "question": "Which of the following software development life cycles is a methodology that divides the project into phases, and the project manager focuses on control of time, cost, and scope?",
+    "options": [
+      "A. Spiral",
+      "B. Agile",
+      "C. Waterfall",
+      "D. Incremental"
+    ],
+    "answer": "B",
+    "explanation": "Agile methodology divides projects into phases (sprints/iterations) where project managers focus on controlling time, cost, and scope within each iteration."
   }
 ]
