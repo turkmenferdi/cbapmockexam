@@ -118,5 +118,53 @@
     ],
     "answer": "B",
     "explanation": ""
+  },
+  {
+    "id": "me3_q011",
+    "question": "Question #251: What portion of the communications model could be defined as the translator?",
+    "options": [
+      "A. Receiver",
+      "B. Medium",
+      "C. Translator",
+      "D. Sender"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q012",
+    "question": "Question #252: Which of the following is derived from a schedule model to meet the project execution plan and achieve management approval for use as a baseline?",
+    "options": [
+      "A. Updating",
+      "B. Impacts",
+      "C. Baseline schedule",
+      "D. Dumping"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q013",
+    "question": "Question #253: The ___ an output of the define scope process, does document the process and criteria for accepting completed products.",
+    "options": [
+      "A. Statement of Work",
+      "B. Contract",
+      "C. Project scope statement",
+      "D. Project management plan"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q014",
+    "question": "Question #254: Which of the following requires that all parties in the conflict must give up something?",
+    "options": [
+      "A. Barrier",
+      "B. Problem solving",
+      "C. Withdrawal",
+      "D. Compromising"
+    ],
+    "answer": "D",
+    "explanation": ""
   }
 ]
