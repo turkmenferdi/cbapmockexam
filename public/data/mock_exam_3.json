@@ -597,5 +597,595 @@
     ],
     "answer": "A",
     "explanation": ""
+  },
+  {
+    "id": "me3_q051",
+    "question": "Question #351",
+    "options": [
+      "A. Current state and stakeholder needs",
+      "B. Solution assessment results",
+      "C. Strengths, weaknesses, and threats",
+      "D. Balanced scorecard"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q052",
+    "question": "Question #352",
+    "options": [
+      "A. Stakeholder",
+      "B. Enterprise",
+      "C. Organizational",
+      "D. Operational"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q053",
+    "question": "Question #353",
+    "options": [
+      "A. Gap",
+      "B. Financial",
+      "C. Requirements",
+      "D. Risk"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q054",
+    "question": "Question #354",
+    "options": [
+      "A. Define requirements architecture",
+      "B. Elicit requirements again",
+      "C. Evaluate requirement changes",
+      "D. Trace requirements"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q055",
+    "question": "Question #355",
+    "options": [
+      "A. Data Modeling",
+      "B. Business Case",
+      "C. Item Tracking",
+      "D. Process Analysis"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q056",
+    "question": "Question #356",
+    "options": [
+      "A. Develop new performance metrics",
+      "B. Complete a decision analysis",
+      "C. Perform a root cause analysis",
+      "D. Re-analyze the current performance metrics"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q057",
+    "question": "Question #357",
+    "options": [
+      "A. Future state",
+      "B. Assets",
+      "C. Scope",
+      "D. Risk register"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q058",
+    "question": "Question #358",
+    "options": [
+      "A. Reference specific departments in the requirements for the seasonal products",
+      "B. Reference specific departments in the requirements for the established products",
+      "C. Use a high level of abstraction for the seasonal products to make them less subject to revision during a change",
+      "D. Use a high level of abstraction for the established products to make them less subject to revision during a change"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q059",
+    "question": "Question #359",
+    "options": [
+      "A. Stakeholder Engagement",
+      "B. Information Management",
+      "C. Business Analysis",
+      "D. Governance"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q060",
+    "question": "Question #360",
+    "options": [
+      "A. Use template architecture",
+      "B. Develop the solution scope",
+      "C. Accommodate requirement viewpoints",
+      "D. Ensure completeness"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q061",
+    "question": "Question #361",
+    "options": [
+      "A. Timing of business analysis work",
+      "B. Conflict and issue management",
+      "C. Technology and infrastructure",
+      "D. Solution scope"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q062",
+    "question": "Question #362",
+    "options": [
+      "A. Operational assessment",
+      "B. Potential value",
+      "C. Solution performance analysis",
+      "D. Organizational structure"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q063",
+    "question": "Question #363",
+    "options": [
+      "A. Data-centric",
+      "B. Capability-centric",
+      "C. Process-centric",
+      "D. People-centric"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q064",
+    "question": "Question #364",
+    "options": [
+      "A. Experiment",
+      "B. Collaborative",
+      "C. Estimation",
+      "D. Research"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q065",
+    "question": "Question #365",
+    "options": [
+      "A. Sales – 2 years; Retention – 18 months",
+      "B. Sales – 3 years; Retention – 1 year",
+      "C. Sales – 2.5 years; Retention – 2 years",
+      "D. Sales – 18 months; Retention – 1 year"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q066",
+    "question": "Question #366",
+    "options": [
+      "A. Business model canvas",
+      "B. Decision analysis",
+      "C. Key performance indicators",
+      "D. Use cases"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q067",
+    "question": "Question #367",
+    "options": [
+      "A. Onion diagram",
+      "B. Concept model",
+      "C. Capability diagram",
+      "D. Context model"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q068",
+    "question": "Question #368",
+    "options": [
+      "A. Impact",
+      "B. Capability",
+      "C. Market",
+      "D. Document"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q069",
+    "question": "Question #369",
+    "options": [
+      "A. 15",
+      "B. 14",
+      "C. 12",
+      "D. 11"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q070",
+    "question": "Question #370",
+    "options": [
+      "A. 86%",
+      "B. 83%",
+      "C. 70%",
+      "D. 74%"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q071",
+    "question": "Question #371",
+    "options": [
+      "A. Mortgage payment process",
+      "B. Mortgage origination process",
+      "C. Mortgage closure process",
+      "D. Collateral verification process"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q072",
+    "question": "Question #372",
+    "options": [
+      "A. 90%",
+      "B. 85%",
+      "C. 10%",
+      "D. 20%"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q073",
+    "question": "Question #373",
+    "options": [
+      "A. Perform document analysis for stores annual records",
+      "B. Survey store managers for number of customers per day",
+      "C. Conduct a focus group with store managers to determine which should be first",
+      "D. Brainstorm with store managers on the current state of each store"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q074",
+    "question": "Question #374",
+    "options": [
+      "A. Seeking",
+      "B. Avoidance",
+      "C. Mitigation",
+      "D. Neutrality"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q075",
+    "question": "Question #375",
+    "options": [
+      "A. Capability Model",
+      "B. Business capability analysis",
+      "C. Transition State Diagram",
+      "D. Stakeholder Matrix"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q076",
+    "question": "Question #376",
+    "options": [
+      "A. A process diagram",
+      "B. A RACI matrix",
+      "C. A use case model",
+      "D. A business rule"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q077",
+    "question": "Question #377",
+    "options": [
+      "A. Consistent",
+      "B. Complete",
+      "C. Atomic",
+      "D. Understandable"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q078",
+    "question": "Question #378",
+    "options": [
+      "A. be associated with the unit of equipment to which it belongs.\"",
+      "B. include the associated equipment's information from the asset management system.\"",
+      "C. contain the ID of the equipment to which it belongs.\"",
+      "D. be related to a unit of equipment using the Equipment ID stored in the asset management system.\""
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q079",
+    "question": "Question #379",
+    "options": [
+      "A. Data Model",
+      "B. Data Dictionary",
+      "C. Use Case Diagram",
+      "D. Data Flow"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q080",
+    "question": "Question #380",
+    "options": [
+      "A. Feasible",
+      "B. Concise",
+      "C. Consistent",
+      "D. Atomic"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q081",
+    "question": "Question #381",
+    "options": [
+      "A. Derives",
+      "B. Depends",
+      "C. Validates",
+      "D. Verifies"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q082",
+    "question": "Question #382",
+    "options": [
+      "A. Inability of a service provider to locate other participating service providers and their fee information",
+      "B. Inability of a plan subscriber to get directions to nearby participating service providers",
+      "C. Inability of a plan subscriber to locate and access fee information for nearby participating service providers",
+      "D. Inability of a service provider to be alerted of the location of new plan subscribers in their vicinity"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q083",
+    "question": "Question #383",
+    "options": [
+      "A. Devise a structure that best fits the branch's definition of user roles",
+      "B. Explore and apply best practices for specifying this type of requirements",
+      "C. Reuse the structure of the solution consultants' requirements catalog",
+      "D. Use the structure of requirements suggested by the corporate standard"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q084",
+    "question": "Question #384",
+    "options": [
+      "A. Deploy the current solution and survey users for improvement proposals.",
+      "B. Utilize the solution in a test environment with actual data to elicit feedback.",
+      "C. Collect the requirements from the sponsor and domain subject matter experts.",
+      "D. Explain the benefits of interviews to the requirements elicitation process."
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q085",
+    "question": "Question #385",
+    "options": [
+      "A. Buy-in of the proposed solution",
+      "B. Approach used by the previous deployments",
+      "C. Availability of solution consultants",
+      "D. Overall project schedule"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q086",
+    "question": "Question #386",
+    "options": [
+      "A. Rewrite requirements independent of the solution design",
+      "B. Enter the information in the company's change management system",
+      "C. Add the attributes to the original requirements catalog and change requirements",
+      "D. Create a new workbook of requirements with necessary attributes"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q087",
+    "question": "Question #387",
+    "options": [
+      "A. Vertical prototyping",
+      "B. Interface analysis",
+      "C. Concept modelling",
+      "D. System analysis"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q088",
+    "question": "Question #388",
+    "options": [],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q089",
+    "question": "Question #389",
+    "options": [],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q090",
+    "question": "Question #390",
+    "options": [
+      "A. Project timeline",
+      "B. Project deliverables",
+      "C. Resource staffing",
+      "D. Expected benefits"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q091",
+    "question": "Question #391",
+    "options": [
+      "A. Business Needs",
+      "B. Solution Requirements",
+      "C. Success Measures",
+      "D. Solution Limitations"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q092",
+    "question": "Question #392",
+    "options": [
+      "A. Internal assets",
+      "B. External influencers",
+      "C. Change strategy",
+      "D. Business architecture"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q093",
+    "question": "Question #393",
+    "options": [
+      "A. Make more profit",
+      "B. Defeat competitors",
+      "C. Satisfy the customer",
+      "D. Stabilize its performance"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q094",
+    "question": "Question #394",
+    "options": [
+      "A. 12",
+      "B. 9",
+      "C. 10",
+      "D. 11"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q095",
+    "question": "Question #395",
+    "options": [
+      "A. 18 hours",
+      "B. 20 hours",
+      "C. 15 hours",
+      "D. 17 hours"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q096",
+    "question": "Question #396",
+    "options": [
+      "A. Elicit requirements for a system to coordinate in advance order processing activities with all trips",
+      "B. Begin assembling orders for the next trip immediately following the truck's departure",
+      "C. Hire more warehouse staff (workers) so that order assembly is done faster and less waiting occurs",
+      "D. Ask the drivers to call the operations team member if they are going to be late"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q097",
+    "question": "Question #397",
+    "options": [
+      "A. \"The solution shall employ a blue background.\"",
+      "B. \"The solution shall employ a background color blue (HEX #0000FF).\"",
+      "C. \"The solution shall employ a high-contrast between background and text.\"",
+      "D. \"The solution shall employ a background color that is viewable to a colored-blind user.\""
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q098",
+    "question": "Question #398",
+    "options": [
+      "A. The users will require specialized training.",
+      "B. The web-based interface will be complex.",
+      "C. The system will be inaccessible in remote locations.",
+      "D. The cost of the solution outweighs its benefit."
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q099",
+    "question": "Question #399",
+    "options": [
+      "A. Requirement ID F-R0002",
+      "B. Requirement ID FE10001",
+      "C. Requirement ID NFP0002",
+      "D. Requirement ID F-R0003"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q100",
+    "question": "Question #400",
+    "options": [
+      "A. Additional capability",
+      "B. Increased efficiency",
+      "C. Defined relationship to information",
+      "D. Improved access to information"
+    ],
+    "answer": "B",
+    "explanation": ""
   }
 ]
