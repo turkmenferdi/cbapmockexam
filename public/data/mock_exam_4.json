@@ -53,7 +53,7 @@
     "options": [
       "A. Sales – 2 years; Retention – 18 months",
       "B. Sales – 3 years; Retention – 1 year",
-      "C. Sales ��� 2.5 years; Retention – 2 years",
+      "C. Sales – 2.5 years; Retention – 2 years",
       "D. Sales – 18 months; Retention – 1 year"
     ],
     "answer": "D",
@@ -432,7 +432,7 @@
       "D. Improved access to information"
     ],
     "answer": "B",
-    "explanation": ""
+    "explanation": "Looking at the RTM table, Requirement ID NFP002 states 'The solution shall supply a pleasant color scheme and layout' which is classified as Performance Capability. This represents an 'Increased efficiency' improvement opportunity because a pleasant user interface design improves user experience and productivity, leading to more efficient use of the system by financial staff."
   },
   {
     "id": "me4_q041",
