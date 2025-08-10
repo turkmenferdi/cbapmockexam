@@ -1,0 +1,62 @@
+[
+  {
+    "id": "q001",
+    "question": "What is the primary purpose of requirements elicitation in business analysis?",
+    "options": [
+      "A. To document technical specifications",
+      "B. To gather and discover requirements from stakeholders",
+      "C. To create project timelines",
+      "D. To manage project budgets"
+    ],
+    "answer": "B",
+    "explanation": "Requirements elicitation is the process of gathering and discovering requirements from stakeholders through various techniques such as interviews, workshops, and observations."
+  },
+  {
+    "id": "q002",
+    "question": "Which technique is most effective for eliciting requirements when stakeholders have conflicting views?",
+    "options": [
+      "A. Document analysis",
+      "B. Facilitated workshops",
+      "C. Individual interviews",
+      "D. Survey/questionnaire"
+    ],
+    "answer": "B",
+    "explanation": "Facilitated workshops bring stakeholders together to discuss and resolve conflicting views in a controlled environment, making it the most effective technique for this scenario."
+  },
+  {
+    "id": "q003",
+    "question": "What is the main difference between functional and non-functional requirements?",
+    "options": [
+      "A. Functional requirements are documented, non-functional are not",
+      "B. Functional requirements describe what the system does, non-functional describe how well it does it",
+      "C. Functional requirements are for users, non-functional are for developers",
+      "D. There is no difference between them"
+    ],
+    "answer": "B",
+    "explanation": "Functional requirements specify what the system should do (features and functions), while non-functional requirements specify how well the system performs (performance, security, usability)."
+  },
+  {
+    "id": "q004",
+    "question": "Which stakeholder analysis technique helps identify the level of influence and interest of stakeholders?",
+    "options": [
+      "A. RACI matrix",
+      "B. Power/Interest grid",
+      "C. Organizational chart",
+      "D. Stakeholder register"
+    ],
+    "answer": "B",
+    "explanation": "The Power/Interest grid (also known as Power/Influence grid) plots stakeholders based on their level of power/influence and their level of interest in the project."
+  },
+  {
+    "id": "q005",
+    "question": "What is the purpose of requirements traceability?",
+    "options": [
+      "A. To track project costs",
+      "B. To ensure requirements are linked to their source and can be tracked through development",
+      "C. To manage team assignments",
+      "D. To schedule project activities"
+    ],
+    "answer": "B",
+    "explanation": "Requirements traceability ensures that requirements can be traced back to their source (forward traceability) and forward to their implementation (backward traceability)."
+  }
+]
