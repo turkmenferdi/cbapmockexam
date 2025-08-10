@@ -47,7 +47,7 @@ The `vercel.json` configuration handles SPA routing automatically.
 ## Mock Exams
 
 - **Mock Exam 1**: Complete 120 questions
-- **Mock Exam 2**: Complete 120 questions  
+- **Mock Exam 2**: Complete 120 questions
 - **Mock Exam 3**: Complete 120 questions
 - **Mock Exam 4**: Coming soon
 - **Mock Exam 5**: Coming soon
