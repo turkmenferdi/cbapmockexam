@@ -100,17 +100,41 @@ export function ExamProvider({ children }: { children: ReactNode }) {
     setIsLoading(false);
   }, []);
 
-  const startNewExam = async () => {
+  const startNewExam = async (examType?: string) => {
     setIsLoading(true);
     try {
-      const allQuestions = await loadAllQuestions();
-      console.log('Loaded questions:', allQuestions.length);
+      let examQuestions: CBAPQuestion[] = [];
 
-      if (allQuestions.length === 0) {
+      if (examType) {
+        // Load specific exam questions based on type
+        const fileName = getExamFileName(examType);
+        console.log(`Loading questions for ${examType} from ${fileName}`);
+
+        try {
+          const response = await fetch(`/data/${fileName}`);
+          if (response.ok) {
+            const questions = await response.json();
+            examQuestions = getRandomQuestions(questions, Math.min(EXAM_CONFIG.TOTAL_QUESTIONS, questions.length));
+            console.log(`Selected ${examQuestions.length} questions from ${fileName}`);
+          } else {
+            throw new Error(`Failed to load ${fileName}`);
+          }
+        } catch (error) {
+          console.error(`Failed to load ${fileName}, falling back to all questions`);
+          // Fallback to all questions if specific exam file fails
+          const allQuestions = await loadAllQuestions();
+          examQuestions = getRandomQuestions(allQuestions, Math.min(EXAM_CONFIG.TOTAL_QUESTIONS, allQuestions.length));
+        }
+      } else {
+        // Default behavior - load all questions
+        const allQuestions = await loadAllQuestions();
+        examQuestions = getRandomQuestions(allQuestions, Math.min(EXAM_CONFIG.TOTAL_QUESTIONS, allQuestions.length));
+      }
+
+      if (examQuestions.length === 0) {
         throw new Error('No questions loaded');
       }
 
-      const examQuestions = getRandomQuestions(allQuestions, Math.min(EXAM_CONFIG.TOTAL_QUESTIONS, allQuestions.length));
       console.log('Selected questions for exam:', examQuestions.length);
 
       const newExam = createNewExam(examQuestions);
@@ -126,6 +150,24 @@ export function ExamProvider({ children }: { children: ReactNode }) {
       throw error;
     } finally {
       setIsLoading(false);
+    }
+  };
+
+  // Helper function to get exam file name based on exam type
+  const getExamFileName = (examType: string): string => {
+    switch (examType) {
+      case 'mock-exam-1':
+        return 'mock_exam_1.json';
+      case 'mock-exam-2':
+        return 'mock_exam_2.json';
+      case 'mock-exam-3':
+        return 'mock_exam_3.json';
+      case 'mock-exam-4':
+        return 'mock_exam_4.json';
+      case 'mock-exam-5':
+        return 'mock_exam_5.json';
+      default:
+        return 'mock_exam_1.json';
     }
   };
 
