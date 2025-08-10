@@ -158,6 +158,7 @@ export function ExamProvider({ children }: { children: ReactNode }) {
   };
 
   const clearExam = () => {
+    clearExamState();
     dispatch({ type: 'CLEAR_EXAM' });
   };
 
