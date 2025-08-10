@@ -108,6 +108,8 @@ export function ExamProvider({ children }: { children: ReactNode }) {
   }, []);
 
   const startNewExam = async (examType?: string) => {
+    if (!isMounted) return;
+
     setIsLoading(true);
     try {
       let examQuestions: CBAPQuestion[] = [];
@@ -147,16 +149,21 @@ export function ExamProvider({ children }: { children: ReactNode }) {
       const newExam = createNewExam(examQuestions);
       console.log('New exam created:', newExam);
 
-      dispatch({ type: 'SET_EXAM_STATE', payload: newExam });
-      saveExamState(newExam);
+      // Only update state if component is still mounted
+      if (isMounted) {
+        dispatch({ type: 'SET_EXAM_STATE', payload: newExam });
+        saveExamState(newExam);
+        console.log('New exam saved successfully');
+      }
 
-      console.log('New exam saved successfully');
       return true;
     } catch (error) {
       console.error('Failed to start new exam:', error);
       throw error;
     } finally {
-      setIsLoading(false);
+      if (isMounted) {
+        setIsLoading(false);
+      }
     }
   };
 
