@@ -3,7 +3,6 @@ import react from "@vitejs/plugin-react-swc";
 import path from "path";
 
 export default defineConfig(({ command }) => {
-  // Ortak eklentiler
   const plugins: Plugin[] = [react()];
 
   // Sadece geliştirme (vite serve) sırasında Express'i bağla
@@ -39,4 +38,13 @@ export default defineConfig(({ command }) => {
 // Sadece geliştirmede çalışan Express middleware plugini
 function devExpressPlugin(): Plugin {
   return {
-    name: "dev-exp
+    name: "dev-express-plugin",
+    apply: "serve", // prod build'de çalışmaz
+    async configureServer(server) {
+      // Dinamik import: Prod build sırasında asla çağrılmaz
+      const { createServer } = await import("./server/index.ts"); // ./server uygun ise o yolu kullan
+      const app = createServer();
+      server.middlewares.use(app);
+    },
+  };
+}
