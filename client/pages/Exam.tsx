@@ -25,14 +25,18 @@ export default function Exam() {
 
   useEffect(() => {
     if (!examState) {
+      console.log('No exam state found, redirecting to home');
       navigate('/');
       return;
     }
 
     if (examState.isCompleted) {
+      console.log('Exam completed, redirecting to results');
       navigate('/results');
       return;
     }
+
+    console.log('Current exam state:', examState);
 
     const timer = setInterval(() => {
       const remaining = getTimeRemaining(examState);
