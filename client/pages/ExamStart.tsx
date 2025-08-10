@@ -85,13 +85,28 @@ export default function ExamStart() {
             <p className="text-gray-600 mb-6">
               Soru {examState.currentQuestionIndex + 1} / {examState.questions.length}
             </p>
-            <Button
-              size="lg"
-              className="w-full bg-blue-600 hover:bg-blue-700"
-              onClick={() => window.location.href = '/exam'}
-            >
-              Sınavı Devam Et
-            </Button>
+            <div className="space-y-3">
+              <Button
+                size="lg"
+                className="w-full bg-blue-600 hover:bg-blue-700"
+                onClick={() => window.location.href = '/exam'}
+              >
+                Sınavı Devam Et
+              </Button>
+              <Button
+                variant="outline"
+                size="lg"
+                className="w-full"
+                onClick={() => {
+                  if (window.confirm('Mevcut sınav ilerlemesi silinecek. Emin misiniz?')) {
+                    localStorage.removeItem('cbap_exam_state');
+                    window.location.reload();
+                  }
+                }}
+              >
+                Ana Sayfaya Dön
+              </Button>
+            </div>
           </CardContent>
         </Card>
       </div>
