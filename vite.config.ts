@@ -15,14 +15,25 @@ export default defineConfig(({ mode }) => ({
   },
   build: {
     outDir: "dist/spa",
+    assetsDir: "assets",
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          vendor: ['react', 'react-dom'],
+          router: ['react-router-dom'],
+          ui: ['@radix-ui/react-dialog', '@radix-ui/react-button']
+        }
+      }
+    }
   },
-  plugins: [react(), expressPlugin()],
+  plugins: [react(), ...(mode === 'development' ? [expressPlugin()] : [])],
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./client"),
       "@shared": path.resolve(__dirname, "./shared"),
     },
   },
+  base: "/",
 }));
 
 function expressPlugin(): Plugin {
