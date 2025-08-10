@@ -8,8 +8,8 @@ import { EXAM_CONFIG } from '@/lib/examUtils';
 
 const EXAM_OPTIONS = [
   {
-    id: 'general-cbap',
-    title: 'Genel CBAP Pratiği',
+    id: 'mock-exam-1',
+    title: 'Mock Exam 1',
     description: 'Tüm CBAP bilgi alanlarını kapsayan kapsamlı pratik sınavı.',
     focus: 'Tüm CBAP Bilgi Alanları',
     difficulty: 'Karışık',
@@ -19,8 +19,8 @@ const EXAM_OPTIONS = [
     bgColor: 'bg-blue-50'
   },
   {
-    id: 'requirements-focus',
-    title: 'Gereksinim Yönetimi Odaklı',
+    id: 'mock-exam-2',
+    title: 'Mock Exam 2',
     description: 'Gereksinim toplama, analiz, spesifikasyon ve doğrulama tekniklerine derinlemesine odaklanma.',
     focus: 'Gereksinim Mühendisliği',
     difficulty: 'Orta',
@@ -30,8 +30,8 @@ const EXAM_OPTIONS = [
     bgColor: 'bg-green-50'
   },
   {
-    id: 'stakeholder-focus',
-    title: 'Paydaş Katılımı Odaklı',
+    id: 'mock-exam-3',
+    title: 'Mock Exam 3',
     description: 'Paydaş analizi, iletişim ve ilişki yönetimi konularında uzmanlaşmış pratik.',
     focus: 'Paydaş Yönetimi',
     difficulty: 'İleri',
@@ -41,8 +41,8 @@ const EXAM_OPTIONS = [
     bgColor: 'bg-purple-50'
   },
   {
-    id: 'solution-focus',
-    title: 'Çözüm Değerlendirme Odaklı',
+    id: 'mock-exam-4',
+    title: 'Mock Exam 4',
     description: 'Çözüm değerlendirme, doğrulama ve performans ölçümü konularında ileri düzey pratik.',
     focus: 'Çözüm Değerlendirme',
     difficulty: 'Uzman',
@@ -52,8 +52,8 @@ const EXAM_OPTIONS = [
     bgColor: 'bg-orange-50'
   },
   {
-    id: 'strategy-focus',
-    title: 'İş Analizi Stratejisi',
+    id: 'mock-exam-5',
+    title: 'Mock Exam 5',
     description: 'İş analizi planlama ve yönetişimi kapsayan stratejik düşünce pratiği.',
     focus: 'Strateji ve Planlama',
     difficulty: 'İleri',
