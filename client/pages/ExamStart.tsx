@@ -10,9 +10,6 @@ const EXAM_OPTIONS = [
   {
     id: 'mock-exam-1',
     title: 'Mock Exam 1',
-    description: 'Tüm CBAP bilgi alanlarını kapsayan kapsamlı pratik sınavı.',
-    focus: 'Tüm CBAP Bilgi Alanları',
-    difficulty: 'Karışık',
     icon: BookOpen,
     color: 'bg-blue-500',
     borderColor: 'border-blue-200',
@@ -21,9 +18,6 @@ const EXAM_OPTIONS = [
   {
     id: 'mock-exam-2',
     title: 'Mock Exam 2',
-    description: 'Gereksinim toplama, analiz, spesifikasyon ve doğrulama tekniklerine derinlemesine odaklanma.',
-    focus: 'Gereksinim Mühendisliği',
-    difficulty: 'Orta',
     icon: FileText,
     color: 'bg-green-500',
     borderColor: 'border-green-200',
@@ -32,9 +26,6 @@ const EXAM_OPTIONS = [
   {
     id: 'mock-exam-3',
     title: 'Mock Exam 3',
-    description: 'Paydaş analizi, iletişim ve ilişki yönetimi konularında uzmanlaşmış pratik.',
-    focus: 'Paydaş Yönetimi',
-    difficulty: 'İleri',
     icon: Users,
     color: 'bg-purple-500',
     borderColor: 'border-purple-200',
@@ -43,9 +34,6 @@ const EXAM_OPTIONS = [
   {
     id: 'mock-exam-4',
     title: 'Mock Exam 4',
-    description: 'Çözüm değerlendirme, doğrulama ve performans ölçümü konularında ileri düzey pratik.',
-    focus: 'Çözüm Değerlendirme',
-    difficulty: 'Uzman',
     icon: Zap,
     color: 'bg-orange-500',
     borderColor: 'border-orange-200',
@@ -54,9 +42,6 @@ const EXAM_OPTIONS = [
   {
     id: 'mock-exam-5',
     title: 'Mock Exam 5',
-    description: 'İş analizi planlama ve yönetişimi kapsayan stratejik düşünce pratiği.',
-    focus: 'Strateji ve Planlama',
-    difficulty: 'İleri',
     icon: Target,
     color: 'bg-red-500',
     borderColor: 'border-red-200',
@@ -214,7 +199,7 @@ export default function ExamStart() {
                   </div>
                   <div className="flex items-center gap-2">
                     <Star className="h-4 w-4 text-blue-600" />
-                    <span className="text-gray-600">Soruları gözden geçirme için işaretleme</span>
+                    <span className="text-gray-600">Soruları gözden geçirme i��in işaretleme</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <FileText className="h-4 w-4 text-blue-600" />
