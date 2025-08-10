@@ -92,6 +92,7 @@ export default function ExamStart() {
                 className="w-full"
                 onClick={() => {
                   if (window.confirm('Mevcut sınav ilerlemesi silinecek. Emin misiniz?')) {
+                    clearExam();
                     localStorage.removeItem('cbap_exam_state');
                     window.location.reload();
                   }
