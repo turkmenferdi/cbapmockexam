@@ -5,6 +5,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 import { Badge } from '@/components/ui/badge';
 import { Clock, FileText, Award, Users, BookOpen, Target, Zap, Star, Trophy } from 'lucide-react';
 import { EXAM_CONFIG } from '@/lib/examUtils';
+import { useNavigate } from 'react-router-dom';
 
 const EXAM_OPTIONS = [
   {
