@@ -50,7 +50,7 @@ const EXAM_OPTIONS = [
 ];
 
 export default function ExamStart() {
-  const { startNewExam, isLoading, examState } = useExam();
+  const { startNewExam, isLoading, examState, clearExam } = useExam();
 
   const handleStartExam = async (examType: string) => {
     // First clear any existing exam state
