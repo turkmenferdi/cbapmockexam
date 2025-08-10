@@ -36,7 +36,8 @@ export async function loadAllQuestions(): Promise<CBAPQuestion[]> {
 
 export function getRandomQuestions(allQuestions: CBAPQuestion[], count: number): CBAPQuestion[] {
   const shuffled = [...allQuestions].sort(() => 0.5 - Math.random());
-  return shuffled.slice(0, Math.min(count, allQuestions.length));
+  const selectedCount = Math.min(count, allQuestions.length);
+  return shuffled.slice(0, selectedCount);
 }
 
 export function createNewExam(questions: CBAPQuestion[]): ExamState {
