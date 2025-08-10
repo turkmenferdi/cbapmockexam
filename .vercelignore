@@ -1,0 +1,11 @@
+server/
+*.log
+.env
+.env.*
+node_modules/
+.DS_Store
+dist/server/
+*.test.ts
+*.test.tsx
+coverage/
+.nyc_output/
