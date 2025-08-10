@@ -1,0 +1,122 @@
+[
+  {
+    "id": "q011",
+    "question": "Which of the following best describes the relationship between business analysis and project management?",
+    "options": [
+      "A. Business analysis is a subset of project management",
+      "B. Project management is a subset of business analysis",
+      "C. Business analysis and project management are complementary disciplines that work together",
+      "D. Business analysis and project management are the same discipline"
+    ],
+    "answer": "C",
+    "explanation": "Business analysis and project management are complementary disciplines. Business analysts focus on requirements and solutions, while project managers focus on managing the project execution. They work together to ensure project success."
+  },
+  {
+    "id": "q012",
+    "question": "What is the primary purpose of a business case?",
+    "options": [
+      "A. To document technical requirements",
+      "B. To justify the investment in a project or initiative",
+      "C. To define project scope",
+      "D. To create a project schedule"
+    ],
+    "answer": "B",
+    "explanation": "A business case is a document that justifies the investment in a project or initiative by outlining the business need, proposed solution, costs, benefits, and risks."
+  },
+  {
+    "id": "q013",
+    "question": "Which stakeholder classification model categorizes stakeholders as champions, supporters, neutral, critics, or opponents?",
+    "options": [
+      "A. Power/Interest grid",
+      "B. RACI matrix",
+      "C. Influence/Impact assessment",
+      "D. Stakeholder attitude assessment"
+    ],
+    "answer": "D",
+    "explanation": "The stakeholder attitude assessment model categorizes stakeholders based on their attitude toward the change: champions, supporters, neutral, critics, or opponents."
+  },
+  {
+    "id": "q014",
+    "question": "What is the main difference between a use case and a user story?",
+    "options": [
+      "A. Use cases are shorter than user stories",
+      "B. Use cases describe interactions with the system, while user stories describe user needs",
+      "C. User stories are more technical than use cases",
+      "D. There is no difference between them"
+    ],
+    "answer": "B",
+    "explanation": "Use cases describe the interactions between actors and the system to achieve a goal, while user stories describe a user's need or want from their perspective in simple, non-technical language."
+  },
+  {
+    "id": "q015",
+    "question": "Which technique is most appropriate for validating requirements with a large, geographically dispersed group of stakeholders?",
+    "options": [
+      "A. Face-to-face interviews",
+      "B. Focus groups",
+      "C. Online surveys",
+      "D. Observation"
+    ],
+    "answer": "C",
+    "explanation": "Online surveys are most appropriate for validating requirements with large, geographically dispersed groups because they can reach many people efficiently regardless of location."
+  },
+  {
+    "id": "q016",
+    "question": "What is the purpose of gap analysis in business analysis?",
+    "options": [
+      "A. To identify defects in software",
+      "B. To compare current state with desired future state",
+      "C. To estimate project costs",
+      "D. To create project timelines"
+    ],
+    "answer": "B",
+    "explanation": "Gap analysis compares the current state with the desired future state to identify what needs to change to achieve the desired outcomes."
+  },
+  {
+    "id": "q017",
+    "question": "Which of the following is a characteristic of a well-written requirement?",
+    "options": [
+      "A. It uses technical jargon to be precise",
+      "B. It includes multiple requirements in one statement",
+      "C. It is testable and verifiable",
+      "D. It is written from the developer's perspective"
+    ],
+    "answer": "C",
+    "explanation": "A well-written requirement should be testable and verifiable, meaning there should be a way to determine if the requirement has been met."
+  },
+  {
+    "id": "q018",
+    "question": "What is the primary benefit of using acceptance criteria?",
+    "options": [
+      "A. To replace detailed requirements documentation",
+      "B. To define when a requirement is satisfied",
+      "C. To estimate development effort",
+      "D. To manage project risks"
+    ],
+    "answer": "B",
+    "explanation": "Acceptance criteria define the conditions that must be met for a requirement to be considered satisfied, providing clear boundaries for what constitutes completion."
+  },
+  {
+    "id": "q019",
+    "question": "Which model is used to categorize requirements as basic, performance, or excitement factors?",
+    "options": [
+      "A. MoSCoW",
+      "B. Kano Model",
+      "C. Value vs. Effort matrix",
+      "D. Risk assessment matrix"
+    ],
+    "answer": "B",
+    "explanation": "The Kano Model categorizes requirements into basic (must-have), performance (one-dimensional), and excitement (delighters) factors based on customer satisfaction."
+  },
+  {
+    "id": "q020",
+    "question": "What is the main purpose of solution evaluation in business analysis?",
+    "options": [
+      "A. To estimate project costs",
+      "B. To assess how well solutions meet business needs",
+      "C. To create implementation plans",
+      "D. To manage project schedules"
+    ],
+    "answer": "B",
+    "explanation": "Solution evaluation assesses how well solutions meet business needs and deliver value, helping to determine if the solution is working as intended."
+  }
+]
