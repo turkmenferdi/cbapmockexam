@@ -215,6 +215,20 @@ export default function ExamStart() {
               <p className="text-sm text-blue-800 text-center">
                 <strong>Not:</strong> Sınav ilerlemesi otomatik olarak kaydedilir. İstediğiniz zaman sınavı bırakıp daha sonra devam edebilirsiniz.
               </p>
+              <div className="mt-3 text-center">
+                <Button
+                  variant="outline"
+                  size="sm"
+                  onClick={() => {
+                    localStorage.clear();
+                    clearExam();
+                    window.location.reload();
+                  }}
+                  className="text-xs"
+                >
+                  Tüm Verileri Temizle (Debug)
+                </Button>
+              </div>
             </div>
           </CardContent>
         </Card>
