@@ -90,14 +90,21 @@ const ExamContext = createContext<ExamContextType | undefined>(undefined);
 export function ExamProvider({ children }: { children: ReactNode }) {
   const [examState, dispatch] = useReducer(examReducer, null);
   const [isLoading, setIsLoading] = React.useState(true);
+  const [isMounted, setIsMounted] = React.useState(false);
 
   useEffect(() => {
+    setIsMounted(true);
+
     // Load existing exam state on mount
     const savedState = loadExamState();
     if (savedState) {
       dispatch({ type: 'SET_EXAM_STATE', payload: savedState });
     }
     setIsLoading(false);
+
+    return () => {
+      setIsMounted(false);
+    };
   }, []);
 
   const startNewExam = async (examType?: string) => {
