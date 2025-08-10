@@ -103,9 +103,6 @@ export function ExamProvider({ children }: { children: ReactNode }) {
   const startNewExam = async () => {
     setIsLoading(true);
     try {
-      // Clear any existing exam state first
-      clearExamState();
-
       const allQuestions = await loadAllQuestions();
       console.log('Loaded questions:', allQuestions.length);
 
@@ -117,13 +114,16 @@ export function ExamProvider({ children }: { children: ReactNode }) {
       console.log('Selected questions for exam:', examQuestions.length);
 
       const newExam = createNewExam(examQuestions);
+      console.log('New exam created:', newExam);
+
       dispatch({ type: 'SET_EXAM_STATE', payload: newExam });
       saveExamState(newExam);
 
-      console.log('New exam created successfully');
+      console.log('New exam saved successfully');
+      return true;
     } catch (error) {
       console.error('Failed to start new exam:', error);
-      alert('Sınav başlatılırken hata oluştu. Lütfen tekrar deneyin.');
+      throw error;
     } finally {
       setIsLoading(false);
     }
