@@ -64,48 +64,10 @@ export default function ExamStart() {
     }, 100);
   };
 
-  if (examState && !examState.isCompleted) {
-    return (
-      <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 flex items-center justify-center p-4">
-        <Card className="w-full max-w-2xl">
-          <CardHeader className="text-center">
-            <CardTitle className="text-2xl text-blue-900">Sınavınıza Devam Edin</CardTitle>
-            <CardDescription>
-              Devam eden bir sınavınız var. Kaldığınız yerden devam edin.
-            </CardDescription>
-          </CardHeader>
-          <CardContent className="text-center">
-            <p className="text-gray-600 mb-6">
-              Soru {examState.currentQuestionIndex + 1} / {examState.questions.length}
-            </p>
-            <div className="space-y-3">
-              <Button
-                size="lg"
-                className="w-full bg-blue-600 hover:bg-blue-700"
-                onClick={() => window.location.href = '/exam'}
-              >
-                Sınavı Devam Et
-              </Button>
-              <Button
-                variant="outline"
-                size="lg"
-                className="w-full"
-                onClick={() => {
-                  if (window.confirm('Mevcut sınav ilerlemesi silinecek. Emin misiniz?')) {
-                    clearExam();
-                    localStorage.removeItem('cbap_exam_state');
-                    window.location.reload();
-                  }
-                }}
-              >
-                Ana Sayfaya Dön
-              </Button>
-            </div>
-          </CardContent>
-        </Card>
-      </div>
-    );
-  }
+  // Always show main page - remove the continue exam check for now
+  // if (examState && !examState.isCompleted) {
+  //   return continue exam screen
+  // }
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100">
