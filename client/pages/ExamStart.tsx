@@ -79,11 +79,16 @@ export default function ExamStart() {
       clearExam();
 
       console.log(`Starting new exam: ${examType}...`);
-      await startNewExam(examType);
-      console.log("Exam started, navigating...");
+      const success = await startNewExam(examType);
 
-      // Navigate to exam page using React Router
-      navigate("/exam");
+      if (success) {
+        console.log("Exam started successfully, navigating...");
+        // Navigate to exam page using React Router
+        navigate("/exam");
+      } else {
+        console.warn("Failed to start exam");
+        alert("Sınav başlatılamadı. Lütfen tekrar deneyin.");
+      }
     } catch (error) {
       console.error("Error starting exam:", error);
       alert("Sınav başlatılırken hata oluştu. Lütfen tekrar deneyin.");
