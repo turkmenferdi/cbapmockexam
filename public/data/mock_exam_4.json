@@ -86,36 +86,21 @@
   {
     "id": "me4_q008",
     "question": "Question #368: An insurance company wants to increase sales by 15% and customer retention by 10% within 1 calendar year. As the new pricing structure was being implemented, the chief executive officer (CEO) of the company wanted to change the premiums and associated discounts offered to customers. The BA investigated the cost, anticipated benefits and the length of time the change would likely take to complete before presenting the results back to the CEO. What type of analysis has the BA just conducted?",
-    "options": [
-      "A. Impact",
-      "B. Capability",
-      "C. Market",
-      "D. Document"
-    ],
+    "options": ["A. Impact", "B. Capability", "C. Market", "D. Document"],
     "answer": "A",
     "explanation": ""
   },
   {
     "id": "me4_q009",
     "question": "Question #369: A financial institution engaged in mortgage lending has embarked on a business process improvement initiative to eliminate the activities that hinder growth to ultimately improve the success rate of its mortgage business. If the financial institution always works at full capacity month to month and the new success rate continues to remain the same after implementing the BA's recommendation, what is the average number of successes per month for the mortgage closure process, if the current process capability were increased by 50%?",
-    "options": [
-      "A. 15",
-      "B. 14",
-      "C. 12",
-      "D. 11"
-    ],
+    "options": ["A. 15", "B. 14", "C. 12", "D. 11"],
     "answer": "B",
     "explanation": ""
   },
   {
     "id": "me4_q010",
     "question": "Question #370: A financial institution engaged in mortgage lending has embarked on a business process improvement initiative to eliminate the activities that hinder growth to ultimately improve the success rate of its mortgage business. If an additional recommendation to reduce Verification Rejects by 50% were to be introduced into the mortgage origination process, what is the potential success rate of the mortgage origination process?",
-    "options": [
-      "A. 86%",
-      "B. 83%",
-      "C. 70%",
-      "D. 74%"
-    ],
+    "options": ["A. 86%", "B. 83%", "C. 70%", "D. 74%"],
     "answer": "D",
     "explanation": ""
   },
@@ -134,12 +119,7 @@
   {
     "id": "me4_q012",
     "question": "Question #372: A financial institution engaged in mortgage lending has embarked on a business process improvement initiative to eliminate the activities that hinder growth to ultimately improve the success rate of its mortgage business. Assuming the BA's recommendation to be true, what will be the new success rate of the mortgage closure process?",
-    "options": [
-      "A. 90%",
-      "B. 85%",
-      "C. 10%",
-      "D. 20%"
-    ],
+    "options": ["A. 90%", "B. 85%", "C. 10%", "D. 20%"],
     "answer": "A",
     "explanation": ""
   },
@@ -158,12 +138,7 @@
   {
     "id": "me4_q014",
     "question": "Question #374: A popular department store chain wants to make computer upgrades as well as conduct a major remodeling effort to increase revenue to all their 100 stores over the next 2 years. Based on the CEO's executive decision, which risk tolerance attitude is the CEO exhibiting?",
-    "options": [
-      "A. Seeking",
-      "B. Avoidance",
-      "C. Mitigation",
-      "D. Neutrality"
-    ],
+    "options": ["A. Seeking", "B. Avoidance", "C. Mitigation", "D. Neutrality"],
     "answer": "A",
     "explanation": ""
   },
@@ -230,24 +205,14 @@
   {
     "id": "me4_q020",
     "question": "Question #380: A health insurance provider undertakes enhancements to its mobile application platform. Which of the following characteristics is violated by requirement 5?",
-    "options": [
-      "A. Feasible",
-      "B. Concise",
-      "C. Consistent",
-      "D. Atomic"
-    ],
+    "options": ["A. Feasible", "B. Concise", "C. Consistent", "D. Atomic"],
     "answer": "D",
     "explanation": ""
   },
   {
     "id": "me4_q021",
     "question": "Question #381: A health insurance provider undertakes enhancements to its mobile application platform. Which of the following relationship types correctly identifies the nature of the relationship between the 3 business capabilities and the 11 requirements?",
-    "options": [
-      "A. Derives",
-      "B. Depends",
-      "C. Validates",
-      "D. Verifies"
-    ],
+    "options": ["A. Derives", "B. Depends", "C. Validates", "D. Verifies"],
     "answer": "D",
     "explanation": ""
   },
@@ -398,24 +363,14 @@
   {
     "id": "me4_q034",
     "question": "Question #394: A major manufacturer of popular beverages has appointed a local distributor to serve a specific territory. If the driver's average throughput is 0.6 tons/hour, how many hours per day would 15 drivers have to work to deliver 100 tons of merchandise?",
-    "options": [
-      "A. 12",
-      "B. 9",
-      "C. 10",
-      "D. 11"
-    ],
+    "options": ["A. 12", "B. 9", "C. 10", "D. 11"],
     "answer": "A",
     "explanation": ""
   },
   {
     "id": "me4_q035",
     "question": "Question #395: A major manufacturer of popular beverages has appointed a local distributor to serve a specific territory. Each truck can only make two trips a day. The BA has noticed that only 30% of trips have their orders available for loading when a truck arrives. Otherwise the truck has to wait one extra hour until the orders are picked and brought to the loading bay. If trucks are the only constraint, approximately how many hours are lost due to this downtime?",
-    "options": [
-      "A. 18 hours",
-      "B. 20 hours",
-      "C. 15 hours",
-      "D. 17 hours"
-    ],
+    "options": ["A. 18 hours", "B. 20 hours", "C. 15 hours", "D. 17 hours"],
     "answer": "D",
     "explanation": ""
   },
@@ -494,12 +449,7 @@
   {
     "id": "me4_q042",
     "question": "Question #402: A martial arts organization has been expanding throughout the mid-Atlantic states and has hired a business analyst (BA) to create a system that will enable the organization to manage its growing needs. What relationship quality criterion does this represent?",
-    "options": [
-      "A. Correct",
-      "B. Unambiguous",
-      "C. Defined",
-      "D. Necessary"
-    ],
+    "options": ["A. Correct", "B. Unambiguous", "C. Defined", "D. Necessary"],
     "answer": "B",
     "explanation": ""
   },
@@ -602,24 +552,14 @@
   {
     "id": "me4_q051",
     "question": "Question #411: An insurance company wants to implement a business intelligence solution to consolidate data from various different internal systems to provide a better understanding of their customer base. What is the time difference in days between the shortest and longest implementation?",
-    "options": [
-      "A. 39",
-      "B. 51",
-      "C. 60",
-      "D. 19"
-    ],
+    "options": ["A. 39", "B. 51", "C. 60", "D. 19"],
     "answer": "C",
     "explanation": ""
   },
   {
     "id": "me4_q052",
     "question": "Question #412: An insurance company wants to implement a business intelligence solution to consolidate data from various different internal systems to provide a better understanding of their customer base. What is the increased cost in Scenario 2 for Company C?",
-    "options": [
-      "A. $695,448",
-      "B. $453,635",
-      "C. $653,934",
-      "D. $207,790"
-    ],
+    "options": ["A. $695,448", "B. $453,635", "C. $653,934", "D. $207,790"],
     "answer": "A",
     "explanation": ""
   },
@@ -650,12 +590,7 @@
   {
     "id": "me4_q055",
     "question": "Question #415: An organization is trying to streamline its current processes to improve performance and reduce costs. What analysis approach must the BA use to determine changes required to address the training needs?",
-    "options": [
-      "A. Future state",
-      "B. Decision",
-      "C. Market",
-      "D. Root cause"
-    ],
+    "options": ["A. Future state", "B. Decision", "C. Market", "D. Root cause"],
     "answer": "A",
     "explanation": ""
   },
@@ -686,12 +621,7 @@
   {
     "id": "me4_q058",
     "question": "Question #418: The table illustrates the statement of cash flows for a courier company for the last fiscal year. The CFO's resistance to replacing the older vehicles represents which type of cost?",
-    "options": [
-      "A. Sunk",
-      "B. Maintenance",
-      "C. Opportunity",
-      "D. Operating"
-    ],
+    "options": ["A. Sunk", "B. Maintenance", "C. Opportunity", "D. Operating"],
     "answer": "C",
     "explanation": ""
   },
@@ -866,12 +796,7 @@
   {
     "id": "me4_q073",
     "question": "Question #433: A health insurance provider undertakes enhancements to its mobile application platform. What kind of relationship is used to describe the traceability between requirement 8 and the solution artifacts that implement it?",
-    "options": [
-      "A. Validate",
-      "B. Depends",
-      "C. Derive",
-      "D. Satisfy"
-    ],
+    "options": ["A. Validate", "B. Depends", "C. Derive", "D. Satisfy"],
     "answer": "C",
     "explanation": ""
   },
@@ -1118,12 +1043,7 @@
   {
     "id": "me4_q094",
     "question": "Question #454: Several commercial-off-the-shelf (COTS) software packages exist that would enable the business analyst (BA) to meet the needs of the business. What kind of solution approach is this?",
-    "options": [
-      "A. Purchase",
-      "B. Outsource",
-      "C. Exploit",
-      "D. Create"
-    ],
+    "options": ["A. Purchase", "B. Outsource", "C. Exploit", "D. Create"],
     "answer": "A",
     "explanation": ""
   },
@@ -1394,12 +1314,7 @@
   {
     "id": "me4_q117",
     "question": "Question #477: A business analyst (BA) assigned to a project has been asked to implement regulatory requirements based on priority. What type of traceability relationship can the BA use to find all the solution components that need to be implemented?",
-    "options": [
-      "A. Validate",
-      "B. Satisfy",
-      "C. Derive",
-      "D. Dependency"
-    ],
+    "options": ["A. Validate", "B. Satisfy", "C. Derive", "D. Dependency"],
     "answer": "D",
     "explanation": ""
   },

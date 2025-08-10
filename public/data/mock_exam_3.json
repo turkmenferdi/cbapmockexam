@@ -122,12 +122,7 @@
   {
     "id": "me3_q011",
     "question": "Question #251: What portion of the communications model could be defined as the translator?",
-    "options": [
-      "A. Receiver",
-      "B. Medium",
-      "C. Translator",
-      "D. Sender"
-    ],
+    "options": ["A. Receiver", "B. Medium", "C. Translator", "D. Sender"],
     "answer": "B",
     "explanation": ""
   },
@@ -182,12 +177,7 @@
   {
     "id": "me3_q016",
     "question": "Question #256: Which of the following component of the communication model is responsible for transferring the message between two or more entities?",
-    "options": [
-      "A. Sender",
-      "B. Medium",
-      "C. Decoder",
-      "D. Receiver"
-    ],
+    "options": ["A. Sender", "B. Medium", "C. Decoder", "D. Receiver"],
     "answer": "B",
     "explanation": ""
   },
@@ -458,12 +448,7 @@
   {
     "id": "me3_q039",
     "question": "Question #279: Which of the following techniques is used to divide a project into controllable parts?",
-    "options": [
-      "A. Gantt Chart",
-      "B. Pareto Chart",
-      "C. WBS",
-      "D. CPM"
-    ],
+    "options": ["A. Gantt Chart", "B. Pareto Chart", "C. WBS", "D. CPM"],
     "answer": "C",
     "explanation": ""
   },
@@ -542,12 +527,7 @@
   {
     "id": "me3_q046",
     "question": "Question #286: A company that specialized in manufacturing vending machines for books has been in business for 10 years. As the e-book and online retailing grow, the company perceived that a change is required to respond to the new emerging market forces. However, the change should focus on reusability as much as possible to reduce expenses. After analyzing the current state with the business subject matter experts, the business analyst (BA) proposed investing in a new business line of vending machines that sell pay per use mobile device phone fast charging stations. Due to the urgency of this change, the BA was asked to finalize requirements elicitation in the shortest possible time. Customers who want to utilize the pay per use mobile device fast charging stations may choose one of two features: fully charged (F1) or partially charged (F2). If partially charged is selected, the customer needs to specify their charging needs. What is the relationship between F1 and F2?",
-    "options": [
-      "A. Validate",
-      "B. Derive",
-      "C. Depends",
-      "D. Satisfy"
-    ],
+    "options": ["A. Validate", "B. Derive", "C. Depends", "D. Satisfy"],
     "answer": "B",
     "explanation": ""
   },
@@ -710,12 +690,7 @@
   {
     "id": "me3_q060",
     "question": "Question #300: A team is working on a user privilege and access control system. A business analyst (BA) selects use cases as the technique for requirements specification. What is the relationship between use cases \"Create a role\" and \"Find a role\" when there is a high level of formality?",
-    "options": [
-      "A. Validate",
-      "B. Derive",
-      "C. Necessity",
-      "D. Satisfy"
-    ],
+    "options": ["A. Validate", "B. Derive", "C. Necessity", "D. Satisfy"],
     "answer": "C",
     "explanation": ""
   },
@@ -818,12 +793,7 @@
   {
     "id": "me3_q069",
     "question": "Question #309: A card printing solution is comprised of 4 stages: Loading, Printing, Packaging and Sorting. Loading and sorting of cards is done manually through operators, while printing and packaging are automated. The loading stage requires the operator to load 100 cards after an alarm is raised. Sorting requires an operator to distribute each package based on the printed address into the appropriate delivery box. Which stage should be assessed as the most likely to increase process inefficiencies?",
-    "options": [
-      "A. Loading",
-      "B. Packaging",
-      "C. Sorting",
-      "D. Printing"
-    ],
+    "options": ["A. Loading", "B. Packaging", "C. Sorting", "D. Printing"],
     "answer": "C",
     "explanation": ""
   },
@@ -902,12 +872,7 @@
   {
     "id": "me3_q076",
     "question": "Question #316: A software company has won a contract to implement its product for a client. As part of the implementation work, a business analyst (BA) is asked to compile information about the other client applications that will integrate with the new system and provide the information graphically. To establish the boundaries of the new system, the business leaders need to know the interfacing client applications and the type of information that will be exchanged between the existing and new systems. Which type of diagram should the BA use?",
-    "options": [
-      "A. Process",
-      "B. Sequence",
-      "C. Activity",
-      "D. Context"
-    ],
+    "options": ["A. Process", "B. Sequence", "C. Activity", "D. Context"],
     "answer": "D",
     "explanation": ""
   },
@@ -1070,12 +1035,7 @@
   {
     "id": "me3_q090",
     "question": "Question #330: In a requirements elicitation effort, the business analyst (BA) needs to define boundaries for business domains, categorize and create a hierarchy of items, and show data sources and their relationships for specific audiences. Which of the following modeling formats should the BA use?",
-    "options": [
-      "A. Diagrams",
-      "B. Graphics",
-      "C. Matrices",
-      "D. Prototype"
-    ],
+    "options": ["A. Diagrams", "B. Graphics", "C. Matrices", "D. Prototype"],
     "answer": "A",
     "explanation": ""
   },
@@ -1106,12 +1066,7 @@
   {
     "id": "me3_q093",
     "question": "Question #333: A company has a process improvement initiative that is projected to increase revenue by $150,000 USD non-compounded per year. The budgeted cost of the initiative is $200,000 and supporting the initiative will cost $30,000 for years two and three. What is the projected return on investment over the first 3 years?",
-    "options": [
-      "A. 44%",
-      "B. 73%",
-      "C. 40%",
-      "D. 51%"
-    ],
+    "options": ["A. 44%", "B. 73%", "C. 40%", "D. 51%"],
     "answer": "B",
     "explanation": ""
   },
@@ -1274,24 +1229,14 @@
   {
     "id": "me3_q107",
     "question": "Question #347: A business analyst (BA) has just completed a number of elicitation activities and is preparing to review the stated requirements. As part of this, the BA is checking the compliance of the stated requirements with organizational standards for business analysis. What state is the BA attempting to move the requirements into?",
-    "options": [
-      "A. Validated",
-      "B. Verified",
-      "C. Accepted",
-      "D. Specified"
-    ],
+    "options": ["A. Validated", "B. Verified", "C. Accepted", "D. Specified"],
     "answer": "B",
     "explanation": ""
   },
   {
     "id": "me3_q108",
     "question": "Question #348: Several risks were identified for an upcoming change initiative. One risk is related to a slippage concern because of loose gravel at the local site of the change initiative. The business analyst (BA) has recommended that all on-site stakeholders must wear durable, slip-resistant boots while the change initiative is being executed. This is an example of which type of risk treatment?",
-    "options": [
-      "A. Transfer",
-      "B. Mitigate",
-      "C. Accept",
-      "D. Avoid"
-    ],
+    "options": ["A. Transfer", "B. Mitigate", "C. Accept", "D. Avoid"],
     "answer": "B",
     "explanation": ""
   },
@@ -1346,12 +1291,7 @@
   {
     "id": "me3_q113",
     "question": "Question #353: Stakeholders have indicated concerns with the level of uncertainty they are willing to accept with the solution. What type of analysis can the business analyst (BA) use to alleviate these concerns?",
-    "options": [
-      "A. Gap",
-      "B. Financial",
-      "C. Requirements",
-      "D. Risk"
-    ],
+    "options": ["A. Gap", "B. Financial", "C. Requirements", "D. Risk"],
     "answer": "D",
     "explanation": ""
   },
@@ -1394,12 +1334,7 @@
   {
     "id": "me3_q117",
     "question": "Question #357: A business analyst (BA) is running a workshop with a group of stakeholders to understand the requirements for a change that the company is planning to implement. What important factor does the BA need to understand to ensure the workshop remains focused on the topic in question?",
-    "options": [
-      "A. Future state",
-      "B. Assets",
-      "C. Scope",
-      "D. Risk register"
-    ],
+    "options": ["A. Future state", "B. Assets", "C. Scope", "D. Risk register"],
     "answer": "C",
     "explanation": ""
   },
