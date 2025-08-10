@@ -9,10 +9,15 @@ export const EXAM_CONFIG = {
 
 export async function loadAllQuestions(): Promise<CBAPQuestion[]> {
   const allQuestions: CBAPQuestion[] = [];
-  
+
   // Load from multiple chunk files
-  const chunkFiles = ['questions_chunk_01.json', 'questions_chunk_02.json'];
-  
+  const chunkFiles = [
+    'questions_chunk_01.json',
+    'questions_chunk_02.json',
+    'questions_chunk_03.json',
+    'questions_chunk_04.json'
+  ];
+
   for (const file of chunkFiles) {
     try {
       const response = await fetch(`/data/${file}`);
@@ -24,7 +29,7 @@ export async function loadAllQuestions(): Promise<CBAPQuestion[]> {
       console.error(`Failed to load ${file}:`, error);
     }
   }
-  
+
   return allQuestions;
 }
 
