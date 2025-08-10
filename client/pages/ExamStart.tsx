@@ -52,24 +52,25 @@ const EXAM_OPTIONS = [
 
 export default function ExamStart() {
   const { startNewExam, isLoading, examState, clearExam } = useExam();
+  const navigate = useNavigate();
 
   const handleStartExam = async (examType: string) => {
-    // Force clear localStorage first
-    localStorage.removeItem('cbap_exam_state');
-
-    // Clear exam state
-    clearExam();
-
     try {
+      // Force clear localStorage first
+      localStorage.removeItem('cbap_exam_state');
+
+      // Clear exam state
+      clearExam();
+
       console.log('Starting new exam...');
       await startNewExam();
       console.log('Exam started, navigating...');
 
-      // Navigate to exam page
-      window.location.href = '/exam';
+      // Navigate to exam page using React Router
+      navigate('/exam');
     } catch (error) {
       console.error('Error starting exam:', error);
-      alert('Sınav başlatılırken hata oluştu.');
+      alert('Sınav başlatılırken hata oluştu. Lütfen tekrar deneyin.');
     }
   };
 
