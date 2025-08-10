@@ -1,53 +1,71 @@
 # CBAP Mock Exam System
 
-A comprehensive CBAP (Certified Business Analysis Professional) mock exam application built with React, TypeScript, and Vite.
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/turkmenferdi/cbapmockexam)
 
-## Features
+## 🎯 Özellikler
 
-- 3 Complete Mock Exams (120 questions each)
-- 300-minute timer per exam
-- 80% passing score (96/120 correct answers)
-- Progress tracking and question navigation
-- Mark for Review functionality
-- Detailed results with explanations
-- Turkish interface support
-- localStorage persistence
+- **5 Kapsamlı Mock Exam** - Her birinde 120 özenle seçilmiş soru
+- **600 Toplam Soru** - CBAP sertifikasyon sınavına tam hazırlık
+- **Türkçe Arayüz** - Tam Türkçe dil desteği
+- **Canlı Timer** - 300 dakikalık gerçek sınav süresi
+- **İlerleme Takibi** - localStorage ile otomatik kaydetme
+- **Soru İşaretleme** - İnceleme için soruları işaretleme
+- **Detaylı Analiz** - Sınav sonucu ve performans analizi
+- **Responsive Tasarım** - Tüm cihazlarda mükemmel çalışır
 
-## Development
+## 🚀 Vercel'e Deploy
+
+Bu proje Vercel'e deploy için tamamen hazırdır:
+
+**Vercel Ayarları:**
+- Framework: **Vite**
+- Build Command: **npm run vercel-build**
+- Output Directory: **dist**
+- Install Command: **npm install**
+
+## 📊 Mock Exam İçeriği
+
+| Exam        | Sorular | Durum         |
+| ----------- | ------- | ------------- |
+| Mock Exam 1 | 120     | ✅ Hazır      |
+| Mock Exam 2 | 120     | ✅ Hazır      |
+| Mock Exam 3 | 120     | ✅ Hazır      |
+| Mock Exam 4 | 120     | ✅ Hazır      |
+| Mock Exam 5 | 120     | ✅ Hazır      |
+| **Toplam**  | **600** | **✅ Komple** |
+
+## 🛠️ Teknolojiler
+
+- **React 18** - Modern React hooks ve features
+- **TypeScript** - Type safety
+- **Vite** - Hızlı build tool
+- **TailwindCSS** - Utility-first CSS
+- **React Router** - SPA routing
+
+## 💻 Yerel Geliştirme
 
 ```bash
+# Bağımlılıkları yükle
 npm install
+
+# Geliştirme sunucusunu başlat
 npm run dev
-```
 
-## Build
-
-```bash
+# Production build
 npm run build
+
+# Build'i önizle
+npm run preview
 ```
 
-## Deployment to Vercel
+## 🎮 Kullanım
 
-1. Connect your GitHub repository to Vercel
-2. Set the following build settings:
-   - Framework Preset: Vite
-   - Build Command: `npm run build`
-   - Output Directory: `dist/spa`
-   - Install Command: `npm install`
+1. Ana sayfada 5 farklı mock exam'dan birini seçin
+2. Sınavı başlatın - 300 dakika süreniz var
+3. Soruları cevaplayın, işaretleyebilirsiniz
+4. İstediğiniz zaman bırakıp devam edebilirsiniz
+5. Bitirdiğinizde detaylı analiz görün
 
-The `vercel.json` configuration handles SPA routing automatically.
+## 📄 Not
 
-## Project Structure
-
-- `/client` - React frontend application
-- `/shared` - Shared TypeScript types
-- `/public/data` - Mock exam question datasets
-- `/server` - Express server (development only)
-
-## Mock Exams
-
-- **Mock Exam 1**: Complete 120 questions
-- **Mock Exam 2**: Complete 120 questions
-- **Mock Exam 3**: Complete 120 questions
-- **Mock Exam 4**: Coming soon
-- **Mock Exam 5**: Coming soon
+Bu sistem eğitim amaçlıdır ve IIBA ile resmi bir bağlantısı yoktur.
