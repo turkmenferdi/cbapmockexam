@@ -398,12 +398,7 @@
   {
     "id": "me1_q034",
     "question": "What does the T in SWOT analysis mean?",
-    "options": [
-      "A. Trial",
-      "B. Threats",
-      "C. Test",
-      "D. Time"
-    ],
+    "options": ["A. Trial", "B. Threats", "C. Test", "D. Time"],
     "answer": "B",
     "explanation": "SWOT analysis examines Strengths, Weaknesses, Opportunities, and Threats to assess an organization's strategic position."
   },
@@ -590,12 +585,7 @@
   {
     "id": "me1_q050",
     "question": "Henry is the business analyst for his organization. Management has created a pre- determined budget of $450,000 for his solution. Henry has identified the project requirements but now wants to prioritize them based on timeboxing and budgeting. Henry examines the cost of the requirements and begins removing the requirements from the allowed list in order to meet the $450,000 budget. What timeboxing or budgeting approach is Henry using?",
-    "options": [
-      "A. Parametric",
-      "B. All in",
-      "C. Selective",
-      "D. All out"
-    ],
+    "options": ["A. Parametric", "B. All in", "C. Selective", "D. All out"],
     "answer": "A",
     "explanation": "The parametric approach involves using predetermined parameters (like budget constraints) to guide requirements selection and prioritization decisions."
   },
@@ -650,12 +640,7 @@
   {
     "id": "me1_q055",
     "question": "You are the business analyst for the TGH Organization and are determining if you should buy or build a solution for your company. You have determined that you can create the in-house solution for $78,000 with a monthly support cost of $8,765. A vendor can create the solution for $61,000 with a monthly support costs of $7,990. How long will it take your company to break even if you choose the internal solution versus the vendor's solution?",
-    "options": [
-      "A. 36 months",
-      "B. 12 months",
-      "C. 6 months",
-      "D. 22 months"
-    ],
+    "options": ["A. 36 months", "B. 12 months", "C. 6 months", "D. 22 months"],
     "answer": "D",
     "explanation": "Cost difference: $78,000 - $61,000 = $17,000. Monthly savings: $8,765 - $7,990 = $775. Break even: $17,000 ÷ $775 = 22 months."
   },
@@ -986,12 +971,7 @@
   {
     "id": "me1_q083",
     "question": "You are the business analyst for a solution that has 435 stakeholders. How many communication channels exist in this project?",
-    "options": [
-      "A. 188,790",
-      "B. 189,225",
-      "C. 94,395",
-      "D. 435"
-    ],
+    "options": ["A. 188,790", "B. 189,225", "C. 94,395", "D. 435"],
     "answer": "C",
     "explanation": "Communication channels = n(n-1)/2 where n is the number of stakeholders. 435(434)/2 = 94,395 communication channels."
   },
@@ -1046,12 +1026,7 @@
   {
     "id": "me1_q088",
     "question": "You are the business analyst for a large project for your organization. Your project has 65 stakeholders and this will greatly increase the complexity of the communication in this project. To demonstrate how complex this project and its communication will be, you show the management the number of communication channels in this project. How many channels exist in this project based on the number of stakeholders?",
-    "options": [
-      "A. 2080",
-      "B. 4160",
-      "C. 4225",
-      "D. 65"
-    ],
+    "options": ["A. 2080", "B. 4160", "C. 4225", "D. 65"],
     "answer": "A",
     "explanation": "Communication channels = n(n-1)/2 where n=65. 65(64)/2 = 2080 communication channels."
   },

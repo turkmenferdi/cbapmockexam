@@ -110,12 +110,7 @@
   {
     "id": "me3_q010",
     "question": "Question #300",
-    "options": [
-      "A. Validate",
-      "B. Derive",
-      "C. Necessity",
-      "D. Satisfy"
-    ],
+    "options": ["A. Validate", "B. Derive", "C. Necessity", "D. Satisfy"],
     "answer": "C",
     "explanation": ""
   },
@@ -218,12 +213,7 @@
   {
     "id": "me3_q019",
     "question": "Question #309",
-    "options": [
-      "A. Loading",
-      "B. Packaging",
-      "C. Sorting",
-      "D. Printing"
-    ],
+    "options": ["A. Loading", "B. Packaging", "C. Sorting", "D. Printing"],
     "answer": "C",
     "explanation": ""
   },
@@ -302,12 +292,7 @@
   {
     "id": "me3_q026",
     "question": "Question #316",
-    "options": [
-      "A. Process",
-      "B. Sequence",
-      "C. Activity",
-      "D. Context"
-    ],
+    "options": ["A. Process", "B. Sequence", "C. Activity", "D. Context"],
     "answer": "D",
     "explanation": ""
   },
@@ -470,12 +455,7 @@
   {
     "id": "me3_q040",
     "question": "Question #330",
-    "options": [
-      "A. Diagrams",
-      "B. Graphics",
-      "C. Matrices",
-      "D. Prototype"
-    ],
+    "options": ["A. Diagrams", "B. Graphics", "C. Matrices", "D. Prototype"],
     "answer": "A",
     "explanation": ""
   },
@@ -506,12 +486,7 @@
   {
     "id": "me3_q043",
     "question": "Question #333",
-    "options": [
-      "A. 44%",
-      "B. 73%",
-      "C. 40%",
-      "D. 51%"
-    ],
+    "options": ["A. 44%", "B. 73%", "C. 40%", "D. 51%"],
     "answer": "B",
     "explanation": ""
   },
@@ -625,12 +600,7 @@
   {
     "id": "me3_q053",
     "question": "Question #353",
-    "options": [
-      "A. Gap",
-      "B. Financial",
-      "C. Requirements",
-      "D. Risk"
-    ],
+    "options": ["A. Gap", "B. Financial", "C. Requirements", "D. Risk"],
     "answer": "D",
     "explanation": ""
   },
@@ -673,12 +643,7 @@
   {
     "id": "me3_q057",
     "question": "Question #357",
-    "options": [
-      "A. Future state",
-      "B. Assets",
-      "C. Scope",
-      "D. Risk register"
-    ],
+    "options": ["A. Future state", "B. Assets", "C. Scope", "D. Risk register"],
     "answer": "C",
     "explanation": ""
   },
@@ -805,36 +770,21 @@
   {
     "id": "me3_q068",
     "question": "Question #368",
-    "options": [
-      "A. Impact",
-      "B. Capability",
-      "C. Market",
-      "D. Document"
-    ],
+    "options": ["A. Impact", "B. Capability", "C. Market", "D. Document"],
     "answer": "A",
     "explanation": ""
   },
   {
     "id": "me3_q069",
     "question": "Question #369",
-    "options": [
-      "A. 15",
-      "B. 14",
-      "C. 12",
-      "D. 11"
-    ],
+    "options": ["A. 15", "B. 14", "C. 12", "D. 11"],
     "answer": "B",
     "explanation": ""
   },
   {
     "id": "me3_q070",
     "question": "Question #370",
-    "options": [
-      "A. 86%",
-      "B. 83%",
-      "C. 70%",
-      "D. 74%"
-    ],
+    "options": ["A. 86%", "B. 83%", "C. 70%", "D. 74%"],
     "answer": "D",
     "explanation": ""
   },
@@ -853,12 +803,7 @@
   {
     "id": "me3_q072",
     "question": "Question #372",
-    "options": [
-      "A. 90%",
-      "B. 85%",
-      "C. 10%",
-      "D. 20%"
-    ],
+    "options": ["A. 90%", "B. 85%", "C. 10%", "D. 20%"],
     "answer": "A",
     "explanation": ""
   },
@@ -877,12 +822,7 @@
   {
     "id": "me3_q074",
     "question": "Question #374",
-    "options": [
-      "A. Seeking",
-      "B. Avoidance",
-      "C. Mitigation",
-      "D. Neutrality"
-    ],
+    "options": ["A. Seeking", "B. Avoidance", "C. Mitigation", "D. Neutrality"],
     "answer": "A",
     "explanation": ""
   },
@@ -949,24 +889,14 @@
   {
     "id": "me3_q080",
     "question": "Question #380",
-    "options": [
-      "A. Feasible",
-      "B. Concise",
-      "C. Consistent",
-      "D. Atomic"
-    ],
+    "options": ["A. Feasible", "B. Concise", "C. Consistent", "D. Atomic"],
     "answer": "D",
     "explanation": ""
   },
   {
     "id": "me3_q081",
     "question": "Question #381",
-    "options": [
-      "A. Derives",
-      "B. Depends",
-      "C. Validates",
-      "D. Verifies"
-    ],
+    "options": ["A. Derives", "B. Depends", "C. Validates", "D. Verifies"],
     "answer": "D",
     "explanation": ""
   },
@@ -1117,24 +1047,14 @@
   {
     "id": "me3_q094",
     "question": "Question #394",
-    "options": [
-      "A. 12",
-      "B. 9",
-      "C. 10",
-      "D. 11"
-    ],
+    "options": ["A. 12", "B. 9", "C. 10", "D. 11"],
     "answer": "A",
     "explanation": ""
   },
   {
     "id": "me3_q095",
     "question": "Question #395",
-    "options": [
-      "A. 18 hours",
-      "B. 20 hours",
-      "C. 15 hours",
-      "D. 17 hours"
-    ],
+    "options": ["A. 18 hours", "B. 20 hours", "C. 15 hours", "D. 17 hours"],
     "answer": "D",
     "explanation": ""
   },
@@ -1213,12 +1133,7 @@
   {
     "id": "me3_q102",
     "question": "Question #402",
-    "options": [
-      "A. Correct",
-      "B. Unambiguous",
-      "C. Defined",
-      "D. Necessary"
-    ],
+    "options": ["A. Correct", "B. Unambiguous", "C. Defined", "D. Necessary"],
     "answer": "B",
     "explanation": ""
   },
@@ -1321,24 +1236,14 @@
   {
     "id": "me3_q111",
     "question": "Question #411",
-    "options": [
-      "A. 39",
-      "B. 51",
-      "C. 60",
-      "D. 19"
-    ],
+    "options": ["A. 39", "B. 51", "C. 60", "D. 19"],
     "answer": "C",
     "explanation": ""
   },
   {
     "id": "me3_q112",
     "question": "Question #412",
-    "options": [
-      "A. $695,448",
-      "B. $453,635",
-      "C. $653,934",
-      "D. $207,790"
-    ],
+    "options": ["A. $695,448", "B. $453,635", "C. $653,934", "D. $207,790"],
     "answer": "A",
     "explanation": ""
   },
@@ -1369,12 +1274,7 @@
   {
     "id": "me3_q115",
     "question": "Question #415",
-    "options": [
-      "A. Future state",
-      "B. Decision",
-      "C. Market",
-      "D. Root cause"
-    ],
+    "options": ["A. Future state", "B. Decision", "C. Market", "D. Root cause"],
     "answer": "A",
     "explanation": ""
   },
@@ -1405,12 +1305,7 @@
   {
     "id": "me3_q118",
     "question": "Question #418",
-    "options": [
-      "A. Sunk",
-      "B. Maintenance",
-      "C. Opportunity",
-      "D. Operating"
-    ],
+    "options": ["A. Sunk", "B. Maintenance", "C. Opportunity", "D. Operating"],
     "answer": "C",
     "explanation": ""
   },

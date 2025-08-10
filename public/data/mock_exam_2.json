@@ -158,12 +158,7 @@
   {
     "id": "me2_q014",
     "question": "It's often impossible or difficult to prove that the implementation of a solution will change the current state of an organization to the desired future state. The business analyst must document the characteristics and risk of the implementation of a solution in case the belief that the solution will achieve the desired results will prove invalid. What is the belief that the solution will create the desired effect for the organization called?",
-    "options": [
-      "A. Project",
-      "B. Risk",
-      "C. Assumption",
-      "D. Model"
-    ],
+    "options": ["A. Project", "B. Risk", "C. Assumption", "D. Model"],
     "answer": "C",
     "explanation": "An assumption is a belief that something is true without proof. The belief that a solution will achieve desired results is an assumption that should be documented and validated."
   },
@@ -242,12 +237,7 @@
   {
     "id": "me2_q021",
     "question": "____ is the degree to which a set of inherent characteristics fulfills requirements.",
-    "options": [
-      "A. Quality",
-      "B. Regulation",
-      "C. Project phase",
-      "D. Scope"
-    ],
+    "options": ["A. Quality", "B. Regulation", "C. Project phase", "D. Scope"],
     "answer": "A",
     "explanation": "Quality is defined as the degree to which a set of inherent characteristics fulfills requirements, measuring how well something meets specified needs."
   },
@@ -482,12 +472,7 @@
   {
     "id": "me2_q041",
     "question": "Herb is the business analyst for the HYY Organization. As Herb is completing the organize requirements process he recognizes that requirements typically need to answer one question for identification. What is the one interrogative that requirements should answer?",
-    "options": [
-      "A. What",
-      "B. When",
-      "C. Why",
-      "D. How"
-    ],
+    "options": ["A. What", "B. When", "C. Why", "D. How"],
     "answer": "A",
     "explanation": "Requirements should primarily answer 'What' - what the solution must do, what capabilities it must provide, and what outcomes it must achieve."
   },
@@ -590,12 +575,7 @@
   {
     "id": "me2_q050",
     "question": "Which of the following is NOT a component of an entity relationship diagram?",
-    "options": [
-      "A. Attributes",
-      "B. Relationships",
-      "C. Forks",
-      "D. Entities"
-    ],
+    "options": ["A. Attributes", "B. Relationships", "C. Forks", "D. Entities"],
     "answer": "C",
     "explanation": "Entity relationship diagrams consist of entities, attributes, and relationships. Forks are components of other diagram types, not ERDs."
   },
@@ -638,12 +618,7 @@
   {
     "id": "me2_q054",
     "question": "Which of the following is NOT a component of flowchart?",
-    "options": [
-      "A. Forks",
-      "B. Attributes",
-      "C. Activities",
-      "D. Joins"
-    ],
+    "options": ["A. Forks", "B. Attributes", "C. Activities", "D. Joins"],
     "answer": "B",
     "explanation": "Attributes are components of entity relationship diagrams, not flowcharts. Flowcharts contain activities, decision points, forks, and joins."
   },
@@ -770,12 +745,7 @@
   {
     "id": "me2_q065",
     "question": "What type of requirements elicitation technique is the Delphi Technique?",
-    "options": [
-      "A. Survey",
-      "B. Workshop",
-      "C. Round table",
-      "D. Prototyping"
-    ],
+    "options": ["A. Survey", "B. Workshop", "C. Round table", "D. Prototyping"],
     "answer": "A",
     "explanation": "The Delphi Technique is a structured survey method that uses multiple rounds of questionnaires to achieve consensus among experts."
   },
@@ -1131,12 +1101,7 @@
   {
     "id": "me2_q095",
     "question": "Which of the following stages of a project defines the number of risks and opportunities, including intense planning and anticipation of risk events?",
-    "options": [
-      "A. Planning",
-      "B. Executing",
-      "C. Initiation",
-      "D. Closing"
-    ],
+    "options": ["A. Planning", "B. Executing", "C. Initiation", "D. Closing"],
     "answer": "C",
     "explanation": "The initiation stage involves identifying and defining risks and opportunities, including intensive planning and anticipation of potential risk events."
   },
@@ -1191,12 +1156,7 @@
   {
     "id": "me2_q100",
     "question": "Which of the following software development life cycles is a methodology that divides the project into phases, and the project manager focuses on control of time, cost, and scope?",
-    "options": [
-      "A. Spiral",
-      "B. Agile",
-      "C. Waterfall",
-      "D. Incremental"
-    ],
+    "options": ["A. Spiral", "B. Agile", "C. Waterfall", "D. Incremental"],
     "answer": "B",
     "explanation": "Agile methodology divides projects into phases (sprints/iterations) where project managers focus on controlling time, cost, and scope within each iteration."
   },

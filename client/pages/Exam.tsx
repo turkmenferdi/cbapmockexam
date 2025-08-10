@@ -1,50 +1,58 @@
-import React, { useEffect, useState } from 'react';
-import { useExam } from '@/contexts/ExamContext';
-import { Button } from '@/components/ui/button';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { RadioGroup, RadioGroupItem } from '@/components/ui/radio-group';
-import { Label } from '@/components/ui/label';
-import { Progress } from '@/components/ui/progress';
-import { Badge } from '@/components/ui/badge';
-import { 
-  ChevronLeft, 
-  ChevronRight, 
-  Clock, 
-  Flag, 
+import React, { useEffect, useState } from "react";
+import { useExam } from "@/contexts/ExamContext";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
+import { Label } from "@/components/ui/label";
+import { Progress } from "@/components/ui/progress";
+import { Badge } from "@/components/ui/badge";
+import {
+  ChevronLeft,
+  ChevronRight,
+  Clock,
+  Flag,
   CheckCircle2,
   Circle,
-  AlertCircle
-} from 'lucide-react';
-import { getTimeRemaining, formatTime, calculateScore } from '@/lib/examUtils';
-import { useNavigate } from 'react-router-dom';
+  AlertCircle,
+} from "lucide-react";
+import { getTimeRemaining, formatTime, calculateScore } from "@/lib/examUtils";
+import { useNavigate } from "react-router-dom";
 
 export default function Exam() {
-  const { examState, answerQuestion, toggleMarkForReview, setCurrentQuestion, nextQuestion, previousQuestion, completeExam } = useExam();
+  const {
+    examState,
+    answerQuestion,
+    toggleMarkForReview,
+    setCurrentQuestion,
+    nextQuestion,
+    previousQuestion,
+    completeExam,
+  } = useExam();
   const [timeRemaining, setTimeRemaining] = useState(0);
   const navigate = useNavigate();
 
   useEffect(() => {
     if (!examState) {
-      console.log('No exam state found, redirecting to home');
-      navigate('/');
+      console.log("No exam state found, redirecting to home");
+      navigate("/");
       return;
     }
 
     if (examState.isCompleted) {
-      console.log('Exam completed, redirecting to results');
-      navigate('/results');
+      console.log("Exam completed, redirecting to results");
+      navigate("/results");
       return;
     }
 
-    console.log('Current exam state:', examState);
+    console.log("Current exam state:", examState);
 
     const timer = setInterval(() => {
       const remaining = getTimeRemaining(examState);
       setTimeRemaining(remaining);
-      
+
       if (remaining <= 0) {
         completeExam();
-        navigate('/results');
+        navigate("/results");
       }
     }, 1000);
 
@@ -56,9 +64,10 @@ export default function Exam() {
   }
 
   const currentQuestion = examState.questions[examState.currentQuestionIndex];
-  const currentAnswer = examState.answers[currentQuestion.id] || '';
-  const isMarkedForReview = examState.markedForReview[currentQuestion.id] || false;
-  
+  const currentAnswer = examState.answers[currentQuestion.id] || "";
+  const isMarkedForReview =
+    examState.markedForReview[currentQuestion.id] || false;
+
   const answeredCount = Object.keys(examState.answers).length;
   const progressPercentage = (answeredCount / examState.questions.length) * 100;
 
@@ -75,9 +84,13 @@ export default function Exam() {
   };
 
   const handleFinishExam = () => {
-    if (window.confirm('Are you sure you want to finish the exam? This action cannot be undone.')) {
+    if (
+      window.confirm(
+        "Are you sure you want to finish the exam? This action cannot be undone.",
+      )
+    ) {
       completeExam();
-      navigate('/results');
+      navigate("/results");
     }
   };
 
@@ -86,10 +99,10 @@ export default function Exam() {
     const isMarked = examState.markedForReview[questionId];
     const isCurrent = index === examState.currentQuestionIndex;
 
-    if (isCurrent) return 'current';
-    if (isMarked) return 'marked';
-    if (isAnswered) return 'answered';
-    return 'unanswered';
+    if (isCurrent) return "current";
+    if (isMarked) return "marked";
+    if (isAnswered) return "answered";
+    return "unanswered";
   };
 
   return (
@@ -98,12 +111,15 @@ export default function Exam() {
       <div className="bg-white border-b border-gray-200 px-4 py-3">
         <div className="flex items-center justify-between max-w-7xl mx-auto">
           <div className="flex items-center gap-4">
-            <h1 className="text-xl font-semibold text-gray-900">CBAP Mock Exam</h1>
+            <h1 className="text-xl font-semibold text-gray-900">
+              CBAP Mock Exam
+            </h1>
             <Badge variant="outline" className="text-sm">
-              Question {examState.currentQuestionIndex + 1} of {examState.questions.length}
+              Question {examState.currentQuestionIndex + 1} of{" "}
+              {examState.questions.length}
             </Badge>
           </div>
-          
+
           <div className="flex items-center gap-6">
             <div className="flex items-center gap-2 text-sm text-gray-600">
               <CheckCircle2 className="h-4 w-4 text-green-600" />
@@ -124,7 +140,7 @@ export default function Exam() {
             </Button>
           </div>
         </div>
-        
+
         <div className="max-w-7xl mx-auto mt-3">
           <Progress value={progressPercentage} className="h-2" />
         </div>
@@ -141,17 +157,17 @@ export default function Exam() {
               <div className="grid grid-cols-6 gap-2">
                 {examState.questions.map((question, index) => {
                   const status = getQuestionStatus(question.id, index);
-                  
+
                   return (
                     <button
                       key={question.id}
                       onClick={() => handleQuestionSelect(index)}
                       className={`
                         w-8 h-8 rounded text-xs font-medium transition-colors
-                        ${status === 'current' ? 'bg-blue-600 text-white' : ''}
-                        ${status === 'answered' ? 'bg-green-100 text-green-800 hover:bg-green-200' : ''}
-                        ${status === 'marked' ? 'bg-yellow-100 text-yellow-800 hover:bg-yellow-200' : ''}
-                        ${status === 'unanswered' ? 'bg-gray-100 text-gray-600 hover:bg-gray-200' : ''}
+                        ${status === "current" ? "bg-blue-600 text-white" : ""}
+                        ${status === "answered" ? "bg-green-100 text-green-800 hover:bg-green-200" : ""}
+                        ${status === "marked" ? "bg-yellow-100 text-yellow-800 hover:bg-yellow-200" : ""}
+                        ${status === "unanswered" ? "bg-gray-100 text-gray-600 hover:bg-gray-200" : ""}
                       `}
                     >
                       {index + 1}
@@ -159,7 +175,7 @@ export default function Exam() {
                   );
                 })}
               </div>
-              
+
               <div className="mt-4 space-y-2 text-xs">
                 <div className="flex items-center gap-2">
                   <div className="w-3 h-3 bg-green-100 rounded"></div>
@@ -194,17 +210,27 @@ export default function Exam() {
                 )}
               </div>
             </CardHeader>
-            
+
             <CardContent className="space-y-6">
-              <RadioGroup value={currentAnswer} onValueChange={handleAnswerChange}>
+              <RadioGroup
+                value={currentAnswer}
+                onValueChange={handleAnswerChange}
+              >
                 {currentQuestion.options.map((option, index) => {
                   const optionValue = option.charAt(0); // A, B, C, D
-                  
+
                   return (
-                    <div key={index} className="flex items-start space-x-3 p-3 rounded-lg hover:bg-gray-50 transition-colors">
-                      <RadioGroupItem value={optionValue} id={`option-${index}`} className="mt-1" />
-                      <Label 
-                        htmlFor={`option-${index}`} 
+                    <div
+                      key={index}
+                      className="flex items-start space-x-3 p-3 rounded-lg hover:bg-gray-50 transition-colors"
+                    >
+                      <RadioGroupItem
+                        value={optionValue}
+                        id={`option-${index}`}
+                        className="mt-1"
+                      />
+                      <Label
+                        htmlFor={`option-${index}`}
                         className="flex-1 cursor-pointer text-sm leading-relaxed"
                       >
                         {option}
@@ -219,10 +245,12 @@ export default function Exam() {
                   <Button
                     variant="outline"
                     onClick={handleMarkForReview}
-                    className={isMarkedForReview ? 'bg-yellow-50 border-yellow-300' : ''}
+                    className={
+                      isMarkedForReview ? "bg-yellow-50 border-yellow-300" : ""
+                    }
                   >
                     <Flag className="h-4 w-4 mr-2" />
-                    {isMarkedForReview ? 'Unmark Review' : 'Mark for Review'}
+                    {isMarkedForReview ? "Unmark Review" : "Mark for Review"}
                   </Button>
                 </div>
 
@@ -235,9 +263,13 @@ export default function Exam() {
                     <ChevronLeft className="h-4 w-4 mr-2" />
                     Previous
                   </Button>
-                  
-                  {examState.currentQuestionIndex === examState.questions.length - 1 ? (
-                    <Button onClick={handleFinishExam} className="bg-green-600 hover:bg-green-700">
+
+                  {examState.currentQuestionIndex ===
+                  examState.questions.length - 1 ? (
+                    <Button
+                      onClick={handleFinishExam}
+                      className="bg-green-600 hover:bg-green-700"
+                    >
                       Finish Exam
                     </Button>
                   ) : (

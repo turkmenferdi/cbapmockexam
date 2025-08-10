@@ -1,10 +1,10 @@
-import { CBAPQuestion, ExamState } from '@shared/types';
+import { CBAPQuestion, ExamState } from "@shared/types";
 
 export const EXAM_CONFIG = {
   TOTAL_QUESTIONS: 120,
   DURATION_MINUTES: 300,
   PASSING_SCORE: 80,
-  STORAGE_KEY: 'cbap_exam_state'
+  STORAGE_KEY: "cbap_exam_state",
 };
 
 export async function loadAllQuestions(): Promise<CBAPQuestion[]> {
@@ -12,13 +12,13 @@ export async function loadAllQuestions(): Promise<CBAPQuestion[]> {
 
   // Load from multiple chunk files
   const chunkFiles = [
-    'mock_exam_1.json',
-    'mock_exam_2.json',
-    'mock_exam_3.json',
-    'questions_chunk_01.json',
-    'questions_chunk_02.json',
-    'questions_chunk_03.json',
-    'questions_chunk_04.json'
+    "mock_exam_1.json",
+    "mock_exam_2.json",
+    "mock_exam_3.json",
+    "questions_chunk_01.json",
+    "questions_chunk_02.json",
+    "questions_chunk_03.json",
+    "questions_chunk_04.json",
   ];
 
   for (const file of chunkFiles) {
@@ -36,7 +36,10 @@ export async function loadAllQuestions(): Promise<CBAPQuestion[]> {
   return allQuestions;
 }
 
-export function getRandomQuestions(allQuestions: CBAPQuestion[], count: number): CBAPQuestion[] {
+export function getRandomQuestions(
+  allQuestions: CBAPQuestion[],
+  count: number,
+): CBAPQuestion[] {
   const shuffled = [...allQuestions].sort(() => 0.5 - Math.random());
   const selectedCount = Math.min(count, allQuestions.length);
   return shuffled.slice(0, selectedCount);
@@ -50,7 +53,7 @@ export function createNewExam(questions: CBAPQuestion[]): ExamState {
     markedForReview: {},
     startTime: Date.now(),
     duration: EXAM_CONFIG.DURATION_MINUTES,
-    isCompleted: false
+    isCompleted: false,
   };
 }
 
@@ -79,7 +82,7 @@ export function calculateScore(examState: ExamState): number {
   const correct = questions.reduce((count, question) => {
     return answers[question.id] === question.answer ? count + 1 : count;
   }, 0);
-  
+
   return Math.round((correct / questions.length) * 100);
 }
 
@@ -94,6 +97,6 @@ export function formatTime(milliseconds: number): string {
   const hours = Math.floor(totalSeconds / 3600);
   const minutes = Math.floor((totalSeconds % 3600) / 60);
   const seconds = totalSeconds % 60;
-  
-  return `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+
+  return `${hours.toString().padStart(2, "0")}:${minutes.toString().padStart(2, "0")}:${seconds.toString().padStart(2, "0")}`;
 }
