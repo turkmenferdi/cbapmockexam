@@ -15,17 +15,7 @@ export default defineConfig(({ mode }) => ({
   },
   build: {
     outDir: "dist/spa",
-    assetsDir: "assets",
     sourcemap: false,
-    rollupOptions: {
-      output: {
-        manualChunks: {
-          vendor: ["react", "react-dom"],
-          router: ["react-router-dom"],
-          ui: ["@radix-ui/react-dialog"],
-        },
-      },
-    },
   },
   plugins: [react(), ...(mode === "development" ? [expressPlugin()] : [])],
   resolve: {
@@ -34,7 +24,6 @@ export default defineConfig(({ mode }) => ({
       "@shared": path.resolve(__dirname, "./shared"),
     },
   },
-  base: "/",
 }));
 
 function expressPlugin(): Plugin {
