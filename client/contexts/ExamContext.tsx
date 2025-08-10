@@ -43,54 +43,83 @@ function examReducer(
 ): ExamState | null {
   if (!state && action.type !== "SET_EXAM_STATE") return null;
 
-  switch (action.type) {
-    case "SET_EXAM_STATE":
-      return action.payload;
+  try {
+    switch (action.type) {
+      case "SET_EXAM_STATE":
+        return action.payload;
 
-    case "ANSWER_QUESTION":
-      const newState = {
-        ...state!,
-        answers: {
-          ...state!.answers,
-          [action.payload.questionId]: action.payload.answer,
-        },
-      };
-      saveExamState(newState);
-      return newState;
+      case "ANSWER_QUESTION":
+        if (!state) return null;
+        const newState = {
+          ...state,
+          answers: {
+            ...state.answers,
+            [action.payload.questionId]: action.payload.answer,
+          },
+        };
+        try {
+          saveExamState(newState);
+        } catch (error) {
+          console.error('Failed to save exam state:', error);
+        }
+        return newState;
 
-    case "TOGGLE_MARK_FOR_REVIEW":
-      const updatedState = {
-        ...state!,
-        markedForReview: {
-          ...state!.markedForReview,
-          [action.payload]: !state!.markedForReview[action.payload],
-        },
-      };
-      saveExamState(updatedState);
-      return updatedState;
+      case "TOGGLE_MARK_FOR_REVIEW":
+        if (!state) return null;
+        const updatedState = {
+          ...state,
+          markedForReview: {
+            ...state.markedForReview,
+            [action.payload]: !state.markedForReview[action.payload],
+          },
+        };
+        try {
+          saveExamState(updatedState);
+        } catch (error) {
+          console.error('Failed to save exam state:', error);
+        }
+        return updatedState;
 
-    case "SET_CURRENT_QUESTION":
-      const currentState = {
-        ...state!,
-        currentQuestionIndex: action.payload,
-      };
-      saveExamState(currentState);
-      return currentState;
+      case "SET_CURRENT_QUESTION":
+        if (!state) return null;
+        const currentState = {
+          ...state,
+          currentQuestionIndex: action.payload,
+        };
+        try {
+          saveExamState(currentState);
+        } catch (error) {
+          console.error('Failed to save exam state:', error);
+        }
+        return currentState;
 
-    case "COMPLETE_EXAM":
-      const completedState = {
-        ...state!,
-        isCompleted: true,
-      };
-      saveExamState(completedState);
-      return completedState;
+      case "COMPLETE_EXAM":
+        if (!state) return null;
+        const completedState = {
+          ...state,
+          isCompleted: true,
+        };
+        try {
+          saveExamState(completedState);
+        } catch (error) {
+          console.error('Failed to save exam state:', error);
+        }
+        return completedState;
 
-    case "CLEAR_EXAM":
-      clearExamState();
-      return null;
+      case "CLEAR_EXAM":
+        try {
+          clearExamState();
+        } catch (error) {
+          console.error('Failed to clear exam state:', error);
+        }
+        return null;
 
-    default:
-      return state;
+      default:
+        return state;
+    }
+  } catch (error) {
+    console.error('Reducer error:', error);
+    return state;
   }
 }
 
