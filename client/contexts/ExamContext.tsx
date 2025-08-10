@@ -116,10 +116,11 @@ export function ExamProvider({ children }: { children: ReactNode }) {
     };
   }, []);
 
-  const startNewExam = async (examType?: string) => {
-    if (!isMounted) return;
+  const startNewExam = async (examType?: string): Promise<boolean> => {
+    if (!isMounted) return false;
 
     setIsLoading(true);
+
     try {
       let examQuestions: CBAPQuestion[] = [];
 
@@ -130,18 +131,24 @@ export function ExamProvider({ children }: { children: ReactNode }) {
 
         try {
           const response = await fetch(`/data/${fileName}`);
-          if (response.ok) {
-            const questions = await response.json();
-            examQuestions = getRandomQuestions(
-              questions,
-              Math.min(EXAM_CONFIG.TOTAL_QUESTIONS, questions.length),
-            );
-            console.log(
-              `Selected ${examQuestions.length} questions from ${fileName}`,
-            );
-          } else {
-            throw new Error(`Failed to load ${fileName}`);
+          if (!response.ok) {
+            throw new Error(`Failed to load ${fileName}: ${response.status} ${response.statusText}`);
           }
+
+          const questions = await response.json();
+
+          // Validate questions format
+          if (!Array.isArray(questions) || questions.length === 0) {
+            throw new Error(`Invalid questions format in ${fileName}`);
+          }
+
+          examQuestions = getRandomQuestions(
+            questions,
+            Math.min(EXAM_CONFIG.TOTAL_QUESTIONS, questions.length),
+          );
+          console.log(
+            `Selected ${examQuestions.length} questions from ${fileName}`,
+          );
         } catch (error) {
           console.error(
             `Failed to load ${fileName}, falling back to all questions`,
@@ -166,22 +173,33 @@ export function ExamProvider({ children }: { children: ReactNode }) {
         throw new Error("No questions loaded");
       }
 
+      // Check if component is still mounted before proceeding
+      if (!isMounted) {
+        console.log('Component unmounted during exam loading, aborting');
+        return false;
+      }
+
       console.log("Selected questions for exam:", examQuestions.length);
 
       const newExam = createNewExam(examQuestions);
       console.log("New exam created:", newExam);
 
-      // Only update state if component is still mounted
+      // Final mount check before state update
       if (isMounted) {
         dispatch({ type: "SET_EXAM_STATE", payload: newExam });
         saveExamState(newExam);
         console.log("New exam saved successfully");
+        return true;
       }
 
-      return true;
+      return false;
     } catch (error) {
       console.error("Failed to start new exam:", error);
-      throw error;
+      if (isMounted) {
+        // Handle error gracefully without throwing
+        console.error('Exam loading failed:', error);
+      }
+      return false;
     } finally {
       if (isMounted) {
         setIsLoading(false);
