@@ -13,7 +13,7 @@ import {
 interface ExamContextType {
   examState: ExamState | null;
   isLoading: boolean;
-  startNewExam: () => Promise<void>;
+  startNewExam: (examType?: string) => Promise<boolean>;
   answerQuestion: (questionId: string, answer: string) => void;
   toggleMarkForReview: (questionId: string) => void;
   setCurrentQuestion: (index: number) => void;
