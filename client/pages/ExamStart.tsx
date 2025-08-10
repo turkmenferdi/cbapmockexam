@@ -53,9 +53,15 @@ export default function ExamStart() {
   const { startNewExam, isLoading, examState } = useExam();
 
   const handleStartExam = async (examType: string) => {
-    await startNewExam();
-    // Navigate to exam page after starting the exam
-    window.location.href = '/exam';
+    // First clear any existing exam state
+    clearExam();
+
+    // Wait a moment for state to clear
+    setTimeout(async () => {
+      await startNewExam();
+      // Force navigation to exam page
+      window.location.href = '/exam';
+    }, 100);
   };
 
   if (examState && !examState.isCompleted) {
