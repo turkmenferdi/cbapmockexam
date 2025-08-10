@@ -76,21 +76,23 @@ npm run preview
 
 ## 📊 Mock Exam İçeriği
 
-| Exam | Sorular | Durum |
-|------|---------|-------|
-| Mock Exam 1 | 120 | ✅ Hazır |
-| Mock Exam 2 | 120 | ✅ Hazır |  
-| Mock Exam 3 | 120 | ✅ Hazır |
-| Mock Exam 4 | 120 | ✅ Hazır |
-| Mock Exam 5 | 120 | ✅ Hazır |
-| **Toplam** | **600** | **✅ Komple** |
+| Exam        | Sorular | Durum         |
+| ----------- | ------- | ------------- |
+| Mock Exam 1 | 120     | ✅ Hazır      |
+| Mock Exam 2 | 120     | ✅ Hazır      |
+| Mock Exam 3 | 120     | ✅ Hazır      |
+| Mock Exam 4 | 120     | ✅ Hazır      |
+| Mock Exam 5 | 120     | ✅ Hazır      |
+| **Toplam**  | **600** | **✅ Komple** |
 
 ## 🔧 Konfigürasyon
 
 ### Environment Variables
+
 Hiçbir environment variable gerekmez - tamamen statik.
 
 ### Vercel Settings
+
 ```json
 {
   "framework": "vite",
@@ -103,7 +105,7 @@ Hiçbir environment variable gerekmez - tamamen statik.
 ## 📱 Browser Desteği
 
 - Chrome/Edge (son 2 versiyon)
-- Firefox (son 2 versiyon)  
+- Firefox (son 2 versiyon)
 - Safari (son 2 versiyon)
 - Mobil browsers (iOS Safari, Chrome Mobile)
 
