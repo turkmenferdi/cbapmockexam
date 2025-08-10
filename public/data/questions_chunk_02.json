@@ -1,0 +1,62 @@
+[
+  {
+    "id": "q006",
+    "question": "Which of the following is a key principle of business analysis planning and monitoring?",
+    "options": [
+      "A. Always use the same approach for every project",
+      "B. Plan the business analysis approach based on project context",
+      "C. Focus only on technical requirements",
+      "D. Avoid stakeholder involvement in planning"
+    ],
+    "answer": "B",
+    "explanation": "Business analysis planning should be tailored to the specific context, complexity, and needs of each project to ensure the most effective approach."
+  },
+  {
+    "id": "q007",
+    "question": "What is the primary purpose of a context diagram?",
+    "options": [
+      "A. To show the internal processes of a system",
+      "B. To illustrate the system's relationship with external entities",
+      "C. To document detailed business rules",
+      "D. To track project timelines"
+    ],
+    "answer": "B",
+    "explanation": "A context diagram shows the system as a single process and illustrates its interactions with external entities, providing a high-level view of system boundaries."
+  },
+  {
+    "id": "q008",
+    "question": "Which requirements prioritization technique uses a scale of 1-9 to compare requirements pairs?",
+    "options": [
+      "A. MoSCoW",
+      "B. Kano Model",
+      "C. Analytical Hierarchy Process (AHP)",
+      "D. Weighted ranking"
+    ],
+    "answer": "C",
+    "explanation": "The Analytical Hierarchy Process (AHP) uses a 1-9 scale to perform pairwise comparisons of requirements to determine relative priorities."
+  },
+  {
+    "id": "q009",
+    "question": "What is the main benefit of using prototyping as an elicitation technique?",
+    "options": [
+      "A. It reduces project costs",
+      "B. It provides a visual representation that helps stakeholders understand requirements",
+      "C. It eliminates the need for documentation",
+      "D. It speeds up development"
+    ],
+    "answer": "B",
+    "explanation": "Prototyping provides a tangible, visual representation of requirements that helps stakeholders better understand and validate what is being proposed."
+  },
+  {
+    "id": "q010",
+    "question": "Which technique is best for understanding the current state of business processes?",
+    "options": [
+      "A. Brainstorming",
+      "B. Process modeling",
+      "C. Focus groups",
+      "D. Risk analysis"
+    ],
+    "answer": "B",
+    "explanation": "Process modeling techniques such as flowcharts, swimlane diagrams, and value stream maps are specifically designed to document and analyze current business processes."
+  }
+]
