@@ -186,34 +186,41 @@ export function ExamProvider({ children }: { children: ReactNode }) {
   };
 
   const answerQuestion = (questionId: string, answer: string) => {
+    if (!isMounted) return;
     dispatch({ type: 'ANSWER_QUESTION', payload: { questionId, answer } });
   };
 
   const toggleMarkForReview = (questionId: string) => {
+    if (!isMounted) return;
     dispatch({ type: 'TOGGLE_MARK_FOR_REVIEW', payload: questionId });
   };
 
   const setCurrentQuestion = (index: number) => {
+    if (!isMounted) return;
     dispatch({ type: 'SET_CURRENT_QUESTION', payload: index });
   };
 
   const nextQuestion = () => {
-    if (examState && examState.currentQuestionIndex < examState.questions.length - 1) {
+    if (!isMounted || !examState) return;
+    if (examState.currentQuestionIndex < examState.questions.length - 1) {
       dispatch({ type: 'SET_CURRENT_QUESTION', payload: examState.currentQuestionIndex + 1 });
     }
   };
 
   const previousQuestion = () => {
-    if (examState && examState.currentQuestionIndex > 0) {
+    if (!isMounted || !examState) return;
+    if (examState.currentQuestionIndex > 0) {
       dispatch({ type: 'SET_CURRENT_QUESTION', payload: examState.currentQuestionIndex - 1 });
     }
   };
 
   const completeExam = () => {
+    if (!isMounted) return;
     dispatch({ type: 'COMPLETE_EXAM' });
   };
 
   const clearExam = () => {
+    if (!isMounted) return;
     clearExamState();
     dispatch({ type: 'CLEAR_EXAM' });
   };
