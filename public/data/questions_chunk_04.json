@@ -1,0 +1,122 @@
+[
+  {
+    "id": "q021",
+    "question": "Which technique is best for understanding complex business rules?",
+    "options": [
+      "A. Brainstorming",
+      "B. Decision trees and decision tables",
+      "C. Survey questionnaires",
+      "D. Document analysis"
+    ],
+    "answer": "B",
+    "explanation": "Decision trees and decision tables are specifically designed to capture and represent complex business rules in a clear, structured format that can be easily understood and validated."
+  },
+  {
+    "id": "q022",
+    "question": "What is the primary purpose of requirements allocation?",
+    "options": [
+      "A. To assign requirements to team members",
+      "B. To distribute requirements across solution components",
+      "C. To prioritize requirements by importance",
+      "D. To estimate effort for each requirement"
+    ],
+    "answer": "B",
+    "explanation": "Requirements allocation involves distributing requirements across different solution components or releases to ensure they are implemented in the most appropriate place."
+  },
+  {
+    "id": "q023",
+    "question": "Which of the following is NOT a valid elicitation technique?",
+    "options": [
+      "A. Interface analysis",
+      "B. Prototyping",
+      "C. Risk register",
+      "D. Focus groups"
+    ],
+    "answer": "C",
+    "explanation": "A risk register is a project management artifact used to track risks, not an elicitation technique. The others are all valid elicitation techniques used in business analysis."
+  },
+  {
+    "id": "q024",
+    "question": "What does the acronym INVEST stand for in the context of user stories?",
+    "options": [
+      "A. Independent, Negotiable, Valuable, Estimable, Small, Testable",
+      "B. Important, Necessary, Verifiable, Executable, Specific, Timely",
+      "C. Integrated, Notable, Valid, Efficient, Simple, Traceable",
+      "D. Inclusive, Natural, Viable, Explicit, Structured, Technical"
+    ],
+    "answer": "A",
+    "explanation": "INVEST stands for Independent, Negotiable, Valuable, Estimable, Small, and Testable - criteria for writing good user stories."
+  },
+  {
+    "id": "q025",
+    "question": "Which document typically contains assumptions, constraints, and dependencies?",
+    "options": [
+      "A. Test plan",
+      "B. Business requirements document",
+      "C. Project charter",
+      "D. Technical specifications"
+    ],
+    "answer": "B",
+    "explanation": "The business requirements document typically contains assumptions, constraints, and dependencies that affect the project and solution development."
+  },
+  {
+    "id": "q026",
+    "question": "What is the primary difference between verification and validation of requirements?",
+    "options": [
+      "A. Verification is done by users, validation is done by analysts",
+      "B. Verification checks if requirements are built right, validation checks if the right requirements are built",
+      "C. Verification is for functional requirements, validation is for non-functional requirements",
+      "D. There is no difference between verification and validation"
+    ],
+    "answer": "B",
+    "explanation": "Verification ensures requirements are built right (correct implementation), while validation ensures the right requirements are built (meeting actual needs)."
+  },
+  {
+    "id": "q027",
+    "question": "Which stakeholder is typically responsible for approving requirements?",
+    "options": [
+      "A. Project manager",
+      "B. Business analyst",
+      "C. Requirements sponsor or business owner",
+      "D. Technical lead"
+    ],
+    "answer": "C",
+    "explanation": "The requirements sponsor or business owner typically has the authority and responsibility to approve requirements as they represent the business interests."
+  },
+  {
+    "id": "q028",
+    "question": "What is the main purpose of a requirements traceability matrix?",
+    "options": [
+      "A. To estimate project effort",
+      "B. To track relationships between requirements and other artifacts",
+      "C. To prioritize requirements",
+      "D. To manage project risks"
+    ],
+    "answer": "B",
+    "explanation": "A requirements traceability matrix tracks relationships between requirements and other project artifacts like design documents, test cases, and code components."
+  },
+  {
+    "id": "q029",
+    "question": "Which technique helps identify the root cause of business problems?",
+    "options": [
+      "A. Five Whys",
+      "B. SWOT analysis",
+      "C. Benchmarking",
+      "D. Cost-benefit analysis"
+    ],
+    "answer": "A",
+    "explanation": "The Five Whys technique involves asking 'why' repeatedly to drill down and identify the root cause of business problems rather than just addressing symptoms."
+  },
+  {
+    "id": "q030",
+    "question": "What is the primary benefit of creating a current state assessment?",
+    "options": [
+      "A. To identify project costs",
+      "B. To understand existing processes and identify improvement opportunities",
+      "C. To create project schedules",
+      "D. To assign team responsibilities"
+    ],
+    "answer": "B",
+    "explanation": "Current state assessment helps understand existing processes, systems, and organizational structures to identify problems, inefficiencies, and opportunities for improvement."
+  }
+]
