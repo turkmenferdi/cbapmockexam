@@ -53,15 +53,23 @@ export default function ExamStart() {
   const { startNewExam, isLoading, examState, clearExam } = useExam();
 
   const handleStartExam = async (examType: string) => {
-    // First clear any existing exam state
+    // Force clear localStorage first
+    localStorage.removeItem('cbap_exam_state');
+
+    // Clear exam state
     clearExam();
 
-    // Wait a moment for state to clear
-    setTimeout(async () => {
+    try {
+      console.log('Starting new exam...');
       await startNewExam();
-      // Force navigation to exam page
+      console.log('Exam started, navigating...');
+
+      // Navigate to exam page
       window.location.href = '/exam';
-    }, 100);
+    } catch (error) {
+      console.error('Error starting exam:', error);
+      alert('Sınav başlatılırken hata oluştu.');
+    }
   };
 
   // Always show main page - remove the continue exam check for now
