@@ -1,0 +1,62 @@
+[
+  {
+    "id": "me4_q001",
+    "question": "Question #421: Which technique is used to identify and document stakeholder concerns that could impact the business analysis approach?",
+    "options": [
+      "A. Stakeholder mapping",
+      "B. Risk analysis",
+      "C. Process analysis",
+      "D. Brainstorming"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q002",
+    "question": "Question #422: What is the primary purpose of acceptance and evaluation criteria in requirements?",
+    "options": [
+      "A. To define solution testing procedures",
+      "B. To establish quality gates for requirements",
+      "C. To specify conditions that must be met for requirements to be acceptable",
+      "D. To document stakeholder preferences"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q003",
+    "question": "Question #423: Which stakeholder is typically responsible for prioritizing requirements?",
+    "options": [
+      "A. Business analyst",
+      "B. Project manager",
+      "C. Product owner or business sponsor",
+      "D. Domain subject matter expert"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q004",
+    "question": "Question #424: What is the main difference between business rules and functional requirements?",
+    "options": [
+      "A. Business rules are more detailed than functional requirements",
+      "B. Business rules govern behavior while functional requirements describe capabilities",
+      "C. Business rules are technical while functional requirements are business-focused",
+      "D. There is no significant difference"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "me4_q005",
+    "question": "Question #425: Which technique is most appropriate for analyzing the impact of proposed changes?",
+    "options": [
+      "A. Gap analysis",
+      "B. Impact analysis",
+      "C. Root cause analysis",
+      "D. Cost-benefit analysis"
+    ],
+    "answer": "B",
+    "explanation": ""
+  }
+]
