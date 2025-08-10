@@ -1,603 +1,601 @@
 [
   {
     "id": "me3_q001",
-    "question": "Which of the following describes the actual users who interact with one another, a system, or data moved between two users?",
+    "question": "Question #291",
     "options": [
-      "A. Device interface",
-      "B. User interface",
-      "C. Data interface",
-      "D. Communication port"
+      "A. Modify the solution to comply with the policies",
+      "B. Identify an assumption about future state value",
+      "C. Model two future states, one with and another without these policies",
+      "D. Obtain approval to change the policies"
     ],
-    "answer": "B",
-    "explanation": "User interface describes the actual users who interact with one another, systems, or data, defining how users interact with the system."
+    "answer": "C",
+    "explanation": ""
   },
   {
     "id": "me3_q002",
-    "question": "Which of the following defines the deliverable the customer is expecting?",
+    "question": "Question #292",
     "options": [
-      "A. Project charter",
-      "B. Procurement management plan",
-      "C. Product scope statement",
-      "D. Project network diagram"
+      "A. Negotiation",
+      "B. Grouping",
+      "C. Time Boxing",
+      "D. Budgeting"
     ],
     "answer": "C",
-    "explanation": "The product scope statement defines the deliverable that the customer is expecting, detailing what will be produced or delivered."
+    "explanation": ""
   },
   {
     "id": "me3_q003",
-    "question": "Which of the following document is created first after project is awarded and statement of work is handed over to the project manager?",
+    "question": "Question #293",
     "options": [
-      "A. Work breakdown structure (WBS)",
-      "B. WBS dictionary",
-      "C. Project scope statement",
-      "D. Project charter"
+      "A. Elicitation Activity Plan",
+      "B. Collaborative Games",
+      "C. Stakeholder List",
+      "D. Risk Analysis and Management"
     ],
-    "answer": "D",
-    "explanation": "The project charter is the first document created after project award, formally authorizing the project and providing initial requirements."
+    "answer": "B",
+    "explanation": ""
   },
   {
     "id": "me3_q004",
-    "question": "Which of the following are directed conversations for gathering ideas, opinions about a product, service, problem, or opportunity?",
+    "question": "Question #294",
     "options": [
-      "A. Interviews",
-      "B. Group discussions",
-      "C. Feedback loops",
-      "D. Focus groups"
+      "A. An unstructured approach utilizing informal team interaction, model-driven documentation standards, and iterative requirements development",
+      "B. An agile approach with frequent team interaction, adaptive documentation standards, and iterative requirements development",
+      "C. A moderate approach utilizing the bank's existing waterfall project lifecycle and documentation deliverables not requiring formal approval",
+      "D. A formal approach with planned team interaction, agreed upon documentation deliverables requiring formal approval, and front-loaded requirements development"
     ],
-    "answer": "D",
-    "explanation": "Focus groups are directed conversations specifically designed to gather ideas and opinions about products, services, problems, or opportunities."
+    "answer": "B",
+    "explanation": ""
   },
   {
     "id": "me3_q005",
-    "question": "Which of the following is the process of developing a document that formally authorizes a project or a phase?",
+    "question": "Question #295",
     "options": [
-      "A. Define Scope",
-      "B. Develop Schedule",
-      "C. Develop Project Charter",
-      "D. Create Work Breakdown Structure"
+      "A. Update the solution design",
+      "B. Re-evaluate the future state",
+      "C. Change the solution scope",
+      "D. Eliminate the requirement"
     ],
-    "answer": "C",
-    "explanation": "Develop Project Charter is the process of creating the document that formally authorizes a project or phase to begin."
+    "answer": "D",
+    "explanation": ""
   },
   {
     "id": "me3_q006",
-    "question": "Which of the following techniques involves coordinating and collaborating with other credible sources in risk?",
+    "question": "Question #296",
     "options": [
-      "A. Risk identification",
-      "B. Risk management",
-      "C. Risk communication",
-      "D. Risk analysis"
+      "A. Dough preparation",
+      "B. Toppings preparation",
+      "C. Topping recipes",
+      "D. Ad images"
     ],
-    "answer": "C",
-    "explanation": "Risk communication involves coordinating and collaborating with credible sources to share risk information and coordinate responses."
+    "answer": "A",
+    "explanation": ""
   },
   {
     "id": "me3_q007",
-    "question": "Which of the following is the formal acceptance of the project?",
+    "question": "Question #297",
     "options": [
-      "A. A project review",
-      "B. A sign-off",
-      "C. Risk assessment",
-      "D. Inspection trend analysis"
+      "A. Sponsor",
+      "B. End user",
+      "C. Project manager",
+      "D. Subject matter expert"
     ],
-    "answer": "B",
-    "explanation": "A sign-off represents the formal acceptance of the project, indicating stakeholder approval and authorization to proceed."
+    "answer": "C",
+    "explanation": ""
   },
   {
     "id": "me3_q008",
-    "question": "There are 50 stakeholders in the current project. How many communication channels exist in this project?",
+    "question": "Question #298",
     "options": [
-      "A. 1200",
-      "B. 1225",
-      "C. 1500",
-      "D. 500"
+      "A. Legal Regulatory Information",
+      "B. Architectural Repositories",
+      "C. Information Management Approach",
+      "D. Business Rules Analysis"
     ],
-    "answer": "B",
-    "explanation": "Communication channels = n(n-1)/2 where n=50. 50(49)/2 = 1225 communication channels."
+    "answer": "C",
+    "explanation": ""
   },
   {
     "id": "me3_q009",
-    "question": "Which of the following communicates from the program-level perspective a clear understanding and statement of the technical objectives and the end products, services, or results of the work to be performed?",
+    "question": "Question #299",
     "options": [
-      "A. Scope statement",
-      "B. Preliminary scope statement",
-      "C. Program work breakdown structure",
-      "D. Program charter"
+      "A. Priority set by stakeholders",
+      "B. Available resources",
+      "C. Timing of the release and its impact on business",
+      "D. Components in scope for that release"
     ],
-    "answer": "C",
-    "explanation": "Program work breakdown structure communicates technical objectives and end products from a program-level perspective."
+    "answer": "D",
+    "explanation": ""
   },
   {
     "id": "me3_q010",
-    "question": "Which of the following is a conversation between one or more speakers centering on one specific topic?",
-    "options": [
-      "A. Feedback loop",
-      "B. Presentation",
-      "C. Survey",
-      "D. Formal requirements review"
-    ],
-    "answer": "A",
-    "explanation": "A feedback loop is a conversation between speakers centered on a specific topic, allowing for iterative communication and refinement."
-  },
-  {
-    "id": "me3_q011",
-    "question": "What portion of the communications model could be defined as the translator?",
-    "options": [
-      "A. Receiver",
-      "B. Medium",
-      "C. Translator",
-      "D. Sender"
-    ],
-    "answer": "B",
-    "explanation": "The medium acts as the translator in the communications model, converting and transmitting messages between sender and receiver."
-  },
-  {
-    "id": "me3_q012",
-    "question": "Which of the following is derived from a schedule model to meet the project execution plan and achieve management approval for use as a baseline?",
-    "options": [
-      "A. Updating",
-      "B. Impacts",
-      "C. Baseline schedule",
-      "D. Dumping"
-    ],
-    "answer": "C",
-    "explanation": "Baseline schedule is derived from the schedule model and approved by management for use as the project execution baseline."
-  },
-  {
-    "id": "me3_q013",
-    "question": "The ____, an output of the define scope process, does document the process and criteria for accepting completed products.",
-    "options": [
-      "A. Statement of Work",
-      "B. Contract",
-      "C. Project scope statement",
-      "D. Project management plan"
-    ],
-    "answer": "C",
-    "explanation": "The project scope statement documents the process and criteria for accepting completed products as an output of the define scope process."
-  },
-  {
-    "id": "me3_q014",
-    "question": "Which of the following requires that all parties in the conflict must give up something?",
-    "options": [
-      "A. Barrier",
-      "B. Problem solving",
-      "C. Withdrawal",
-      "D. Compromising"
-    ],
-    "answer": "D",
-    "explanation": "Compromising is a conflict resolution technique that requires all parties to give up something to reach a mutually acceptable solution."
-  },
-  {
-    "id": "me3_q015",
-    "question": "Which of the following defines how the project scope should be created, executed, monitored and controlled, and then validated?",
-    "options": [
-      "A. Scope variance plan",
-      "B. Scope management plan",
-      "C. Staffing management plan",
-      "D. Schedule management plan"
-    ],
-    "answer": "B",
-    "explanation": "The scope management plan defines how project scope should be created, executed, monitored, controlled, and validated."
-  },
-  {
-    "id": "me3_q016",
-    "question": "Which of the following component of the communication model is responsible for transferring the message between two or more entities?",
-    "options": [
-      "A. Sender",
-      "B. Medium",
-      "C. Decoder",
-      "D. Receiver"
-    ],
-    "answer": "B",
-    "explanation": "The medium is the component responsible for transferring messages between two or more entities in the communication model."
-  },
-  {
-    "id": "me3_q017",
-    "question": "Which of the following processes is must at the end of each project phase to determine the completeness of the project work and to gain the customer's acceptance to move the project forward?",
-    "options": [
-      "A. Scope verification",
-      "B. Inspection of key results",
-      "C. Quality control",
-      "D. Phase gate review"
-    ],
-    "answer": "A",
-    "explanation": "Scope verification is required at the end of each phase to determine completeness and gain customer acceptance to proceed."
-  },
-  {
-    "id": "me3_q018",
-    "question": "Which of the following is the comparison of planned project results with actual project results?",
-    "options": [
-      "A. Variance analysis",
-      "B. Cost-benefit analysis",
-      "C. Statistical Sampling",
-      "D. Trend analysis"
-    ],
-    "answer": "A",
-    "explanation": "Variance analysis compares planned project results with actual results to identify deviations and performance gaps."
-  },
-  {
-    "id": "me3_q019",
-    "question": "Which of the following is a table of all stakeholders showing the mapping of which stakeholders will contribute information to other stakeholders?",
-    "options": [
-      "A. RACI Chart",
-      "B. Communications Requirements Matrix",
-      "C. Project scope statement",
-      "D. Organizational Breakdown Structure"
-    ],
-    "answer": "B",
-    "explanation": "Communications Requirements Matrix maps which stakeholders will contribute information to other stakeholders in the project."
-  },
-  {
-    "id": "me3_q020",
-    "question": "Which of the following is not a hygiene agent according to Frederick Herzberg theory?",
-    "options": [
-      "A. The chance to excel",
-      "B. Job security",
-      "C. A paycheck",
-      "D. Clean and safe working conditions"
-    ],
-    "answer": "A",
-    "explanation": "The chance to excel is a motivator, not a hygiene factor. Hygiene factors include job security, pay, and working conditions."
-  },
-  {
-    "id": "me3_q021",
-    "question": "Which of the following techniques is used to test customer acceptance of the solution and to measure marketplace demand?",
-    "options": [
-      "A. Interviews",
-      "B. Market Survey",
-      "C. Technology Assessment",
-      "D. Prototyping"
-    ],
-    "answer": "B",
-    "explanation": "Market surveys are specifically designed to test customer acceptance and measure marketplace demand for solutions."
-  },
-  {
-    "id": "me3_q022",
-    "question": "Which of the following displays the relative importance of the defects?",
-    "options": [
-      "A. Pareto diagram",
-      "B. User Documentation",
-      "C. Gantt chart",
-      "D. Flowchart"
-    ],
-    "answer": "A",
-    "explanation": "Pareto diagrams display the relative importance of defects, showing which defects have the most significant impact."
-  },
-  {
-    "id": "me3_q023",
-    "question": "Which of the following is responsible for preparing the business architecture, feasibility studies, and business cases?",
-    "options": [
-      "A. Security Administrator",
-      "B. Developer",
-      "C. Business analyst",
-      "D. Project leader"
-    ],
-    "answer": "C",
-    "explanation": "Business analysts are responsible for preparing business architecture, feasibility studies, and business cases."
-  },
-  {
-    "id": "me3_q024",
-    "question": "Which of the following is a method of displaying the timelines of all the various subtasks that are involved in any project?",
-    "options": [
-      "A. Pie chart",
-      "B. Scatter chart",
-      "C. Activity network diagram",
-      "D. Cost-benefit analysis"
-    ],
-    "answer": "C",
-    "explanation": "Activity network diagrams display the timelines and relationships of all subtasks involved in a project."
-  },
-  {
-    "id": "me3_q025",
-    "question": "Which of the following can be used in root cause analysis?",
-    "options": [
-      "A. Pareto chart",
-      "B. Data-flow diagram",
-      "C. Gantt chart",
-      "D. Fishbone diagram"
-    ],
-    "answer": "D",
-    "explanation": "Fishbone diagrams (cause-and-effect diagrams) are specifically designed for root cause analysis to identify potential causes of problems."
-  },
-  {
-    "id": "me3_q026",
-    "question": "Which of the following diagrams is known as Ishikawa diagram?",
-    "options": [
-      "A. Activity",
-      "B. Data-flow",
-      "C. Cost-Benefit",
-      "D. Cause-and Effect"
-    ],
-    "answer": "D",
-    "explanation": "The Ishikawa diagram is another name for the cause-and-effect diagram, named after its creator Kaoru Ishikawa."
-  },
-  {
-    "id": "me3_q027",
-    "question": "All of the following are examples of transference risk response except for which one?",
-    "options": [
-      "A. Warranties",
-      "B. Performance bonds",
-      "C. Life cycle costing",
-      "D. Use of insurance"
-    ],
-    "answer": "C",
-    "explanation": "Life cycle costing is an analysis technique, not a risk transference response. Warranties, bonds, and insurance transfer risk to others."
-  },
-  {
-    "id": "me3_q028",
-    "question": "Which of the following represents the duration of activities against a calendar?",
-    "options": [
-      "A. Scatter chart",
-      "B. Gantt chart",
-      "C. Pie chart",
-      "D. Pareto chart"
-    ],
-    "answer": "B",
-    "explanation": "Gantt charts represent the duration of activities against a calendar timeline, showing when activities start and end."
-  },
-  {
-    "id": "me3_q029",
-    "question": "Which of the following compares two or more systems, states, services, products, or things to determine the best viable choice?",
-    "options": [
-      "A. Benchmarking",
-      "B. Risk Identification",
-      "C. Risk analysis",
-      "D. Cost-benefit analysis"
-    ],
-    "answer": "A",
-    "explanation": "Benchmarking compares two or more systems, services, products, or processes to determine the best viable choice or best practices."
-  },
-  {
-    "id": "me3_q030",
-    "question": "Which of the following is described in the statement below? \"It shows the history and pattern of variation. It is a line graph that shows data points plotted in the order in which they occur. They show trends in a process over time, variation over time, or declines or improvements in a process over time. Trend analysis is performed using them.\"",
-    "options": [
-      "A. Cause and effect diagram",
-      "B. Histogram",
-      "C. Run chart",
-      "D. Pareto chart"
-    ],
-    "answer": "C",
-    "explanation": "Run charts show history and patterns of variation over time, displaying data points in chronological order for trend analysis."
-  },
-  {
-    "id": "me3_q031",
-    "question": "Which of the following is the process of defining and analyzing the dangers to individuals, businesses, and government agencies posed by potential natural and human-caused adverse events?",
-    "options": [
-      "A. Risk analysis",
-      "B. Risk identification",
-      "C. Risk management",
-      "D. Risk communication"
-    ],
-    "answer": "A",
-    "explanation": "Risk analysis is the comprehensive process of defining and analyzing dangers posed by potential natural and human-caused adverse events."
-  },
-  {
-    "id": "me3_q032",
-    "question": "Which of the following process groups occurs at the beginning of the project?",
-    "options": [
-      "A. Executing",
-      "B. Planning",
-      "C. Initiating",
-      "D. Controlling and Monitoring",
-      "E. Closing"
-    ],
-    "answer": "C",
-    "explanation": "The Initiating process group occurs at the beginning of the project, formally starting the project and defining initial requirements."
-  },
-  {
-    "id": "me3_q033",
-    "question": "Which of the following defines how the project will be estimated, budgeted, and how changes to cost will be managed?",
-    "options": [
-      "A. Cost management plan",
-      "B. Cost variance reports",
-      "C. Control chart",
-      "D. Coercive power"
-    ],
-    "answer": "A",
-    "explanation": "The cost management plan defines how the project will be estimated, budgeted, and how cost changes will be managed."
-  },
-  {
-    "id": "me3_q034",
-    "question": "Which of the following techniques involves attempting to make and numerically determine the probability of various adverse events and measuring the likely extent of the losses?",
-    "options": [
-      "A. Risk analysis",
-      "B. Qualitative risk analysis",
-      "C. Risk assessment",
-      "D. Quantitative risk analysis"
-    ],
-    "answer": "D",
-    "explanation": "Quantitative risk analysis numerically determines probability of adverse events and measures the likely extent of losses."
-  },
-  {
-    "id": "me3_q035",
-    "question": "Which of the following captures all of the activities within a business, the inputs and outputs of each activity, and the required resources to complete each activity?",
-    "options": [
-      "A. Business scenario",
-      "B. Business process model",
-      "C. Business architecture",
-      "D. Business case"
-    ],
-    "answer": "B",
-    "explanation": "Business process models capture all business activities, their inputs/outputs, and required resources for completion."
-  },
-  {
-    "id": "me3_q036",
-    "question": "Which of the following is a graphical representation of roles and responsibilities of different project team members?",
-    "options": [
-      "A. RACI chart",
-      "B. Pareto chart",
-      "C. Resource histogram chart",
-      "D. Organization chart"
-    ],
-    "answer": "A",
-    "explanation": "RACI charts provide a graphical representation of roles and responsibilities for project team members (Responsible, Accountable, Consulted, Informed)."
-  },
-  {
-    "id": "me3_q037",
-    "question": "Which one of the following diagrams visualize the result of the root cause analysis study?",
-    "options": [
-      "A. Activity diagrams",
-      "B. State diagrams",
-      "C. Tornado diagram",
-      "D. Cause-and effect diagrams"
-    ],
-    "answer": "D",
-    "explanation": "Cause-and-effect diagrams visualize the results of root cause analysis studies, showing potential causes of problems."
-  },
-  {
-    "id": "me3_q038",
-    "question": "The business process model is also known as _________.",
-    "options": [
-      "A. Organization model",
-      "B. Activity model",
-      "C. Relational model",
-      "D. Data flow model"
-    ],
-    "answer": "B",
-    "explanation": "Business process models are also known as activity models since they model the activities and processes within a business."
-  },
-  {
-    "id": "me3_q039",
-    "question": "Which of the following techniques is used to divide a project into controllable parts?",
-    "options": [
-      "A. Gantt Chart",
-      "B. Pareto Chart",
-      "C. WBS",
-      "D. CPM"
-    ],
-    "answer": "C",
-    "explanation": "Work Breakdown Structure (WBS) is used to divide a project into smaller, controllable parts or work packages."
-  },
-  {
-    "id": "me3_q040",
-    "question": "Which of the following can be an effective tool during quality control to help determine the how the problem occurred?",
-    "options": [
-      "A. Rework",
-      "B. Trend Analysis",
-      "C. Flowcharting",
-      "D. Pareto Diagram"
-    ],
-    "answer": "C",
-    "explanation": "Flowcharting is an effective quality control tool that helps determine how problems occurred by mapping out processes and identifying failure points."
-  },
-  {
-    "id": "me3_q041",
-    "question": "Which of the following directs the improvement efforts to those areas that will have the biggest impact?",
-    "options": [
-      "A. Flowchart",
-      "B. Gantt chart",
-      "C. Pareto diagram",
-      "D. User Documentation"
-    ],
-    "answer": "C",
-    "explanation": "Pareto diagrams direct improvement efforts to areas with the biggest impact by identifying the most significant problems or causes."
-  },
-  {
-    "id": "me3_q042",
-    "question": "Which of the following involves defining the various threats, determining the extent of vulnerabilities, and devising countermeasures against a possible attack?",
-    "options": [
-      "A. Qualitative risk analysis",
-      "B. Risk analysis",
-      "C. Risk assessment",
-      "D. Quantitative risk analysis"
-    ],
-    "answer": "C",
-    "explanation": "Risk assessment involves defining threats, determining vulnerabilities, and devising countermeasures against possible attacks."
-  },
-  {
-    "id": "me3_q043",
-    "question": "Which of the following requirement attributes lacks any ambiguous characteristics?",
-    "options": [
-      "A. Understandable",
-      "B. User Requirements Document (URD)",
-      "C. Unambiguous",
-      "D. Urgency"
-    ],
-    "answer": "C",
-    "explanation": "Unambiguous is the requirement attribute that specifically means lacking any ambiguous characteristics or unclear interpretations."
-  },
-  {
-    "id": "me3_q044",
-    "question": "Which of the following charts is described in the statement below? \"It shows the causes of a certain event. A common use of this diagram is to identify potential factors causing an overall effect. It helps identify causal factors and contributing causes.\"",
-    "options": [
-      "A. Ishikawa",
-      "B. Flowchart",
-      "C. Process configuration chart",
-      "D. Control chart"
-    ],
-    "answer": "A",
-    "explanation": "Ishikawa (fishbone) charts show causes of events and help identify potential factors and contributing causes of problems."
-  },
-  {
-    "id": "me3_q045",
-    "question": "Which of the following processes measures the maturity level of the security program?",
-    "options": [
-      "A. Risk analysis",
-      "B. Risk mitigation",
-      "C. Risk assessment",
-      "D. GAP analysis"
-    ],
-    "answer": "D",
-    "explanation": "GAP analysis measures the maturity level of security programs by comparing current capabilities against desired standards."
-  },
-  {
-    "id": "me3_q046",
-    "question": "A company that specialized in manufacturing vending machines for books has been in business for 10 years. As the e-book and online retailing grow, the company perceived that a change is required to respond to the new emerging market forces. However, the change should focus on reusability as much as possible to reduce expenses. After analyzing the current state with the business subject matter experts, the business analyst (BA) proposed investing in a new business line of vending machines that sell pay per use mobile device phone fast charging stations. Due to the urgency of this change, the BA was asked to finalize requirements elicitation in the shortest possible time. Customers who want to utilize the pay per use mobile device fast charging stations may choose one of two features: fully charged (F1) or partially charged (F2). If partially charged is selected, the customer needs to specify their charging needs. What is the relationship between F1 and F2?",
+    "question": "Question #300",
     "options": [
       "A. Validate",
       "B. Derive",
-      "C. Depends",
+      "C. Necessity",
       "D. Satisfy"
     ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q011",
+    "question": "Question #301",
+    "options": [
+      "A. Identify performance measures",
+      "B. Define the future state capabilities",
+      "C. Categorize risks factors",
+      "D. Select the stakeholder engagement approach"
+    ],
     "answer": "B",
-    "explanation": "F2 (partially charged) is derived from F1 (fully charged) as it's a specialized version of the charging feature with additional specifications."
+    "explanation": ""
+  },
+  {
+    "id": "me3_q012",
+    "question": "Question #302",
+    "options": [
+      "A. Measure the value of the other requirements against the penalty of not meeting the regulatory requirement",
+      "B. Compare the regulatory requirement to the recommended solution",
+      "C. Determine a means to work around the regulatory requirement",
+      "D. Inform the stakeholders that the regulatory requirement takes precedence over other requirements"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q013",
+    "question": "Question #303",
+    "options": [
+      "A. Stakeholder tasks",
+      "B. Business needs",
+      "C. Organizational functions",
+      "D. Solution components"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q014",
+    "question": "Question #304",
+    "options": [
+      "A. Create a survey applicable for the stakeholders in domain 2.",
+      "B. Produce an estimation applicable for the stakeholders in domain 2.",
+      "C. Present a model applicable for the stakeholders in domain 2.",
+      "D. Develop a backlog applicable for the stakeholders in domain 2."
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q015",
+    "question": "Question #305",
+    "options": [
+      "A. Metrics and Key Performance Indicators (KPIs)",
+      "B. Frequency and Timing",
+      "C. Financial Analysis",
+      "D. Benchmarking and Market Analysis"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q016",
+    "question": "Question #306",
+    "options": [
+      "A. Requirements are not allocated to solution components",
+      "B. Too many approaches are dividing the team",
+      "C. Business needs are unclear to the team",
+      "D. Requirements and design options are not detailed enough"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q017",
+    "question": "Question #307",
+    "options": [
+      "A. Lessons learned",
+      "B. Team restructure",
+      "C. Weekly meetings",
+      "D. Team building"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q018",
+    "question": "Question #308",
+    "options": [
+      "A. benefits, penalties, and costs.",
+      "B. strategy, solution, and scope.",
+      "C. impacts, problems, and dependencies.",
+      "D. performance, trends, and variances."
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q019",
+    "question": "Question #309",
+    "options": [
+      "A. Loading",
+      "B. Packaging",
+      "C. Sorting",
+      "D. Printing"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q020",
+    "question": "Question #310",
+    "options": [
+      "A. Risk Analysis and Management",
+      "B. Root Cause Analysis",
+      "C. Solution Performance Analysis",
+      "D. Solution Scope"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q021",
+    "question": "Question #311",
+    "options": [
+      "A. Operational assessment",
+      "B. Organizational structure",
+      "C. Stakeholder impact analysis",
+      "D. Stakeholder location"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q022",
+    "question": "Question #312",
+    "options": [
+      "A. Collaboration skills of BA",
+      "B. Solution design",
+      "C. Timing and frequency of collaboration",
+      "D. Business governance plan"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q023",
+    "question": "Question #313",
+    "options": [
+      "A. Risk Analysis and Management",
+      "B. Metrics and Key Performance Indicators",
+      "C. Data Modeling",
+      "D. Document Analysis"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q024",
+    "question": "Question #314",
+    "options": [
+      "A. Information management approach",
+      "B. Business analysis plan",
+      "C. Elicitation activity plan",
+      "D. Business analysis approach"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q025",
+    "question": "Question #315",
+    "options": [
+      "A. Create a business model canvas to outline business needs",
+      "B. Deploy a new system across the companies",
+      "C. Enhance access to the relevant information",
+      "D. Develop a repository of information from each company"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q026",
+    "question": "Question #316",
+    "options": [
+      "A. Process",
+      "B. Sequence",
+      "C. Activity",
+      "D. Context"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q027",
+    "question": "Question #317",
+    "options": [
+      "A. Identify business requirements",
+      "B. Identify future state conditions",
+      "C. Recommend an off the shelf product",
+      "D. Complete an enterprise readiness assessment"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q028",
+    "question": "Question #318",
+    "options": [
+      "A. A team member has left the project and is being replaced",
+      "B. A new initial public offering in the stock market is introduced",
+      "C. Further dependencies among solution components are uncovered",
+      "D. Number of reported quality defects is growing through phases"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q029",
+    "question": "Question #319",
+    "options": [
+      "A. Record the concerns in the risk register",
+      "B. Schedule a formal review with the stakeholders",
+      "C. Demonstrate traceability to the business case",
+      "D. Review the final approved elicitation results"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q030",
+    "question": "Question #320",
+    "options": [
+      "A. Roles and Permissions Matrix",
+      "B. Organizational Model",
+      "C. Future State Description",
+      "D. Information Architecture"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q031",
+    "question": "Question #321",
+    "options": [
+      "A. Balanced scorecard",
+      "B. Decision analysis",
+      "C. Vendor assessment",
+      "D. Process analysis"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q032",
+    "question": "Question #322",
+    "options": [
+      "A. Market analysis",
+      "B. Focus group",
+      "C. Survey",
+      "D. Cost benefit analysis"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q033",
+    "question": "Question #323",
+    "options": [
+      "A. Influence = 3 and impact = 3",
+      "B. Influence = 1 and impact = 3",
+      "C. Influence = 3 and impact = 1",
+      "D. Influence = 5 and impact = 5"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q034",
+    "question": "Question #324",
+    "options": [
+      "A. Identify a few key stakeholders to resolve the conflicts",
+      "B. Set up additional activities to collaboratively resolve the issues",
+      "C. Remove requirements that cause differences",
+      "D. Weight the results from the observation because it is more reliable"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q035",
+    "question": "Question #325",
+    "options": [
+      "A. change strategy.",
+      "B. requirements prioritization.",
+      "C. elicitation scope.",
+      "D. enterprise architecture."
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q036",
+    "question": "Question #326",
+    "options": [
+      "A. The competency of individual stakeholders",
+      "B. The format of the requirements",
+      "C. The types of diagrams produced",
+      "D. The level of decomposition needed"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q037",
+    "question": "Question #327",
+    "options": [
+      "A. The requirements are interpreted differently by each stakeholder.",
+      "B. The requirements are incorrectly traced.",
+      "C. The approval authority for the solution is unclear.",
+      "D. More solution alternatives need to be generated."
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q038",
+    "question": "Question #328",
+    "options": [
+      "A. Personal accountability, time management, demonstrated trustworthiness",
+      "B. Negotiation, conflict resolution, effective communication",
+      "C. Industry knowledge, solution knowledge, organization knowledge",
+      "D. Learning, creative thinking, problem solving"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q039",
+    "question": "Question #329",
+    "options": [
+      "A. are traceable to their source stakeholders.",
+      "B. are articulated from the enterprise perspective.",
+      "C. describe the potential solutions that they will satisfy.",
+      "D. have minimal risk associated with them."
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q040",
+    "question": "Question #330",
+    "options": [
+      "A. Diagrams",
+      "B. Graphics",
+      "C. Matrices",
+      "D. Prototype"
+    ],
+    "answer": "A",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q041",
+    "question": "Question #331",
+    "options": [
+      "A. Reporting needs",
+      "B. Manager ratios",
+      "C. Informal relationships",
+      "D. Structural complexity"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q042",
+    "question": "Question #332",
+    "options": [
+      "A. Make the requirement a lower priority to minimize unanticipated rework and wasted effort",
+      "B. Set the requirements at a high priority to adhere to the SME's point of view",
+      "C. Remove the requirement from the project",
+      "D. Leave priority unfilled for these requirements"
+    ],
+    "answer": "D",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q043",
+    "question": "Question #333",
+    "options": [
+      "A. 44%",
+      "B. 73%",
+      "C. 40%",
+      "D. 51%"
+    ],
+    "answer": "B",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q044",
+    "question": "Question #334",
+    "options": [
+      "A. Engagement",
+      "B. Preventive",
+      "C. Corrective",
+      "D. Improvement"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q045",
+    "question": "Question #335",
+    "options": [
+      "A. Create a business case",
+      "B. Produce an organizational model",
+      "C. Define the change strategy",
+      "D. Validate the cost savings"
+    ],
+    "answer": "C",
+    "explanation": ""
+  },
+  {
+    "id": "me3_q046",
+    "question": "Question #336",
+    "options": [
+      "A. Survey",
+      "B. Decision analysis",
+      "C. Observation",
+      "D. Concept modelling"
+    ],
+    "answer": "A",
+    "explanation": ""
   },
   {
     "id": "me3_q047",
-    "question": "A business analyst (BA) is facilitating a meeting between process owners to capture the business rules for a workflow solution. One of the attendees expresses a strong opinion that the solution will not deliver the expected value. How will the BA ensure the process owner remains engaged and will support the change?",
+    "question": "Question #337",
     "options": [
-      "A. Update the requirements",
-      "B. Record the feedback and continue",
-      "C. Review the future state",
-      "D. Change the governance approach"
+      "A. Risk analysis and management",
+      "B. Brainstorming",
+      "D. Lessons learned"
     ],
-    "answer": "B",
-    "explanation": "Recording feedback and continuing ensures all concerns are captured while maintaining engagement and allowing for further discussion."
+    "answer": "D",
+    "explanation": ""
   },
   {
     "id": "me3_q048",
-    "question": "A project's change in scope is assessed and a newly assigned business analyst (BA) is unsure how to communicate the findings and final decision to the wider stakeholder group. In which of the following can the BA find this information?",
+    "question": "Question #338",
     "options": [
-      "A. Stakeholder Communications Plan",
-      "B. Business case",
-      "C. Business policies",
-      "D. Governance approach"
+      "A. Data Dictionary",
+      "B. Constraint",
+      "C. Dependencies",
+      "D. Risk"
     ],
-    "answer": "A",
-    "explanation": "The Stakeholder Communications Plan contains information about how to communicate findings and decisions to stakeholder groups."
+    "answer": "C",
+    "explanation": ""
   },
   {
     "id": "me3_q049",
-    "question": "A local manufacturer that serves about 1000 retail stores is experiencing a slow yet steady decrease of its customer base over the last couple of years. Attributing the situation to increased competition, management has hired a team of sales representatives to attract new clients and promote the manufacturer's products. However, after four months there is still no progress. Management has engaged a business analyst (BA) to investigate this issue. What should the BA do first?",
+    "question": "Question #339",
     "options": [
-      "A. Perform market research to identify on which competitive advantages the sales team should focus",
-      "B. Create a training program to close potential skill gaps for the sales team",
-      "C. Review historic sales and related data to understand what is happening to the customer base",
-      "D. Identify appropriate training providers and send out a request for proposal"
+      "A. Item Tracking",
+      "B. Observation",
+      "C. Prototyping",
+      "D. Mind Mapping"
     ],
-    "answer": "C",
-    "explanation": "The BA should first review historical sales data to understand the root cause of the customer base decline before proposing solutions."
+    "answer": "D",
+    "explanation": ""
   },
   {
     "id": "me3_q050",
-    "question": "A new project has to implement a cyber security release in China, Italy, Germany, the United States, and Canada. The project is a $5 million initiative and must 'go live' in production in all countries on the same day and time to be effective. Which of the approaches mentioned is suitable for this project based on the size and complexity?",
+    "question": "Question #340",
     "options": [
-      "A. An agile and iterative approach",
-      "B. A waterfall and dynamic approach",
-      "C. A kanban and predictive approach",
-      "D. A proven and tailored analysis approach"
+      "A. Measurability of customer satisfaction",
+      "B. Cost of implementation",
+      "C. Alignment with solution scope",
+      "D. Time to market"
     ],
     "answer": "A",
-    "explanation": "An agile and iterative approach is suitable for complex, multi-country implementations requiring coordination and flexibility to adapt to different regional requirements."
+    "explanation": ""
   }
 ]
