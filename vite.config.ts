@@ -2,39 +2,49 @@ import { defineConfig, Plugin } from "vite";
 import react from "@vitejs/plugin-react-swc";
 import path from "path";
 
-// https://vitejs.dev/config/
-export default defineConfig(({ mode }) => ({
-  server: {
-    host: "::",
-    port: 8080,
-    fs: {
-      allow: ["./client", "./shared"],
-      deny: [".env", ".env.*", "*.{crt,pem}", "**/.git/**", "server/**"],
-    },
-  },
-  build: {
-    outDir: "dist/spa",
-    sourcemap: false,
-  },
-  plugins: [react(), ...(mode === "development" ? [expressPlugin()] : [])],
-  resolve: {
-    alias: {
-      "@": path.resolve(__dirname, "./client"),
-      "@shared": path.resolve(__dirname, "./shared"),
-    },
-  },
-}));
+export default defineConfig(({ command }) => {
+  // Ortak eklentiler
+  const plugins: Plugin[] = [react()];
 
-function expressPlugin(): Plugin {
+  // Sadece local geliştirmede Express'i bağla
+  if (command === "serve") {
+    plugins.push(devExpressPlugin());
+  }
+
   return {
-    name: "express-plugin",
-    apply: "serve", // Only apply during development (serve mode)
-    async configureServer(server) {
-      // Dynamically import server only in development
-      const { createServer } = await import("./server");
-      const app = createServer();
+    base: "/", // SPA kökten yayınlanacak
+    server: {
+      host: "::",
+      port: 8080,
+      fs: {
+        allow: ["./client", "./shared"],
+        // Prod'da zaten kullanılmayacak; deny list sade kalsın
+        deny: [".env", ".env.*", "*.{crt,pem}", "**/.git/**"]
+      },
+    },
+    build: {
+      outDir: "dist",      // Vercel Output Directory ile uyumlu
+      sourcemap: false,
+    },
+    plugins,
+    resolve: {
+      alias: {
+        "@": path.resolve(__dirname, "./client"),
+        "@shared": path.resolve(__dirname, "./shared"),
+      },
+    },
+  };
+});
 
-      // Add Express app as middleware to Vite dev server
+// Sadece geliştirme sırasında Express'i Vite dev server'a ekleyen plugin
+function devExpressPlugin(): Plugin {
+  return {
+    name: "dev-express-plugin",
+    apply: "serve", // sadece dev (vite serve) sırasında çalışır
+    async configureServer(server) {
+      // Dinamik import: Prod build sırasında asla çağrılmaz
+      const { createServer } = await import("./server/index.ts"); // ./server yeterliyse onu yaz
+      const app = createServer();
       server.middlewares.use(app);
     },
   };
