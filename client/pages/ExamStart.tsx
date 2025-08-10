@@ -127,9 +127,6 @@ export default function ExamStart() {
                     {exam.title}
                   </CardTitle>
                   <div className="flex justify-center gap-2 mb-3">
-                    <Badge variant="secondary" className="text-xs">
-                      {exam.difficulty}
-                    </Badge>
                     <Badge variant="outline" className="text-xs">
                       120 Soru
                     </Badge>
@@ -137,14 +134,6 @@ export default function ExamStart() {
                 </CardHeader>
 
                 <CardContent className="pt-0">
-                  <p className="text-gray-600 text-sm mb-4 leading-relaxed">
-                    {exam.description}
-                  </p>
-
-                  <div className="mb-4 p-3 bg-white/50 rounded-lg">
-                    <div className="text-xs text-gray-500 mb-1">Odak Alanı:</div>
-                    <div className="text-sm font-medium text-gray-700">{exam.focus}</div>
-                  </div>
 
                   <Button
                     onClick={() => handleStartExam(exam.id)}
@@ -199,7 +188,7 @@ export default function ExamStart() {
                   </div>
                   <div className="flex items-center gap-2">
                     <Star className="h-4 w-4 text-blue-600" />
-                    <span className="text-gray-600">Soruları gözden geçirme i��in işaretleme</span>
+                    <span className="text-gray-600">Soruları gözden geçirme için işaretleme</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <FileText className="h-4 w-4 text-blue-600" />
