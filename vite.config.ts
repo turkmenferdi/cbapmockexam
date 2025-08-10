@@ -20,14 +20,14 @@ export default defineConfig(({ mode }) => ({
     rollupOptions: {
       output: {
         manualChunks: {
-          vendor: ['react', 'react-dom'],
-          router: ['react-router-dom'],
-          ui: ['@radix-ui/react-dialog']
-        }
-      }
-    }
+          vendor: ["react", "react-dom"],
+          router: ["react-router-dom"],
+          ui: ["@radix-ui/react-dialog"],
+        },
+      },
+    },
   },
-  plugins: [react(), ...(mode === 'development' ? [expressPlugin()] : [])],
+  plugins: [react(), ...(mode === "development" ? [expressPlugin()] : [])],
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./client"),
