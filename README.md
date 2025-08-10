@@ -18,6 +18,7 @@
 Bu proje Vercel'e deploy için tamamen hazırdır:
 
 **Vercel Ayarları:**
+
 - Framework: **Vite**
 - Build Command: **npm run vercel-build**
 - Output Directory: **dist**
