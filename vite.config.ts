@@ -6,7 +6,7 @@ export default defineConfig(({ command }) => {
   // Ortak eklentiler
   const plugins: Plugin[] = [react()];
 
-  // Sadece local geliştirmede Express'i bağla
+  // Sadece geliştirme (vite serve) sırasında Express'i bağla
   if (command === "serve") {
     plugins.push(devExpressPlugin());
   }
@@ -18,12 +18,12 @@ export default defineConfig(({ command }) => {
       port: 8080,
       fs: {
         allow: ["./client", "./shared"],
-        // Prod'da zaten kullanılmayacak; deny list sade kalsın
-        deny: [".env", ".env.*", "*.{crt,pem}", "**/.git/**"]
+        // Prod'da kullanılmadığı için deny sade tutuldu
+        deny: [".env", ".env.*", "*.{crt,pem}", "**/.git/**"],
       },
     },
     build: {
-      outDir: "dist",      // Vercel Output Directory ile uyumlu
+      outDir: "dist",   // Vercel Output Directory ile uyumlu
       sourcemap: false,
     },
     plugins,
@@ -36,16 +36,7 @@ export default defineConfig(({ command }) => {
   };
 });
 
-// Sadece geliştirme sırasında Express'i Vite dev server'a ekleyen plugin
+// Sadece geliştirmede çalışan Express middleware plugini
 function devExpressPlugin(): Plugin {
   return {
-    name: "dev-express-plugin",
-    apply: "serve", // sadece dev (vite serve) sırasında çalışır
-    async configureServer(server) {
-      // Dinamik import: Prod build sırasında asla çağrılmaz
-      const { createServer } = await import("./server/index.ts"); // ./server yeterliyse onu yaz
-      const app = createServer();
-      server.middlewares.use(app);
-    },
-  };
-}
+    name: "dev-exp
