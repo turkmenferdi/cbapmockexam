@@ -53,7 +53,7 @@
     "options": [
       "A. Sales – 2 years; Retention – 18 months",
       "B. Sales – 3 years; Retention – 1 year",
-      "C. Sales – 2.5 years; Retention – 2 years",
+      "C. Sales ��� 2.5 years; Retention – 2 years",
       "D. Sales – 18 months; Retention – 1 year"
     ],
     "answer": "D",
@@ -424,7 +424,7 @@
   },
   {
     "id": "me4_q040",
-    "question": "Question #400: Company A is a nation-wide leader in commercial demolition. The BA is working on identifying additional improvement opportunities based on these requirements. Which of the following improvement opportunities is reflected in Requirement ID NFP0002?",
+    "question": "Question #400: Company A is a nation-wide leader in commercial demolition. Having just celebrated its 100th year of operations, the company decided to begin doing work internationally. The current system used for reporting company finances is unable to keep pace with the potential demands of doing work in geographically dispersed locations. Therefore, the company decided to replace its client-based Profit & Loss (P&L) reporting system with a more robust, web-based system. This will ensure transparency across the organization and enable better decision making. The business analyst (BA) at Company A has recently completed several rounds of elicitation to determine the requirements for the new, web-based system. Over 1250 requirements were elicited. An initial Requirements Traceability Matrix (RTM) has been created, and a subset of the RTM can be seen in the table below:\n\nRequirement ID | Requirement | Classification | Source | Priority | Complexity | Risk | Status\nFS0002 | The solution shall enable the Comet Chief to identify requirements. | Rule | VP of Finance | MUST | MED | MED | Specified\nFS0003 | The solution shall conform to Generally Accepted Accounting Principles (GAAP). | Rule | VP of Finance | MUST | MED | MED | Specified\nES0001 | The solution shall conform to International Financial Reporting Standards (IFRS). | Rule | VP of Finance | MUST | MED | MED | Specified\nES0001 | The user must be able to log into the Comet Chief in under 3 seconds. | Entry | CIO | MUST | LOW | HIGH | Verified\nNFP002 | The solution shall supply a pleasant color scheme and layout. | Performance Capability | Chief Financial Officer | SHOULD | HIGH | LOW | Specified\nNFT004 | The solution shall run in the company approved internet browser. | Transferability | CIO | MUST | MED | MED | Verified\n\nThe BA is working on identifying additional improvement opportunities based on these requirements. Which of the following improvement opportunities is reflected in Requirement ID NFP0002?",
     "options": [
       "A. Additional capability",
       "B. Increased efficiency",
