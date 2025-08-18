@@ -40,9 +40,9 @@ export function getRandomQuestions(
   allQuestions: CBAPQuestion[],
   count: number,
 ): CBAPQuestion[] {
-  const shuffled = [...allQuestions].sort(() => 0.5 - Math.random());
+  // Return questions in their original order instead of random
   const selectedCount = Math.min(count, allQuestions.length);
-  return shuffled.slice(0, selectedCount);
+  return allQuestions.slice(0, selectedCount);
 }
 
 export function createNewExam(questions: CBAPQuestion[]): ExamState {
