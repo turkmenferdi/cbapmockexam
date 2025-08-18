@@ -48,18 +48,6 @@
     "explanation": ""
   },
   {
-    "id": "me4_q005",
-    "question": "Question #365: An insurance company wants to increase sales by 15% and customer retention by 10% within 1 calendar year. Various strategies to achieve this were considered and a restructure to the existing pricing model is selected to help achieve these goals. A business analyst (BA) works with stakeholders such as actuaries, product specialists, sales staff, risk managers, and underwriters who agree to applying varying levels of discounts to customers based on: Total annual premium the customer has with the company (Financial worth), Time with the insurance company (Loyalty). If within the first six months, customer retention increased by 5% and sales increased by 6%, then when will the desired sales and retention goals be achieved assuming the trend continues at the same pace?",
-    "options": [
-      "A. Sales – 2 years; Retention – 18 months",
-      "B. Sales – 3 years; Retention – 1 year",
-      "C. Sales – 2.5 years; Retention – 2 years",
-      "D. Sales – 18 months; Retention – 1 year"
-    ],
-    "answer": "D",
-    "explanation": ""
-  },
-  {
     "id": "me4_q006",
     "question": "Question #366: An insurance company wants to increase sales by 15% and customer retention by 10% within 1 calendar year. Various strategies to achieve this were considered and a restructure to the existing pricing model is selected to help achieve these goals. Which technique would the BA use to validate the desired outcomes?",
     "options": [
