@@ -48,18 +48,6 @@
     "explanation": ""
   },
   {
-    "id": "me4_q007",
-    "question": "Question #367: An insurance company wants to increase sales by 15% and customer retention by 10% within 1 calendar year. What did the BA create to ensure that everyone who needed to be included had been?",
-    "options": [
-      "A. Onion diagram",
-      "B. Concept model",
-      "C. Capability diagram",
-      "D. Context model"
-    ],
-    "answer": "A",
-    "explanation": ""
-  },
-  {
     "id": "me4_q008",
     "question": "Question #368: An insurance company wants to increase sales by 15% and customer retention by 10% within 1 calendar year. As the new pricing structure was being implemented, the chief executive officer (CEO) of the company wanted to change the premiums and associated discounts offered to customers. The BA investigated the cost, anticipated benefits and the length of time the change would likely take to complete before presenting the results back to the CEO. What type of analysis has the BA just conducted?",
     "options": ["A. Impact", "B. Capability", "C. Market", "D. Document"],
