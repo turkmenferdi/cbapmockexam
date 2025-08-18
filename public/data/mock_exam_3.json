@@ -949,18 +949,6 @@
     "explanation": "A survey would be appropriate for gathering information about decision-making authorities across the company, allowing the BA to collect structured information from multiple stakeholders."
   },
   {
-    "id": "me3_q083",
-    "question": "Question #323: A company wants to launch an existing product in another channel and the business analyst (BA) is starting to perform the stakeholder analysis. Considering the analysis, what values for influence and impact will the BA assign to the marketing?",
-    "options": [
-      "A. Influence = 3 and impact = 3",
-      "B. Influence = 1 and impact = 3",
-      "C. Influence = 3 and impact = 1",
-      "D. Influence = 5 and impact = 5"
-    ],
-    "answer": "D",
-    "explanation": "Marketing would have both high influence (ability to affect project success) and high impact (significantly affected by the project) when launching a product in a new channel."
-  },
-  {
     "id": "me3_q084",
     "question": "Question #324: A business analyst (BA) facilitated elicitation activities with subject matter experts and end users using observation, workshops, and interviews. After comparing the results, how should the BA resolve the variations?",
     "options": [
