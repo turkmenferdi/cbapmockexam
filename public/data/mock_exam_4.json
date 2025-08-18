@@ -48,46 +48,6 @@
     "explanation": ""
   },
   {
-    "id": "me4_q008",
-    "question": "Question #368: An insurance company wants to increase sales by 15% and customer retention by 10% within 1 calendar year. As the new pricing structure was being implemented, the chief executive officer (CEO) of the company wanted to change the premiums and associated discounts offered to customers. The BA investigated the cost, anticipated benefits and the length of time the change would likely take to complete before presenting the results back to the CEO. What type of analysis has the BA just conducted?",
-    "options": ["A. Impact", "B. Capability", "C. Market", "D. Document"],
-    "answer": "A",
-    "explanation": ""
-  },
-  {
-    "id": "me4_q009",
-    "question": "Question #369: A financial institution engaged in mortgage lending has embarked on a business process improvement initiative to eliminate the activities that hinder growth to ultimately improve the success rate of its mortgage business. If the financial institution always works at full capacity month to month and the new success rate continues to remain the same after implementing the BA's recommendation, what is the average number of successes per month for the mortgage closure process, if the current process capability were increased by 50%?",
-    "options": ["A. 15", "B. 14", "C. 12", "D. 11"],
-    "answer": "B",
-    "explanation": ""
-  },
-  {
-    "id": "me4_q010",
-    "question": "Question #370: A financial institution engaged in mortgage lending has embarked on a business process improvement initiative to eliminate the activities that hinder growth to ultimately improve the success rate of its mortgage business. If an additional recommendation to reduce Verification Rejects by 50% were to be introduced into the mortgage origination process, what is the potential success rate of the mortgage origination process?",
-    "options": ["A. 86%", "B. 83%", "C. 70%", "D. 74%"],
-    "answer": "D",
-    "explanation": ""
-  },
-  {
-    "id": "me4_q011",
-    "question": "Question #371: A financial institution engaged in mortgage lending has embarked on a business process improvement initiative to eliminate the activities that hinder growth to ultimately improve the success rate of its mortgage business. Which of the following business processes can be identified for the process improvement initiative?",
-    "options": [
-      "A. Mortgage payment process",
-      "B. Mortgage origination process",
-      "C. Mortgage closure process",
-      "D. Collateral verification process"
-    ],
-    "answer": "B",
-    "explanation": ""
-  },
-  {
-    "id": "me4_q012",
-    "question": "Question #372: A financial institution engaged in mortgage lending has embarked on a business process improvement initiative to eliminate the activities that hinder growth to ultimately improve the success rate of its mortgage business. Assuming the BA's recommendation to be true, what will be the new success rate of the mortgage closure process?",
-    "options": ["A. 90%", "B. 85%", "C. 10%", "D. 20%"],
-    "answer": "A",
-    "explanation": ""
-  },
-  {
     "id": "me4_q013",
     "question": "Question #373: A popular department store chain wants to make computer upgrades as well as conduct a major remodeling effort to increase revenue to all their 100 stores over the next 2 years. What activity should the BA do to determine which stores will be the first to start the renovations?",
     "options": [
