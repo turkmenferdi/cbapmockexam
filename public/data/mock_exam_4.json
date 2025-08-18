@@ -213,30 +213,6 @@
     "explanation": ""
   },
   {
-    "id": "me4_q028",
-    "question": "Question #388: A business analyst (BA) is working on a payment system (PS) implementation. Which standard relationship should be defined between \"Setup new supervisor\" and \"Send notification\"?",
-    "options": [
-      "A. Include",
-      "B. Extend",
-      "C. Association",
-      "D. Generalization"
-    ],
-    "answer": "C",
-    "explanation": ""
-  },
-  {
-    "id": "me4_q029",
-    "question": "Question #389: A business analyst (BA) is working on a payment system (PS) implementation. What standard relationship should be defined between \"Change system parameters\", \"Setup new supervisor\" and \"Pass a two-factor authentication\"?",
-    "options": [
-      "A. Include",
-      "B. Extend",
-      "C. Association",
-      "D. Generalization"
-    ],
-    "answer": "A",
-    "explanation": ""
-  },
-  {
     "id": "me4_q030",
     "question": "Question #390: A software development company is in the process of creating a new product for their customer base. At this point in the project, what will the BA be presenting?",
     "options": [
@@ -270,18 +246,6 @@
       "D. Business architecture"
     ],
     "answer": "D",
-    "explanation": ""
-  },
-  {
-    "id": "me4_q033",
-    "question": "Question #393: A major manufacturer of popular beverages has appointed a local distributor to serve a specific territory. What is the company's primary business objective in this scenario?",
-    "options": [
-      "A. Make more profit",
-      "B. Defeat competitors",
-      "C. Satisfy the customer",
-      "D. Stabilize its performance"
-    ],
-    "answer": "C",
     "explanation": ""
   },
   {
