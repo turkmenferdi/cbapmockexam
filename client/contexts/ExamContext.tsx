@@ -154,7 +154,12 @@ export function ExamProvider({ children }: { children: ReactNode }) {
     // Load existing exam state on mount
     const savedState = loadExamState();
     if (savedState) {
-      dispatch({ type: "SET_EXAM_STATE", payload: savedState });
+      // Migrate old exam states that don't have feedbackShown property
+      const migratedState = {
+        ...savedState,
+        feedbackShown: savedState.feedbackShown || {},
+      };
+      dispatch({ type: "SET_EXAM_STATE", payload: migratedState });
     }
     setIsLoading(false);
 
