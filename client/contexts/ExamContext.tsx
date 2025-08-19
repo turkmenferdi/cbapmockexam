@@ -66,6 +66,22 @@ function examReducer(
         }
         return newState;
 
+      case "SHOW_FEEDBACK":
+        if (!state) return null;
+        const feedbackState = {
+          ...state,
+          feedbackShown: {
+            ...state.feedbackShown,
+            [action.payload]: true,
+          },
+        };
+        try {
+          saveExamState(feedbackState);
+        } catch (error) {
+          console.error("Failed to save exam state:", error);
+        }
+        return feedbackState;
+
       case "TOGGLE_MARK_FOR_REVIEW":
         if (!state) return null;
         const updatedState = {
