@@ -352,6 +352,26 @@ export function ExamProvider({ children }: { children: ReactNode }) {
     clearExam,
   }), [examState, isLoading]);
 
+  if (initError) {
+    console.error("ExamProvider initialization error:", initError);
+    return (
+      <div className="p-4 border border-red-300 bg-red-50 text-red-800 rounded">
+        <h3>Exam System Error</h3>
+        <p>Failed to initialize exam system: {initError}</p>
+        <button
+          onClick={() => {
+            setInitError(null);
+            setIsLoading(true);
+            window.location.reload();
+          }}
+          className="mt-2 px-4 py-2 bg-red-600 text-white rounded"
+        >
+          Retry
+        </button>
+      </div>
+    );
+  }
+
   return (
     <ExamContext.Provider value={contextValue}>
       {children}
