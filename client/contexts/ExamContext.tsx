@@ -143,11 +143,6 @@ function examReducer(
 
 const ExamContext = createContext<ExamContextType | undefined>(undefined);
 
-// Add debug logging
-if (typeof window !== 'undefined') {
-  console.log('ExamContext created:', ExamContext);
-}
-
 export function ExamProvider({ children }: { children: ReactNode }) {
   const [examState, dispatch] = useReducer(examReducer, null);
   const [isLoading, setIsLoading] = React.useState(true);
