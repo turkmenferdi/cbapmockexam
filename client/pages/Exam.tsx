@@ -140,7 +140,7 @@ export default function Exam() {
               onClick={handleFinishExam}
               className="text-red-600 border-red-300 hover:bg-red-50"
             >
-              Sınavı Bitir
+              Finish Exam
             </Button>
           </div>
         </div>
