@@ -33,6 +33,7 @@ interface ExamContextType {
 type ExamAction =
   | { type: "SET_EXAM_STATE"; payload: ExamState }
   | { type: "ANSWER_QUESTION"; payload: { questionId: string; answer: string } }
+  | { type: "SHOW_FEEDBACK"; payload: string }
   | { type: "TOGGLE_MARK_FOR_REVIEW"; payload: string }
   | { type: "SET_CURRENT_QUESTION"; payload: number }
   | { type: "COMPLETE_EXAM" }
