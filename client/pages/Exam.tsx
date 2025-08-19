@@ -22,6 +22,7 @@ export default function Exam() {
   const {
     examState,
     answerQuestion,
+    showFeedback,
     toggleMarkForReview,
     setCurrentQuestion,
     nextQuestion,
