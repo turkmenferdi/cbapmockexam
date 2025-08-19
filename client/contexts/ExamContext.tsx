@@ -21,6 +21,7 @@ interface ExamContextType {
   isLoading: boolean;
   startNewExam: (examType?: string) => Promise<boolean>;
   answerQuestion: (questionId: string, answer: string) => void;
+  showFeedback: (questionId: string) => void;
   toggleMarkForReview: (questionId: string) => void;
   setCurrentQuestion: (index: number) => void;
   nextQuestion: () => void;
