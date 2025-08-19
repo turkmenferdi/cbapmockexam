@@ -332,6 +332,7 @@ export function ExamProvider({ children }: { children: ReactNode }) {
         isLoading,
         startNewExam,
         answerQuestion,
+        showFeedback,
         toggleMarkForReview,
         setCurrentQuestion,
         nextQuestion,
