@@ -222,15 +222,18 @@ export default function Exam() {
               >
                 {currentQuestion.options.map((option, index) => {
                   const optionValue = option.charAt(0); // A, B, C, D
-                  const isCorrectAnswer = optionValue === currentQuestion.answer;
+                  const isCorrectAnswer =
+                    optionValue === currentQuestion.answer;
                   const isSelectedAnswer = optionValue === currentAnswer;
                   const showAnswerFeedback = isFeedbackShown && currentAnswer;
 
-                  let optionClassName = "flex items-start space-x-3 p-3 rounded-lg transition-colors";
+                  let optionClassName =
+                    "flex items-start space-x-3 p-3 rounded-lg transition-colors";
 
                   if (showAnswerFeedback) {
                     if (isCorrectAnswer) {
-                      optionClassName += " bg-green-50 border-2 border-green-200";
+                      optionClassName +=
+                        " bg-green-50 border-2 border-green-200";
                     } else if (isSelectedAnswer && !isCorrectAnswer) {
                       optionClassName += " bg-red-50 border-2 border-red-200";
                     } else {
@@ -241,10 +244,7 @@ export default function Exam() {
                   }
 
                   return (
-                    <div
-                      key={index}
-                      className={optionClassName}
-                    >
+                    <div key={index} className={optionClassName}>
                       <RadioGroupItem
                         value={optionValue}
                         id={`option-${index}`}
@@ -258,9 +258,11 @@ export default function Exam() {
                         {showAnswerFeedback && isCorrectAnswer && (
                           <CheckCircle2 className="inline ml-2 h-4 w-4 text-green-600" />
                         )}
-                        {showAnswerFeedback && isSelectedAnswer && !isCorrectAnswer && (
-                          <AlertCircle className="inline ml-2 h-4 w-4 text-red-600" />
-                        )}
+                        {showAnswerFeedback &&
+                          isSelectedAnswer &&
+                          !isCorrectAnswer && (
+                            <AlertCircle className="inline ml-2 h-4 w-4 text-red-600" />
+                          )}
                       </Label>
                     </div>
                   );
@@ -290,7 +292,8 @@ export default function Exam() {
                       </div>
                       {currentQuestion.explanation && (
                         <div className="text-sm text-gray-700 leading-relaxed">
-                          <strong>Explanation:</strong> {currentQuestion.explanation}
+                          <strong>Explanation:</strong>{" "}
+                          {currentQuestion.explanation}
                         </div>
                       )}
                     </div>
