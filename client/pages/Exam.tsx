@@ -281,16 +281,16 @@ export default function Exam() {
                     <div className="flex-1">
                       <div className="font-medium text-sm mb-2">
                         {currentAnswer === currentQuestion.answer ? (
-                          <span className="text-green-800">Doğru! 🎉</span>
+                          <span className="text-green-800">Correct! 🎉</span>
                         ) : (
                           <span className="text-red-800">
-                            Yanlış. Doğru cevap: {currentQuestion.answer}
+                            Incorrect. Correct answer: {currentQuestion.answer}
                           </span>
                         )}
                       </div>
                       {currentQuestion.explanation && (
                         <div className="text-sm text-gray-700 leading-relaxed">
-                          <strong>Açıklama:</strong> {currentQuestion.explanation}
+                          <strong>Explanation:</strong> {currentQuestion.explanation}
                         </div>
                       )}
                     </div>
