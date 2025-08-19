@@ -222,11 +222,28 @@ export default function Exam() {
               >
                 {currentQuestion.options.map((option, index) => {
                   const optionValue = option.charAt(0); // A, B, C, D
+                  const isCorrectAnswer = optionValue === currentQuestion.answer;
+                  const isSelectedAnswer = optionValue === currentAnswer;
+                  const showAnswerFeedback = isFeedbackShown && currentAnswer;
+
+                  let optionClassName = "flex items-start space-x-3 p-3 rounded-lg transition-colors";
+
+                  if (showAnswerFeedback) {
+                    if (isCorrectAnswer) {
+                      optionClassName += " bg-green-50 border-2 border-green-200";
+                    } else if (isSelectedAnswer && !isCorrectAnswer) {
+                      optionClassName += " bg-red-50 border-2 border-red-200";
+                    } else {
+                      optionClassName += " opacity-50";
+                    }
+                  } else {
+                    optionClassName += " hover:bg-gray-50";
+                  }
 
                   return (
                     <div
                       key={index}
-                      className="flex items-start space-x-3 p-3 rounded-lg hover:bg-gray-50 transition-colors"
+                      className={optionClassName}
                     >
                       <RadioGroupItem
                         value={optionValue}
@@ -238,11 +255,48 @@ export default function Exam() {
                         className="flex-1 cursor-pointer text-sm leading-relaxed"
                       >
                         {option}
+                        {showAnswerFeedback && isCorrectAnswer && (
+                          <CheckCircle2 className="inline ml-2 h-4 w-4 text-green-600" />
+                        )}
+                        {showAnswerFeedback && isSelectedAnswer && !isCorrectAnswer && (
+                          <AlertCircle className="inline ml-2 h-4 w-4 text-red-600" />
+                        )}
                       </Label>
                     </div>
                   );
                 })}
               </RadioGroup>
+
+              {/* Feedback Section */}
+              {isFeedbackShown && currentAnswer && (
+                <div className="mt-6 p-4 bg-blue-50 border border-blue-200 rounded-lg">
+                  <div className="flex items-start gap-3">
+                    <div className="flex-shrink-0">
+                      {currentAnswer === currentQuestion.answer ? (
+                        <CheckCircle2 className="h-5 w-5 text-green-600" />
+                      ) : (
+                        <AlertCircle className="h-5 w-5 text-red-600" />
+                      )}
+                    </div>
+                    <div className="flex-1">
+                      <div className="font-medium text-sm mb-2">
+                        {currentAnswer === currentQuestion.answer ? (
+                          <span className="text-green-800">Doğru! 🎉</span>
+                        ) : (
+                          <span className="text-red-800">
+                            Yanlış. Doğru cevap: {currentQuestion.answer}
+                          </span>
+                        )}
+                      </div>
+                      {currentQuestion.explanation && (
+                        <div className="text-sm text-gray-700 leading-relaxed">
+                          <strong>Açıklama:</strong> {currentQuestion.explanation}
+                        </div>
+                      )}
+                    </div>
+                  </div>
+                </div>
+              )}
 
               <div className="flex items-center justify-between pt-6 border-t">
                 <div className="flex gap-3">
