@@ -11,6 +11,7 @@ export interface ExamState {
   currentQuestionIndex: number;
   answers: { [questionId: string]: string };
   markedForReview: { [questionId: string]: boolean };
+  feedbackShown: { [questionId: string]: boolean };
   startTime: number;
   duration: number; // in minutes
   isCompleted: boolean;
