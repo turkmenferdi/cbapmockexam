@@ -51,6 +51,7 @@ export function createNewExam(questions: CBAPQuestion[]): ExamState {
     currentQuestionIndex: 0,
     answers: {},
     markedForReview: {},
+    feedbackShown: {},
     startTime: Date.now(),
     duration: EXAM_CONFIG.DURATION_MINUTES,
     isCompleted: false,
