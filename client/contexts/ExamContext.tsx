@@ -147,7 +147,6 @@ export function ExamProvider({ children }: { children: ReactNode }) {
   const [examState, dispatch] = useReducer(examReducer, null);
   const [isLoading, setIsLoading] = React.useState(true);
   const [isMounted, setIsMounted] = React.useState(false);
-  const [initError, setInitError] = React.useState<string | null>(null);
 
   useEffect(() => {
     setIsMounted(true);
