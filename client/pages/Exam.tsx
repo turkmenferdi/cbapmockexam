@@ -75,6 +75,8 @@ export default function Exam() {
 
   const handleAnswerChange = (answer: string) => {
     answerQuestion(currentQuestion.id, answer);
+    // Show feedback immediately after answering
+    showFeedback(currentQuestion.id);
   };
 
   const handleMarkForReview = () => {
