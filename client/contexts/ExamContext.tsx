@@ -380,12 +380,8 @@ export function ExamProvider({ children }: { children: ReactNode }) {
 }
 
 export function useExam() {
-  console.log('useExam called, ExamContext:', ExamContext);
   const context = useContext(ExamContext);
-  console.log('useExam context value:', context);
   if (context === undefined) {
-    console.error("useExam called outside of ExamProvider");
-    console.error("Current component tree might not be wrapped with ExamProvider");
     throw new Error("useExam must be used within an ExamProvider");
   }
   return context;
