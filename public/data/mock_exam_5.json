@@ -10,53 +10,5 @@
     ],
     "answer": "C",
     "explanation": "The primary goal of solution evaluation is to assess the value delivered by the solution to ensure it meets business needs and provides expected benefits. This goes beyond simply verifying requirements to understanding actual business value creation."
-  },
-  {
-    "id": "me5_q002",
-    "question": "Question #427: Which perspective is most important when defining the solution scope?",
-    "options": [
-      "A. Technical architecture perspective",
-      "B. Business value perspective",
-      "C. Project timeline perspective",
-      "D. Resource availability perspective"
-    ],
-    "answer": "B",
-    "explanation": "The business value perspective is most important when defining solution scope because it ensures the solution addresses business needs and delivers expected value to stakeholders. All other perspectives support but don't drive scope decisions."
-  },
-  {
-    "id": "me5_q003",
-    "question": "Question #428: What is the key characteristic of a good business case?",
-    "options": [
-      "A. It provides technical implementation details",
-      "B. It justifies the investment in business terms",
-      "C. It includes detailed project schedules",
-      "D. It describes all possible risks"
-    ],
-    "answer": "B",
-    "explanation": "A good business case justifies the investment in business terms by demonstrating expected benefits, costs, and return on investment. It focuses on business value rather than technical details, schedules, or comprehensive risk catalogs."
-  },
-  {
-    "id": "me5_q004",
-    "question": "Question #429: Which activity is part of the Strategy Analysis knowledge area?",
-    "options": [
-      "A. Elicit requirements",
-      "B. Analyze current state",
-      "C. Validate requirements",
-      "D. Design solution"
-    ],
-    "answer": "B",
-    "explanation": "Analyze current state is a key activity within the Strategy Analysis knowledge area of BABOK. It involves understanding the current business situation before identifying opportunities for improvement."
-  },
-  {
-    "id": "me5_q005",
-    "question": "Question #430: What is the main purpose of requirements traceability?",
-    "options": [
-      "A. To track project progress",
-      "B. To link requirements to business objectives",
-      "C. To manage project resources",
-      "D. To control project costs"
-    ],
-    "answer": "B",
-    "explanation": "The main purpose of requirements traceability is to link requirements to business objectives, ensuring that each requirement contributes to achieving business goals and that all objectives are supported by appropriate requirements."
   }
 ]

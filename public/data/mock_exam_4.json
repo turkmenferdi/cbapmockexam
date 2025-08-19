@@ -116,7 +116,7 @@
   },
   {
     "id": "me4_q019",
-    "question": "Question #379: A health insurance provider undertakes enhancements to its mobile application platform and finalizes the following capabilities as part of the scope of the next release: I. Ability to integrate online maps and global positioning system (GPS) technology with the mobile application in real time to display location of service providers in the subscriber's vicinity that participate in the subscriber's plan network. II. Ability for the subscriber to lookup the service providers by specifying either a postal code or a search area radius in miles. III. Ability for the subscriber to initiate the download of fee information for one or more service providers in a single request. Through requirements workshops the business analyst elicits the following detailed business requirements: 1. The company's mobile application platform must support real time integration with the following third party systems: A) GPS System B) Postal Code Validation 2. The service providers available for selection must participate in the subscriber's medical plan network as of the current system date. 3. The map display shall highlight the boundary of the search area with a dotted yellow line. 4. The extent and shape of the search area shall be determined based on one of the following user choices: A) Postal code - Subscriber location acquired from GPS shall be used to determine and populate the related postal code as the default postal code with options for the user to change the postal code. B) Radius for the search area around the subscriber's location, that will have default value of 5 miles. The radius can be changed by the subscriber with a maximum range of 50 miles. 5. Subscriber shall be able to select one of the options above and supply corresponding input. 6. System shall validate the user input and display appropriate error messages if invalid. 7. Based on the inputs and the plan of the subscriber, the system shall retrieve information for the participating service providers that are located within the designated search area. 8. System shall display a map including visual markers to indicate locations of the service providers in the top half of the device screen and a list of the same service providers in the bottom half of the device screen. 9. The list of service providers shall include the Name, Phone Number and Street Address. 10. If the subscriber specified the radius or retained the default postal code for the search area, the list shall additionally include the approximate driving distance in miles from the subscriber's last registered location and the list shall be sorted in the ascending order of the driving distance. 11. The subscriber shall be able to select a service provider either from the list or from the map and download a document that contains the name, contact telephone, email address, fax number and the fee schedule for the covered services applicable to the subscriber's plan. What is the appropriate diagram type to describe the association between the subscriber, the medical plan and the participating service providers?",
+    "question": "Question #379: A health insurance provider undertakes enhancements to its mobile application platform and finalizes the following capabilities as part of the scope of the next release: I. Ability to integrate online maps and global positioning system (GPS) technology with the mobile application in real time to display location of service providers in the subscriber's vicinity that participate in the subscriber's plan network. II. Ability for the subscriber to lookup the service providers by specifying either a postal code or a search area radius in miles. III. Ability for the subscriber to initiate the download of fee information for one or more service providers in a single request. Through requirements workshops the business analyst elicits the following detailed business requirements: 1. The company's mobile application platform must support real time integration with the following third party systems: A) GPS System B) Postal Code Validation 2. The service providers available for selection must participate in the subscriber's medical plan network as of the current system date. 3. The map display shall highlight the boundary of the search area with a dotted yellow line. 4. The extent and shape of the search area shall be determined based on one of the following user choices: A) Postal code - Subscriber location acquired from GPS shall be used to determine and populate the related postal code as the default postal code with options for the user to change the postal code. B) Radius for the search area around the subscriber's location, that will have default value of 5 miles. The radius can be changed by the subscriber with a maximum range of 50 miles. 5. Subscriber shall be able to select one of the options above and supply corresponding input. 6. System shall validate the user input and display appropriate error messages if invalid. 7. Based on the inputs and the plan of the subscriber, the system shall retrieve information for the participating se...",
     "options": [
       "A. Data Model",
       "B. Data Dictionary",
@@ -128,21 +128,21 @@
   },
   {
     "id": "me4_q020",
-    "question": "Question #380: A health insurance provider undertakes enhancements to its mobile application platform and finalizes the following capabilities as part of the scope of the next release: I. Ability to integrate online maps and global positioning system (GPS) technology with the mobile application in real time to display location of service providers in the subscriber's vicinity that participate in the subscriber's plan network. II. Ability for the subscriber to lookup the service providers by specifying either a postal code or a search area radius in miles. III. Ability for the subscriber to initiate the download of fee information for one or more service providers in a single request. Through requirements workshops the business analyst elicits the following detailed business requirements: 1. The company's mobile application platform must support real time integration with the following third party systems: A) GPS System B) Postal Code Validation 2. The service providers available for selection must participate in the subscriber's medical plan network as of the current system date. 3. The map display shall highlight the boundary of the search area with a dotted yellow line. 4. The extent and shape of the search area shall be determined based on one of the following user choices: A) Postal code - Subscriber location acquired from GPS shall be used to determine and populate the related postal code as the default postal code with options for the user to change the postal code. B) Radius for the search area around the subscriber's location, that will have default value of 5 miles. The radius can be changed by the subscriber with a maximum range of 50 miles. 5. Subscriber shall be able to select one of the options above and supply corresponding input. 6. System shall validate the user input and display appropriate error messages if invalid. 7. Based on the inputs and the plan of the subscriber, the system shall retrieve information for the participating service providers that are located within the designated search area. 8. System shall display a map including visual markers to indicate locations of the service providers in the top half of the device screen and a list of the same service providers in the bottom half of the device screen. 9. The list of service providers shall include the Name, Phone Number and Street Address. 10. If the subscriber specified the radius or retained the default postal code for the search area, the list shall additionally include the approximate driving distance in miles from the subscriber's last registered location and the list shall be sorted in the ascending order of the driving distance. 11. The subscriber shall be able to select a service provider either from the list or from the map and download a document that contains the name, contact telephone, email address, fax number and the fee schedule for the covered services applicable to the subscriber's plan. Which of the following characteristics is violated by requirement 5?",
+    "question": "Question #380: A health insurance provider undertakes enhancements to its mobile application platform and finalizes the following capabilities as part of the scope of the next release: I. Ability to integrate online maps and global positioning system (GPS) technology with the mobile application in real time to display location of service providers in the subscriber's vicinity that participate in the subscriber's plan network. II. Ability for the subscriber to lookup the service providers by specifying either a postal code or a search area radius in miles. III. Ability for the subscriber to initiate the download of fee information for one or more service providers in a single request. Through requirements workshops the business analyst elicits the following detailed business requirements: 1. The company's mobile application platform must support real time integration with the following third party systems: A) GPS System B) Postal Code Validation 2. The service providers available for selection must participate in the subscriber's medical plan network as of the current system date. 3. The map display shall highlight the boundary of the search area with a dotted yellow line. 4. The extent and shape of the search area shall be determined based on one of the following user choices: A) Postal code - Subscriber location acquired from GPS shall be used to determine and populate the related postal code as the default postal code with options for the user to change the postal code. B) Radius for the search area around the subscriber's location, that will have default value of 5 miles. The radius can be changed by the subscriber with a maximum range of 50 miles. 5. Subscriber shall be able to select one of the options above and supply corresponding input. 6. System shall validate the user input and display appropriate error messages if invalid. 7. Based on the inputs and the plan of the subscriber, the system shall retrieve information for the participating se...",
     "options": ["A. Feasible", "B. Concise", "C. Consistent", "D. Atomic"],
     "answer": "D",
     "explanation": ""
   },
   {
     "id": "me4_q021",
-    "question": "Question #381: A health insurance provider undertakes enhancements to its mobile application platform and finalizes the following capabilities as part of the scope of the next release: I. Ability to integrate online maps and global positioning system (GPS) technology with the mobile application in real time to display location of service providers in the subscriber's vicinity that participate in the subscriber's plan network. II. Ability for the subscriber to lookup the service providers by specifying either a postal code or a search area radius in miles. III. Ability for the subscriber to initiate the download of fee information for one or more service providers in a single request. Through requirements workshops the business analyst elicits the following detailed business requirements: 1. The company's mobile application platform must support real time integration with the following third party systems: A) GPS System B) Postal Code Validation 2. The service providers available for selection must participate in the subscriber's medical plan network as of the current system date. 3. The map display shall highlight the boundary of the search area with a dotted yellow line. 4. The extent and shape of the search area shall be determined based on one of the following user choices: A) Postal code - Subscriber location acquired from GPS shall be used to determine and populate the related postal code as the default postal code with options for the user to change the postal code. B) Radius for the search area around the subscriber's location, that will have default value of 5 miles. The radius can be changed by the subscriber with a maximum range of 50 miles. 5. Subscriber shall be able to select one of the options above and supply corresponding input. 6. System shall validate the user input and display appropriate error messages if invalid. 7. Based on the inputs and the plan of the subscriber, the system shall retrieve information for the participating service providers that are located within the designated search area. 8. System shall display a map including visual markers to indicate locations of the service providers in the top half of the device screen and a list of the same service providers in the bottom half of the device screen. 9. The list of service providers shall include the Name, Phone Number and Street Address. 10. If the subscriber specified the radius or retained the default postal code for the search area, the list shall additionally include the approximate driving distance in miles from the subscriber's last registered location and the list shall be sorted in the ascending order of the driving distance. 11. The subscriber shall be able to select a service provider either from the list or from the map and download a document that contains the name, contact telephone, email address, fax number and the fee schedule for the covered services applicable to the subscriber's plan. Which of the following relationship types correctly identifies the nature of the relationship between the 3 business capabilities and the 11 requirements?",
+    "question": "Question #381: A health insurance provider undertakes enhancements to its mobile application platform and finalizes the following capabilities as part of the scope of the next release: I. Ability to integrate online maps and global positioning system (GPS) technology with the mobile application in real time to display location of service providers in the subscriber's vicinity that participate in the subscriber's plan network. II. Ability for the subscriber to lookup the service providers by specifying either a postal code or a search area radius in miles. III. Ability for the subscriber to initiate the download of fee information for one or more service providers in a single request. Through requirements workshops the business analyst elicits the following detailed business requirements: 1. The company's mobile application platform must support real time integration with the following third party systems: A) GPS System B) Postal Code Validation 2. The service providers available for selection must participate in the subscriber's medical plan network as of the current system date. 3. The map display shall highlight the boundary of the search area with a dotted yellow line. 4. The extent and shape of the search area shall be determined based on one of the following user choices: A) Postal code - Subscriber location acquired from GPS shall be used to determine and populate the related postal code as the default postal code with options for the user to change the postal code. B) Radius for the search area around the subscriber's location, that will have default value of 5 miles. The radius can be changed by the subscriber with a maximum range of 50 miles. 5. Subscriber shall be able to select one of the options above and supply corresponding input. 6. System shall validate the user input and display appropriate error messages if invalid. 7. Based on the inputs and the plan of the subscriber, the system shall retrieve information for the participating se...",
     "options": ["A. Derives", "B. Depends", "C. Validates", "D. Verifies"],
     "answer": "D",
     "explanation": ""
   },
   {
     "id": "me4_q022",
-    "question": "Question #382: A health insurance provider undertakes enhancements to its mobile application platform and finalizes the following capabilities as part of the scope of the next release: I. Ability to integrate online maps and global positioning system (GPS) technology with the mobile application in real time to display location of service providers in the subscriber's vicinity that participate in the subscriber's plan network. II. Ability for the subscriber to lookup the service providers by specifying either a postal code or a search area radius in miles. III. Ability for the subscriber to initiate the download of fee information for one or more service providers in a single request. Through requirements workshops the business analyst elicits the following detailed business requirements: 1. The company's mobile application platform must support real time integration with the following third party systems: A) GPS System B) Postal Code Validation 2. The service providers available for selection must participate in the subscriber's medical plan network as of the current system date. 3. The map display shall highlight the boundary of the search area with a dotted yellow line. 4. The extent and shape of the search area shall be determined based on one of the following user choices: A) Postal code - Subscriber location acquired from GPS shall be used to determine and populate the related postal code as the default postal code with options for the user to change the postal code. B) Radius for the search area around the subscriber's location, that will have default value of 5 miles. The radius can be changed by the subscriber with a maximum range of 50 miles. 5. Subscriber shall be able to select one of the options above and supply corresponding input. 6. System shall validate the user input and display appropriate error messages if invalid. 7. Based on the inputs and the plan of the subscriber, the system shall retrieve information for the participating service providers that are located within the designated search area. 8. System shall display a map including visual markers to indicate locations of the service providers in the top half of the device screen and a list of the same service providers in the bottom half of the device screen. 9. The list of service providers shall include the Name, Phone Number and Street Address. 10. If the subscriber specified the radius or retained the default postal code for the search area, the list shall additionally include the approximate driving distance in miles from the subscriber's last registered location and the list shall be sorted in the ascending order of the driving distance. 11. The subscriber shall be able to select a service provider either from the list or from the map and download a document that contains the name, contact telephone, email address, fax number and the fee schedule for the covered services applicable to the subscriber's plan. Which primary subscriber business need is addressed with the enhancements?",
+    "question": "Question #382: A health insurance provider undertakes enhancements to its mobile application platform and finalizes the following capabilities as part of the scope of the next release: I. Ability to integrate online maps and global positioning system (GPS) technology with the mobile application in real time to display location of service providers in the subscriber's vicinity that participate in the subscriber's plan network. II. Ability for the subscriber to lookup the service providers by specifying either a postal code or a search area radius in miles. III. Ability for the subscriber to initiate the download of fee information for one or more service providers in a single request. Through requirements workshops the business analyst elicits the following detailed business requirements: 1. The company's mobile application platform must support real time integration with the following third party systems: A) GPS System B) Postal Code Validation 2. The service providers available for selection must participate in the subscriber's medical plan network as of the current system date. 3. The map display shall highlight the boundary of the search area with a dotted yellow line. 4. The extent and shape of the search area shall be determined based on one of the following user choices: A) Postal code - Subscriber location acquired from GPS shall be used to determine and populate the related postal code as the default postal code with options for the user to change the postal code. B) Radius for the search area around the subscriber's location, that will have default value of 5 miles. The radius can be changed by the subscriber with a maximum range of 50 miles. 5. Subscriber shall be able to select one of the options above and supply corresponding input. 6. System shall validate the user input and display appropriate error messages if invalid. 7. Based on the inputs and the plan of the subscriber, the system shall retrieve information for the participating se...",
     "options": [
       "A. Inability of a service provider to locate other participating service providers and their fee information",
       "B. Inability of a plan subscriber to get directions to nearby participating service providers",
@@ -249,80 +249,6 @@
     "explanation": ""
   },
   {
-    "id": "me4_q034",
-    "question": "Question #394: A major manufacturer of popular beverages has appointed a local distributor to serve a specific territory. If the driver's average throughput is 0.6 tons/hour, how many hours per day would 15 drivers have to work to deliver 100 tons of merchandise?",
-    "options": ["A. 12", "B. 9", "C. 10", "D. 11"],
-    "answer": "A",
-    "explanation": ""
-  },
-  {
-    "id": "me4_q035",
-    "question": "Question #395: A major manufacturer of popular beverages has appointed a local distributor to serve a specific territory. Each truck can only make two trips a day. The BA has noticed that only 30% of trips have their orders available for loading when a truck arrives. Otherwise the truck has to wait one extra hour until the orders are picked and brought to the loading bay. If trucks are the only constraint, approximately how many hours are lost due to this downtime?",
-    "options": ["A. 18 hours", "B. 20 hours", "C. 15 hours", "D. 17 hours"],
-    "answer": "D",
-    "explanation": ""
-  },
-  {
-    "id": "me4_q036",
-    "question": "Question #396: A major manufacturer of popular beverages has appointed a local distributor to serve a specific territory. Preparing a customer order for loading takes about one hour. Upon the BA's observation, only 30% of trips have their orders available for loading when a truck arrives. What should the BA recommend to eliminate such waste?",
-    "options": [
-      "A. Elicit requirements for a system to coordinate in advance order processing activities with all trips",
-      "B. Begin assembling orders for the next trip immediately following the truck's departure",
-      "C. Hire more warehouse staff (workers) so that order assembly is done faster and less waiting occurs",
-      "D. Ask the drivers to call the operations team member if they are going to be late"
-    ],
-    "answer": "A",
-    "explanation": ""
-  },
-  {
-    "id": "me4_q037",
-    "question": "Question #397: Company A is a nation-wide leader in commercial demolition. While verifying the requirements, the BA notices that Requirement ID NFO0003 does not meet the \"unambiguous\" or the \"testable\" characteristics of requirements quality. Which of the following requirements is both unambiguous and testable?",
-    "options": [
-      "A. \"The solution shall employ a blue background.\"",
-      "B. \"The solution shall employ a background color blue (HEX #0000FF).\"",
-      "C. \"The solution shall employ a high-contrast between background and text.\"",
-      "D. \"The solution shall employ a background color that is viewable to a colored-blind user.\""
-    ],
-    "answer": "B",
-    "explanation": ""
-  },
-  {
-    "id": "me4_q038",
-    "question": "Question #398: Company A is a nation-wide leader in commercial demolition. The risk associated with Requirement ID F-P0001 is HIGH. Which of the following assumptions would make this requirement's risk high?",
-    "options": [
-      "A. The users will require specialized training",
-      "B. The web-based interface will be complex",
-      "C. The system will be inaccessible in remote locations",
-      "D. The cost of the solution outweighs its benefit"
-    ],
-    "answer": "D",
-    "explanation": ""
-  },
-  {
-    "id": "me4_q039",
-    "question": "Question #399: Company A is a nation-wide leader in commercial demolition. The BA will create a Data Model to meet which requirement?",
-    "options": [
-      "A. Requirement ID F-R0002",
-      "B. Requirement ID FE10001",
-      "C. Requirement ID NFP0002",
-      "D. Requirement ID F-R0003"
-    ],
-    "answer": "B",
-    "explanation": ""
-  },
-  {
-    "id": "me4_q040",
-    "question": "Question #400: Company A is a nation-wide leader in commercial demolition. Having just celebrated its 100th year of operations, the company decided to begin doing work internationally. The current system used for reporting company finances is unable to keep pace with the potential demands of doing work in geographically dispersed locations. Therefore, the company decided to replace its client-based Profit & Loss (P&L) reporting system with a more robust, web-based system. This will ensure transparency across the organization and enable better decision making. The business analyst (BA) at Company A has recently completed several rounds of elicitation to determine the requirements for the new, web-based system. Over 1250 requirements were elicited. An initial Requirements Traceability Matrix (RTM) has been created, and a subset of the RTM can be seen in the table below:\n\nRequirement ID | Requirement | Classification | Source | Priority | Complexity | Risk | Status\nFS0002 | The solution shall enable the Comet Chief to identify requirements. | Rule | VP of Finance | MUST | MED | MED | Specified\nFS0003 | The solution shall conform to Generally Accepted Accounting Principles (GAAP). | Rule | VP of Finance | MUST | MED | MED | Specified\nES0001 | The solution shall conform to International Financial Reporting Standards (IFRS). | Rule | VP of Finance | MUST | MED | MED | Specified\nES0001 | The user must be able to log into the Comet Chief in under 3 seconds. | Entry | CIO | MUST | LOW | HIGH | Verified\nNFP002 | The solution shall supply a pleasant color scheme and layout. | Performance Capability | Chief Financial Officer | SHOULD | HIGH | LOW | Specified\nNFT004 | The solution shall run in the company approved internet browser. | Transferability | CIO | MUST | MED | MED | Verified\n\nThe BA is working on identifying additional improvement opportunities based on these requirements. Which of the following improvement opportunities is reflected in Requirement ID NFP0002?",
-    "options": [
-      "A. Additional capability",
-      "B. Increased efficiency",
-      "C. Defined relationship to information",
-      "D. Improved access to information"
-    ],
-    "answer": "B",
-    "explanation": "Looking at the RTM table, Requirement ID NFP002 states 'The solution shall supply a pleasant color scheme and layout' which is classified as Performance Capability. This represents an 'Increased efficiency' improvement opportunity because a pleasant user interface design improves user experience and productivity, leading to more efficient use of the system by financial staff."
-  },
-  {
     "id": "me4_q041",
     "question": "Question #401: A business analyst (BA) working on a recently implemented project is approached by the sponsor to provide artifacts that can be used organization-wide for the long-term. Which of the following should the BA provide?",
     "options": [
@@ -332,49 +258,6 @@
       "D. Project solution architecture"
     ],
     "answer": "C",
-    "explanation": ""
-  },
-  {
-    "id": "me4_q042",
-    "question": "Question #402: A martial arts organization has been expanding throughout the mid-Atlantic states and has hired a business analyst (BA) to create a system that will enable the organization to manage its growing needs. What relationship quality criterion does this represent?",
-    "options": ["A. Correct", "B. Unambiguous", "C. Defined", "D. Necessary"],
-    "answer": "B",
-    "explanation": ""
-  },
-  {
-    "id": "me4_q043",
-    "question": "Question #403: A martial arts organization has been expanding throughout the mid-Atlantic states and has hired a business analyst (BA) to create a system that will enable the organization to manage its growing needs. Which of the following design elements does the Activity Diagram address?",
-    "options": [
-      "A. Business processes to be performed and managed",
-      "B. Business policies and business rules",
-      "C. People who operate and maintain the solution",
-      "D. Operational business decisions to be made"
-    ],
-    "answer": "A",
-    "explanation": ""
-  },
-  {
-    "id": "me4_q044",
-    "question": "Question #404: A martial arts organization has been expanding throughout the mid-Atlantic states and has hired a business analyst (BA) to create a system that will enable the organization to manage its growing needs. What technique is used to define the data elements?",
-    "options": [
-      "A. Data Dictionary",
-      "B. Data Mining",
-      "C. Glossary",
-      "D. Reviews"
-    ],
-    "answer": "A",
-    "explanation": ""
-  },
-  {
-    "id": "me4_q045",
-    "question": "Question #405: A martial arts organization has been expanding throughout the mid-Atlantic states and has hired a business analyst (BA) to create a system that will enable the organization to manage its growing needs. What modeling technique will the BA use to create this diagram?",
-    "options": [
-      "A. Organizational modelling",
-      "B. State modelling",
-      "C. Concept modelling",
-      "D. Decision modelling"
-    ],
-    "answer": "B",
     "explanation": ""
   },
   {
@@ -438,32 +321,6 @@
     "explanation": ""
   },
   {
-    "id": "me4_q051",
-    "question": "Question #411: An insurance company wants to implement a business intelligence solution to consolidate data from various different internal systems to provide a better understanding of their customer base. What is the time difference in days between the shortest and longest implementation?",
-    "options": ["A. 39", "B. 51", "C. 60", "D. 19"],
-    "answer": "C",
-    "explanation": ""
-  },
-  {
-    "id": "me4_q052",
-    "question": "Question #412: An insurance company wants to implement a business intelligence solution to consolidate data from various different internal systems to provide a better understanding of their customer base. What is the increased cost in Scenario 2 for Company C?",
-    "options": ["A. $695,448", "B. $453,635", "C. $653,934", "D. $207,790"],
-    "answer": "A",
-    "explanation": ""
-  },
-  {
-    "id": "me4_q053",
-    "question": "Question #413: An insurance company wants to implement a business intelligence solution to consolidate data from various different internal systems to provide a better understanding of their customer base. The insurance company has a maximum budget of $810,000 for the entire implementation and operation over the first three years. Which vendor or vendors meet that criteria?",
-    "options": [
-      "A. Company A",
-      "B. Company B",
-      "C. Both companies B and C",
-      "D. Both companies A and C"
-    ],
-    "answer": "A",
-    "explanation": ""
-  },
-  {
     "id": "me4_q054",
     "question": "Question #414: An organization is trying to streamline its current processes to improve performance and reduce costs. What type of analysis would help the BA gain approval to proceed with creating this type of training program for this team?",
     "options": [
@@ -502,37 +359,6 @@
       "B. Project Manager and Project Sponsor",
       "C. Regulator and Operational Support Manager",
       "D. Domain Subject Matter Expert and End User"
-    ],
-    "answer": "D",
-    "explanation": ""
-  },
-  {
-    "id": "me4_q058",
-    "question": "Question #418: The table illustrates the statement of cash flows for a courier company for the last fiscal year. Due to aggressive market competition, the management of the company performed a strategy review and based on their findings and the current market conditions they came up with strategic and tactical changes in order to keep a competitive market position. In order to strengthen customer retention strategies through a new competitive advantage, the company is considering implementing a live parcel tracking system. The added value will be that the customers may determine the exact location of the parcel whether it is in a warehouse, crossing the ocean through an overseas ship, or travelling in a delivery truck at any time. The system tracks the location of the parcel by tracking the vehicle in which it is contained. However, for a group of old delivery trucks, it was noticed that the engine sound and vibration disturbed the tracking signal and caused interruptions. Therefore, the tracking does not perform accurately on these vehicles. Although the majority of management would like to sell these vehicles and replace them with newer ones, the Chief Financial Officer (CFO) was strongly against that approach. The CFO argued that instead of hanging tracking devices on the trucks' body, they can have the truck drivers manually send the truck location from a hand held mobile device every 30 minutes. The company has a total of 134 old delivery trucks that have been in service for 10 years. Each vehicle was bought at a price of $22,000. Depreciation is done using a straight line basis and it is estimated that the vehicle depreciates at $1,000 per year. The estimated salvage value per vehicle is about $3,000. Another area of tactical improvement for the courier company is pricing. The management strongly believes that they can start a price war with the most aggressive competitor. Management thinks, with their variable cost of $4 per parcel and fixed cost of $6 per parcel, they can win the market. However, after implementing the tracking solution, fixed cost will jump to $8 per parcel which made management reconsider their options. The competitor has variable costs of $5 per parcel and fixed costs of $7 per parcel. The CFO's resistance to replacing the older vehicles represents which type of cost?",
-    "options": ["A. Sunk", "B. Maintenance", "C. Opportunity", "D. Operating"],
-    "answer": "C",
-    "explanation": ""
-  },
-  {
-    "id": "me4_q059",
-    "question": "Question #419: The table illustrates the statement of cash flows for a courier company for the last fiscal year. Due to aggressive market competition, the management of the company performed a strategy review and based on their findings and the current market conditions they came up with strategic and tactical changes in order to keep a competitive market position. In order to strengthen customer retention strategies through a new competitive advantage, the company is considering implementing a live parcel tracking system. The added value will be that the customers may determine the exact location of the parcel whether it is in a warehouse, crossing the ocean through an overseas ship, or travelling in a delivery truck at any time. The system tracks the location of the parcel by tracking the vehicle in which it is contained. However, for a group of old delivery trucks, it was noticed that the engine sound and vibration disturbed the tracking signal and caused interruptions. Therefore, the tracking does not perform accurately on these vehicles. Although the majority of management would like to sell these vehicles and replace them with newer ones, the Chief Financial Officer (CFO) was strongly against that approach. The CFO argued that instead of hanging tracking devices on the trucks' body, they can have the truck drivers manually send the truck location from a hand held mobile device every 30 minutes. The company has a total of 134 old delivery trucks that have been in service for 10 years. Each vehicle was bought at a price of $22,000. Depreciation is done using a straight line basis and it is estimated that the vehicle depreciates at $1,000 per year. The estimated salvage value per vehicle is about $3,000. Another area of tactical improvement for the courier company is pricing. The management strongly believes that they can start a price war with the most aggressive competitor. Management thinks, with their variable cost of $4 per parcel and fixed cost of $6 per parcel, they can win the market. However, after implementing the tracking solution, fixed cost will jump to $8 per parcel which made management reconsider their options. The competitor has variable costs of $5 per parcel and fixed costs of $7 per parcel. What could the business analyst (BA) do to gain consensus between the CFO and other Management?",
-    "options": [
-      "A. Calculate the costs incurred by each option",
-      "B. Recommend and present a completely new option",
-      "C. Estimate the potential value delivered by each option",
-      "D. Compare each option against an industry benchmark"
-    ],
-    "answer": "C",
-    "explanation": ""
-  },
-  {
-    "id": "me4_q060",
-    "question": "Question #420: The table illustrates the statement of cash flows for a courier company for the last fiscal year. Due to aggressive market competition, the management of the company performed a strategy review and based on their findings and the current market conditions they came up with strategic and tactical changes in order to keep a competitive market position. In order to strengthen customer retention strategies through a new competitive advantage, the company is considering implementing a live parcel tracking system. The added value will be that the customers may determine the exact location of the parcel whether it is in a warehouse, crossing the ocean through an overseas ship, or travelling in a delivery truck at any time. The system tracks the location of the parcel by tracking the vehicle in which it is contained. However, for a group of old delivery trucks, it was noticed that the engine sound and vibration disturbed the tracking signal and caused interruptions. Therefore, the tracking does not perform accurately on these vehicles. Although the majority of management would like to sell these vehicles and replace them with newer ones, the Chief Financial Officer (CFO) was strongly against that approach. The CFO argued that instead of hanging tracking devices on the trucks' body, they can have the truck drivers manually send the truck location from a hand held mobile device every 30 minutes. The company has a total of 134 old delivery trucks that have been in service for 10 years. Each vehicle was bought at a price of $22,000. Depreciation is done using a straight line basis and it is estimated that the vehicle depreciates at $1,000 per year. The estimated salvage value per vehicle is about $3,000. Another area of tactical improvement for the courier company is pricing. The management strongly believes that they can start a price war with the most aggressive competitor. Management thinks, with their variable cost of $4 per parcel and fixed cost of $6 per parcel, they can win the market. However, after implementing the tracking solution, fixed cost will jump to $8 per parcel which made management reconsider their options. The competitor has variable costs of $5 per parcel and fixed costs of $7 per parcel. In order to align with the added value required from the parcel tracking solution that would be an important requirements' category for the BA to give more focus?",
-    "options": [
-      "A. Transition",
-      "B. Process",
-      "C. Stakeholder",
-      "D. Non functional"
     ],
     "answer": "D",
     "explanation": ""
@@ -610,56 +436,8 @@
     "explanation": ""
   },
   {
-    "id": "me4_q067",
-    "question": "Question #427: A large insurance company wants to buy a new claims processing system or upgrade one of its two existing systems. Each year the claims department is given a $3.5 million budget to spend. Time is of the essence since there are some regulatory changes that will be coming the following year that will require several features that currently neither one of the two claims systems currently support. There are eight stakeholders involved in this initiative. There are local to where the claim systems are managed, while five are located across the country. The business analyst (BA) struggled to get all stakeholders to agree on the desired features but ultimately got agreement on ten identified key features for the new claims systems. The BA was able to build a current state and future state process model which included all ten key features. System A processes 75% of the company's claims. It is 5 years old and the claim processors love it because it is easy to use. However it must go offline for two hours each day. The code is very modular so it does have flexibility to be modified. To upgrade system A to have all ten features it would cost $5 million. System A would be at capacity if it were to process all of the company's claims. System B processes 25% of the company's claims. It is an older mainframe system, but rarely goes offline. It could easily handle double the number of claims that system A processes. However, it has a lot of legacy code and would cost $6 million to upgrade. Both systems have some of the ten desired key features. But neither system has all ten. The cost to buy a new system would be $7 million. Below is the estimated cost for each feature in priority order: Feature 1: $500,000, Feature 2: $400,000, Feature 3: $300,000, Feature 4: $250,000, Feature 5: $200,000, Feature 6: $150,000, Feature 7: $100,000, Feature 8: $80,000, Feature 9: $60,000, Feature 10: $50,000. During elicitation the BA must understand the non-functional requirements. What non-functional requirements does System B support over System A?",
-    "options": [
-      "A. Compatibility",
-      "B. Scalability",
-      "C. Compliance",
-      "D. Usability"
-    ],
-    "answer": "B",
-    "explanation": ""
-  },
-  {
-    "id": "me4_q068",
-    "question": "Question #428: A large insurance company wants to buy a new claims processing system or upgrade one of its two existing systems. Each year the claims department is given a $3.5 million budget to spend. Time is of the essence since there are some regulatory changes that will be coming the following year that will require several features that currently neither one of the two claims systems currently support. There are eight stakeholders involved in this initiative. There are local to where the claim systems are managed, while five are located across the country. The business analyst (BA) struggled to get all stakeholders to agree on the desired features but ultimately got agreement on ten identified key features for the new claims systems. The BA was able to build a current state and future state process model which included all ten key features. System A processes 75% of the company's claims. It is 5 years old and the claim processors love it because it is easy to use. However it must go offline for two hours each day. The code is very modular so it does have flexibility to be modified. To upgrade system A to have all ten features it would cost $5 million. System A would be at capacity if it were to process all of the company's claims. System B processes 25% of the company's claims. It is an older mainframe system, but rarely goes offline. It could easily handle double the number of claims that system A processes. However, it has a lot of legacy code and would cost $6 million to upgrade. Both systems have some of the ten desired key features. But neither system has all ten. The cost to buy a new system would be $7 million. Below is the estimated cost for each feature in priority order: Feature 1: $500,000, Feature 2: $400,000, Feature 3: $300,000, Feature 4: $250,000, Feature 5: $200,000, Feature 6: $150,000, Feature 7: $100,000, Feature 8: $80,000, Feature 9: $60,000, Feature 10: $50,000. If the budget for the initiative was firm, what is a feasible solution to make sure the project stays within budget?",
-    "options": [
-      "A. Upgrade system B with the first 8 features",
-      "B. Buy the new system with only the first 5 features",
-      "C. Upgrade system A with the first 8 features",
-      "D. Buy the new system with only the first 7 features"
-    ],
-    "answer": "A",
-    "explanation": ""
-  },
-  {
-    "id": "me4_q069",
-    "question": "Question #429: A large insurance company wants to buy a new claims processing system or upgrade one of its two existing systems. Each year the claims department is given a $3.5 million budget to spend. Time is of the essence since there are some regulatory changes that will be coming the following year that will require several features that currently neither one of the two claims systems currently support. There are eight stakeholders involved in this initiative. There are local to where the claim systems are managed, while five are located across the country. The business analyst (BA) struggled to get all stakeholders to agree on the desired features but ultimately got agreement on ten identified key features for the new claims systems. The BA was able to build a current state and future state process model which included all ten key features. System A processes 75% of the company's claims. It is 5 years old and the claim processors love it because it is easy to use. However it must go offline for two hours each day. The code is very modular so it does have flexibility to be modified. To upgrade system A to have all ten features it would cost $5 million. System A would be at capacity if it were to process all of the company's claims. System B processes 25% of the company's claims. It is an older mainframe system, but rarely goes offline. It could easily handle double the number of claims that system A processes. However, it has a lot of legacy code and would cost $6 million to upgrade. Both systems have some of the ten desired key features. But neither system has all ten. The cost to buy a new system would be $7 million. Below is the estimated cost for each feature in priority order: Feature 1: $500,000, Feature 2: $400,000, Feature 3: $300,000, Feature 4: $250,000, Feature 5: $200,000, Feature 6: $150,000, Feature 7: $100,000, Feature 8: $80,000, Feature 9: $60,000, Feature 10: $50,000. What kind of analysis must the BA do to determine if one of the systems is better suited to be modified and upgraded?",
-    "options": [
-      "A. Stakeholder Analysis",
-      "B. Decision Analysis",
-      "C. Process Analysis",
-      "D. Risk Analysis"
-    ],
-    "answer": "B",
-    "explanation": ""
-  },
-  {
-    "id": "me4_q070",
-    "question": "Question #430: A large insurance company wants to buy a new claims processing system or upgrade one of its two existing systems. If System A is unanimously selected to be the system for upgrade but the technical lead says that System A will have to be taken offline for 3 months, what kind of strategy should the project team develop while System A is offline?",
-    "options": [
-      "A. Change",
-      "B. Competitive",
-      "C. Organizational",
-      "D. Stakeholder"
-    ],
-    "answer": "A",
-    "explanation": ""
-  },
-  {
     "id": "me4_q071",
-    "question": "Question #431: A health insurance provider undertakes enhancements to its mobile application platform and finalizes the following capabilities as part of the scope of the next release: I. Ability to integrate online maps and global positioning system (GPS) technology with the mobile application in real time to display location of service providers in the subscriber's vicinity that participate in the subscriber's plan network. II. Ability for the subscriber to lookup the service providers by specifying either a postal code or a search area radius in miles. III. Ability for the subscriber to initiate the download of fee information for one or more service providers in a single request. Through requirements workshops the business analyst elicits the following detailed business requirements: 1. The company's mobile application platform must support real time integration with the following third party systems: A) GPS System B) Postal Code Validation 2. The service providers available for selection must participate in the subscriber's medical plan network as of the current system date. 3. The map display shall highlight the boundary of the search area with a dotted yellow line. 4. The extent and shape of the search area shall be determined based on one of the following user choices: A) Postal code - Subscriber location acquired from GPS shall be used to determine and populate the related postal code as the default postal code with options for the user to change the postal code. B) Radius for the search area around the subscriber's location, that will have default value of 5 miles. The radius can be changed by the subscriber with a maximum range of 50 miles. 5. Subscriber shall be able to select one of the options above and supply corresponding input. 6. System shall validate the user input and display appropriate error messages if invalid. 7. Based on the inputs and the plan of the subscriber, the system shall retrieve information for the participating service providers that are located within the designated search area. 8. System shall display a map including visual markers to indicate locations of the service providers in the top half of the device screen and a list of the same service providers in the bottom half of the device screen. 9. The list of service providers shall include the Name, Phone Number and Street Address. 10. If the subscriber specified the radius or retained the default postal code for the search area, the list shall additionally include the approximate driving distance in miles from the subscriber's last registered location and the list shall be sorted in the ascending order of the driving distance. 11. The subscriber shall be able to select a service provider either from the list or from the map and download a document that contains the name, contact telephone, email address, fax number and the fee schedule for the covered services applicable to the subscriber's plan. What is the appropriate model type to assist the stakeholders in testing the performance and visual aspects of requirements 3 through 11?",
+    "question": "Question #431: A health insurance provider undertakes enhancements to its mobile application platform and finalizes the following capabilities as part of the scope of the next release: I. Ability to integrate online maps and global positioning system (GPS) technology with the mobile application in real time to display location of service providers in the subscriber's vicinity that participate in the subscriber's plan network. II. Ability for the subscriber to lookup the service providers by specifying either a postal code or a search area radius in miles. III. Ability for the subscriber to initiate the download of fee information for one or more service providers in a single request. Through requirements workshops the business analyst elicits the following detailed business requirements: 1. The company's mobile application platform must support real time integration with the following third party systems: A) GPS System B) Postal Code Validation 2. The service providers available for selection must participate in the subscriber's medical plan network as of the current system date. 3. The map display shall highlight the boundary of the search area with a dotted yellow line. 4. The extent and shape of the search area shall be determined based on one of the following user choices: A) Postal code - Subscriber location acquired from GPS shall be used to determine and populate the related postal code as the default postal code with options for the user to change the postal code. B) Radius for the search area around the subscriber's location, that will have default value of 5 miles. The radius can be changed by the subscriber with a maximum range of 50 miles. 5. Subscriber shall be able to select one of the options above and supply corresponding input. 6. System shall validate the user input and display appropriate error messages if invalid. 7. Based on the inputs and the plan of the subscriber, the system shall retrieve information for the participating se...",
     "options": [
       "A. Functional Prototype",
       "B. Concept Model",
@@ -671,7 +449,7 @@
   },
   {
     "id": "me4_q072",
-    "question": "Question #432: A health insurance provider undertakes enhancements to its mobile application platform and finalizes the following capabilities as part of the scope of the next release: I. Ability to integrate online maps and global positioning system (GPS) technology with the mobile application in real time to display location of service providers in the subscriber's vicinity that participate in the subscriber's plan network. II. Ability for the subscriber to lookup the service providers by specifying either a postal code or a search area radius in miles. III. Ability for the subscriber to initiate the download of fee information for one or more service providers in a single request. Through requirements workshops the business analyst elicits the following detailed business requirements: 1. The company's mobile application platform must support real time integration with the following third party systems: A) GPS System B) Postal Code Validation 2. The service providers available for selection must participate in the subscriber's medical plan network as of the current system date. 3. The map display shall highlight the boundary of the search area with a dotted yellow line. 4. The extent and shape of the search area shall be determined based on one of the following user choices: A) Postal code - Subscriber location acquired from GPS shall be used to determine and populate the related postal code as the default postal code with options for the user to change the postal code. B) Radius for the search area around the subscriber's location, that will have default value of 5 miles. The radius can be changed by the subscriber with a maximum range of 50 miles. 5. Subscriber shall be able to select one of the options above and supply corresponding input. 6. System shall validate the user input and display appropriate error messages if invalid. 7. Based on the inputs and the plan of the subscriber, the system shall retrieve information for the participating service providers that are located within the designated search area. 8. System shall display a map including visual markers to indicate locations of the service providers in the top half of the device screen and a list of the same service providers in the bottom half of the device screen. 9. The list of service providers shall include the Name, Phone Number and Street Address. 10. If the subscriber specified the radius or retained the default postal code for the search area, the list shall additionally include the approximate driving distance in miles from the subscriber's last registered location and the list shall be sorted in the ascending order of the driving distance. 11. The subscriber shall be able to select a service provider either from the list or from the map and download a document that contains the name, contact telephone, email address, fax number and the fee schedule for the covered services applicable to the subscriber's plan. Which of the following is the appropriate technique to define communication flows between the Postal Code validation system with other systems?",
+    "question": "Question #432: A health insurance provider undertakes enhancements to its mobile application platform and finalizes the following capabilities as part of the scope of the next release: I. Ability to integrate online maps and global positioning system (GPS) technology with the mobile application in real time to display location of service providers in the subscriber's vicinity that participate in the subscriber's plan network. II. Ability for the subscriber to lookup the service providers by specifying either a postal code or a search area radius in miles. III. Ability for the subscriber to initiate the download of fee information for one or more service providers in a single request. Through requirements workshops the business analyst elicits the following detailed business requirements: 1. The company's mobile application platform must support real time integration with the following third party systems: A) GPS System B) Postal Code Validation 2. The service providers available for selection must participate in the subscriber's medical plan network as of the current system date. 3. The map display shall highlight the boundary of the search area with a dotted yellow line. 4. The extent and shape of the search area shall be determined based on one of the following user choices: A) Postal code - Subscriber location acquired from GPS shall be used to determine and populate the related postal code as the default postal code with options for the user to change the postal code. B) Radius for the search area around the subscriber's location, that will have default value of 5 miles. The radius can be changed by the subscriber with a maximum range of 50 miles. 5. Subscriber shall be able to select one of the options above and supply corresponding input. 6. System shall validate the user input and display appropriate error messages if invalid. 7. Based on the inputs and the plan of the subscriber, the system shall retrieve information for the participating se...",
     "options": [
       "A. Capability Analysis",
       "B. Interface Analysis",
@@ -683,7 +461,7 @@
   },
   {
     "id": "me4_q073",
-    "question": "Question #433: A health insurance provider undertakes enhancements to its mobile application platform and finalizes the following capabilities as part of the scope of the next release: I. Ability to integrate online maps and global positioning system (GPS) technology with the mobile application in real time to display location of service providers in the subscriber's vicinity that participate in the subscriber's plan network. II. Ability for the subscriber to lookup the service providers by specifying either a postal code or a search area radius in miles. III. Ability for the subscriber to initiate the download of fee information for one or more service providers in a single request. Through requirements workshops the business analyst elicits the following detailed business requirements: 1. The company's mobile application platform must support real time integration with the following third party systems: A) GPS System B) Postal Code Validation 2. The service providers available for selection must participate in the subscriber's medical plan network as of the current system date. 3. The map display shall highlight the boundary of the search area with a dotted yellow line. 4. The extent and shape of the search area shall be determined based on one of the following user choices: A) Postal code - Subscriber location acquired from GPS shall be used to determine and populate the related postal code as the default postal code with options for the user to change the postal code. B) Radius for the search area around the subscriber's location, that will have default value of 5 miles. The radius can be changed by the subscriber with a maximum range of 50 miles. 5. Subscriber shall be able to select one of the options above and supply corresponding input. 6. System shall validate the user input and display appropriate error messages if invalid. 7. Based on the inputs and the plan of the subscriber, the system shall retrieve information for the participating service providers that are located within the designated search area. 8. System shall display a map including visual markers to indicate locations of the service providers in the top half of the device screen and a list of the same service providers in the bottom half of the device screen. 9. The list of service providers shall include the Name, Phone Number and Street Address. 10. If the subscriber specified the radius or retained the default postal code for the search area, the list shall additionally include the approximate driving distance in miles from the subscriber's last registered location and the list shall be sorted in the ascending order of the driving distance. 11. The subscriber shall be able to select a service provider either from the list or from the map and download a document that contains the name, contact telephone, email address, fax number and the fee schedule for the covered services applicable to the subscriber's plan. What kind of relationship is used to describe the traceability between requirement 8 and the solution artifacts that implement it?",
+    "question": "Question #433: A health insurance provider undertakes enhancements to its mobile application platform and finalizes the following capabilities as part of the scope of the next release: I. Ability to integrate online maps and global positioning system (GPS) technology with the mobile application in real time to display location of service providers in the subscriber's vicinity that participate in the subscriber's plan network. II. Ability for the subscriber to lookup the service providers by specifying either a postal code or a search area radius in miles. III. Ability for the subscriber to initiate the download of fee information for one or more service providers in a single request. Through requirements workshops the business analyst elicits the following detailed business requirements: 1. The company's mobile application platform must support real time integration with the following third party systems: A) GPS System B) Postal Code Validation 2. The service providers available for selection must participate in the subscriber's medical plan network as of the current system date. 3. The map display shall highlight the boundary of the search area with a dotted yellow line. 4. The extent and shape of the search area shall be determined based on one of the following user choices: A) Postal code - Subscriber location acquired from GPS shall be used to determine and populate the related postal code as the default postal code with options for the user to change the postal code. B) Radius for the search area around the subscriber's location, that will have default value of 5 miles. The radius can be changed by the subscriber with a maximum range of 50 miles. 5. Subscriber shall be able to select one of the options above and supply corresponding input. 6. System shall validate the user input and display appropriate error messages if invalid. 7. Based on the inputs and the plan of the subscriber, the system shall retrieve information for the participating se...",
     "options": ["A. Validate", "B. Depends", "C. Derive", "D. Satisfy"],
     "answer": "C",
     "explanation": ""
@@ -902,18 +680,6 @@
       "D. strategy, solution, and scope"
     ],
     "answer": "A",
-    "explanation": ""
-  },
-  {
-    "id": "me4_q092",
-    "question": "Question #452: In a risk assessment exercise of a software implementation program, the business analyst (BA) has successfully computed the probability of occurrence (POC) and the cost of impact for each of the identified risks. Which of the following will have the highest negative impact to value?",
-    "options": [
-      "A. System security",
-      "B. Natural disasters",
-      "C. Human errors",
-      "D. Power surges"
-    ],
-    "answer": "D",
     "explanation": ""
   },
   {
