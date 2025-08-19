@@ -150,7 +150,6 @@ export function ExamProvider({ children }: { children: ReactNode }) {
 
   useEffect(() => {
     setIsMounted(true);
-    setInitError(null);
 
     try {
       // Load existing exam state on mount
@@ -165,7 +164,6 @@ export function ExamProvider({ children }: { children: ReactNode }) {
       }
     } catch (error) {
       console.error("Failed to load exam state:", error);
-      setInitError(error instanceof Error ? error.message : "Unknown error");
     } finally {
       setIsLoading(false);
     }
