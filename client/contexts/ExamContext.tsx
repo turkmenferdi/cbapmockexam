@@ -279,6 +279,11 @@ export function ExamProvider({ children }: { children: ReactNode }) {
     dispatch({ type: "ANSWER_QUESTION", payload: { questionId, answer } });
   };
 
+  const showFeedback = (questionId: string) => {
+    if (!isMounted) return;
+    dispatch({ type: "SHOW_FEEDBACK", payload: questionId });
+  };
+
   const toggleMarkForReview = (questionId: string) => {
     if (!isMounted) return;
     dispatch({ type: "TOGGLE_MARK_FOR_REVIEW", payload: questionId });
