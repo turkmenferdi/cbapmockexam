@@ -68,6 +68,7 @@ export default function Exam() {
   const currentAnswer = examState.answers[currentQuestion.id] || "";
   const isMarkedForReview =
     examState.markedForReview[currentQuestion.id] || false;
+  const isFeedbackShown = examState.feedbackShown[currentQuestion.id] || false;
 
   const answeredCount = Object.keys(examState.answers).length;
   const progressPercentage = (answeredCount / examState.questions.length) * 100;
