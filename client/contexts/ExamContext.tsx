@@ -335,25 +335,25 @@ export function ExamProvider({ children }: { children: ReactNode }) {
     dispatch({ type: "CLEAR_EXAM" });
   };
 
-  const contextValue = React.useMemo(() => ({
-    examState,
-    isLoading,
-    startNewExam,
-    answerQuestion,
-    showFeedback,
-    toggleMarkForReview,
-    setCurrentQuestion,
-    nextQuestion,
-    previousQuestion,
-    completeExam,
-    clearExam,
-  }), [examState, isLoading]);
-
+  const contextValue = React.useMemo(
+    () => ({
+      examState,
+      isLoading,
+      startNewExam,
+      answerQuestion,
+      showFeedback,
+      toggleMarkForReview,
+      setCurrentQuestion,
+      nextQuestion,
+      previousQuestion,
+      completeExam,
+      clearExam,
+    }),
+    [examState, isLoading],
+  );
 
   return (
-    <ExamContext.Provider value={contextValue}>
-      {children}
-    </ExamContext.Provider>
+    <ExamContext.Provider value={contextValue}>{children}</ExamContext.Provider>
   );
 }
 
