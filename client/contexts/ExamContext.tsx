@@ -151,17 +151,22 @@ export function ExamProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     setIsMounted(true);
 
-    // Load existing exam state on mount
-    const savedState = loadExamState();
-    if (savedState) {
-      // Migrate old exam states that don't have feedbackShown property
-      const migratedState = {
-        ...savedState,
-        feedbackShown: savedState.feedbackShown || {},
-      };
-      dispatch({ type: "SET_EXAM_STATE", payload: migratedState });
+    try {
+      // Load existing exam state on mount
+      const savedState = loadExamState();
+      if (savedState) {
+        // Migrate old exam states that don't have feedbackShown property
+        const migratedState = {
+          ...savedState,
+          feedbackShown: savedState.feedbackShown || {},
+        };
+        dispatch({ type: "SET_EXAM_STATE", payload: migratedState });
+      }
+    } catch (error) {
+      console.error("Failed to load exam state:", error);
+    } finally {
+      setIsLoading(false);
     }
-    setIsLoading(false);
 
     return () => {
       setIsMounted(false);
