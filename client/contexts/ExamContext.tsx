@@ -359,6 +359,7 @@ export function ExamProvider({ children }: { children: ReactNode }) {
 export function useExam() {
   const context = useContext(ExamContext);
   if (context === undefined) {
+    console.error("useExam called outside of ExamProvider");
     throw new Error("useExam must be used within an ExamProvider");
   }
   return context;
